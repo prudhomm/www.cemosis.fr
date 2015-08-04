@@ -3,7 +3,7 @@
 ## Use `tags: website-name` in the Front Matter
 
 This repository contains all the news of three websites above.
-To write a post for a specific website, be sure to use the right `tag` in the `Front Matter` of every markdown file.
+To write a post for a specific website, be sure to use right `tag` in the `Front Matter` of every markdown file.
 
 Two examples for two websites:
 
@@ -36,7 +36,7 @@ tags: feelpp
 
 ## News for several websites
 
-If you want to display a news in several webistes, just add one or two more webiste names in the `tags:`.
+If you want to display a news in several websites, just add one or two more website names in the `tags:`.
 
 ```yaml
 ---
