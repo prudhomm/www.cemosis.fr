@@ -8,6 +8,7 @@ categories: [webinar]
 webinar: Feel++ and HifiMagnet
 topic: [Feel++ & HiFiMagnet]
 project: [Feel++ & HiFiMagnet]
+tags: feelpp
 ---
 
 C. Daversin will present the advances of the HiFiMagnet (High Field
@@ -17,6 +18,3 @@ electrostatic, thermal and mechanical) associated to the simulation of
 high field magnet (about 36T).
 
 This work is a collaboration between [Cemosis](http://www.cemosis.fr) and [LNCMI](http://www.lncmi.cnrs.fr).
-
-
-
