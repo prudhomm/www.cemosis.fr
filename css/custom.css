@@ -12,3 +12,9 @@
 /** menu item **/
 .top-bar-section li a:not(.button) {
 }
+
+/* slide image size */
+.slick-slide{
+	width: 40vw;
+	height: 70vh;
+}

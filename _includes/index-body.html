@@ -1,44 +1,58 @@
-<div class="row">
-  <div class="large-12 columns">
-
-    <div class="row">
-      <div class="large-12 hide-for-small">
-
-        <div id="Glide" class="glide">
-
-          <div class="glide__arrows">
-              <span class="glide__arrow prev" data-glide-dir="<">prev</span>
-              <span class="glide__arrow next" data-glide-dir=">">next</span>
-          </div>
-
-          <div class="glide__wrapper">
-              <ul class="glide__track">
-              {% for img in site.data.slide.img %}
-                  <li class="glide__slide">
-                    <img src="{{ img.path }}">
-                  </li>
-              {% endfor %}
-              </ul>
-          </div>
-
-          <ul class="glide__bullets"></ul>
-
-        </div>
-      </div>
+<section id="slide-section">
+  <div class="container">
+  <div class="row">
+    <div class="slide slide--has-caption">
+      {% for img in site.data.slide.img %}
+        <img src="{{ img.path }}" data-caption="{{ img.description }}">
+      {% endfor %}
     </div>
+  </div>
+  </div>
+</section>
+<!--
+<div class="row">
+  <div class="large-12 columns show-for-small">
 
-
-
-
-
-    <div class="row">
-      <div class="large-12 columns show-for-small">
-
-        <img src="http://placehold.it/1200x700&text=Mobile Header">
-
-      </div>
-    </div><br>
-
+    <img src="http://placehold.it/1200x700&text=Mobile Header">
 
   </div>
-</div>
+</div><br>
+-->
+<section class="intro-section">
+  <div class="container">
+  <div class="row">
+    <p><b>Cemosis</b>, le Centre de Modélisation et de Simulation de Strasbourg, est une structure à l'<b>interface avec les disciplines et les entreprises</b> nécessitant la <b>modélisation et la simulation numérique</b>.</p>
+
+    <center>
+    <h4>Cemosis en vidéos</h4>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/d1t9AFSCPMo?list=PLigsLWCja8pyIXKZklmtj9-_XBSfM6kD2" frameborder="0" allowfullscreen></iframe>
+    </center>
+
+    <p>Cemosis articule son action autour de 3 axes:</p>
+    <li>la mise en place d'<b>équipes</b> alliant les expertises nécessaires en modélisation et simulation pour accompagner des <b>projets multi-disciplinaires</b></li>
+    <li>la mise en place de formations initiales et continues en modélisation et <b>simulation</b></li>
+    <li>la création de <b>liens forts</b> avec le <b>milieu industriel</b> alsacien en matière de modélisation et simulation.</li>
+
+  </div>
+  </div>
+</section>
+
+<section class="intro-section-bis">
+  <div class="container">
+  <div class="row">
+    <h4>Contexte national</h4>
+
+    <h5>Modélisation et Simulation</h5>
+
+      <p>Des structures avec des ambitions similaires ont été créées en France telle que</p>
+      <li><a href="http://www.maimosine.fr/">MaiMoSiNE</a> à Grenoble</li>
+      <li><a href="http://www.maisondelasimulation.fr/">Maison de la Simulation</a> à Orsay</li>
+      <li><a href="http://www.ics.upmc.fr/">Institut du Calcul et de la Simulation</a> à Paris</li>
+      
+    <h5>Mathématiques et Entreprise</h5>
+
+      <p>Concernant l'interface Mathématique Entreprises, Cemosis se veut le relai régional d'<a href="http://www.agence-maths-entreprises.fr/">AMIES</a> (Agence des Mathématiques en Interaction avec l'Entreprise et la Société)</p>
+      
+  </div>
+  </div>
+</section>

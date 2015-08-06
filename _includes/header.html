@@ -1,8 +1,7 @@
 <header>
-
+  <div class="fixed">
    <nav class="top-bar" data-topbar>
      <ul class="title-area">
-
        <li class="name">
          <h1>
            <a href="/">
@@ -17,7 +16,7 @@
 
        <ul class="right">
          <li class="divider"></li>
-         <li class="has-dropdown">
+         <li class="has-dropdown {% if page.url contains '/index/' %}active{% endif %}">
            <a href="/">Vie de Cemosis</a>
            <ul class="dropdown">
              <li><a href="/news_/">Actulaités</a></li>
@@ -27,7 +26,7 @@
            </ul>
          </li>
          <li class="divider"></li>
-         <li class="has-dropdown">
+         <li class="has-dropdown {% if page.url contains '/presentation/' %}active{% endif %}">
            <a href="/presentation/">Qui sommes-nous?</a>
            <ul class="dropdown">
              <li><a href="/legal/">Mentions légales</a></li>
@@ -38,7 +37,7 @@
          </li>
 
          <li class="divider"></li>
-         <li class="has-dropdown">
+         <li class="has-dropdown {% if page.url contains '/project/' %}active{% endif %}">
            <a href="/project/">Projets</a>
            <ul class="dropdown">
              <li><a href="/entreprise/">Entreprise</a></li>
@@ -46,17 +45,17 @@
            </ul>
          </li>
          <li class="divider"></li>
-         <li class="has-dropdown">
+         <li class="has-dropdown {% if page.url contains '/training/' %}active{% endif %}">
            <a href="/training/">Formation</a>
            <ul class="dropdown">
              <li><a href="http://csmi.math.unistra.fr/">Master Calcul Scientifique et Mathématiques de l'Information</a></li>
-             <li><a href="//">Formations continues</a></li>
+             <li><a href="/continuing-education/">Formations continues</a></li>
            </ul>
          </li>
          <li class="divider"></li>
-         <li><a href="/platform/">Platform</a></li>
+         <li class="{% if page.url contains '/platform/' %}active{% endif %}"><a href="/platform/">Platform</a></li>
        </ul>
      </section>
    </nav>
-
+  </div>
 </header>
