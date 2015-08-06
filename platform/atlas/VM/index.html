@@ -1,0 +1,23 @@
+---
+layout: default
+permalink: /platform/atlas/vm/
+---
+
+<div class="container">
+	<div class="row">
+		<h4>Machine virtuelle</h4>
+		<p>Afin de tester Feel++, Cemosis vous propose une marche à suivre pour installer (ou télécharger) une machine virtuelle dont l'utilisation est décrite en fin de page.</p>
+
+		<h5>Marche à suivre pour construire sa propre machine</h5>
+
+		<p>Nous recommandons l'installation de Feel++ sur debian unstable (Nous recommandons d'utiliser le fichier netinst.iso). Vous pouvez installer Feel++ soit dans une machine physique, soit virtuelle (Virtual Box).</p>
+		<p>Une fois la machine installée, nous vous conseillons le script suivant (en root) afin de satisfaire toutes les dépendances de Feel++ :</p>
+
+{% highlight bash %}
+apt-get update
+apt-get upgrade
+apt-get install feel++-doc libfeel++-dbg  libfeel++-dev libfeel++1 git gmsh libgmsh-dev
+{% endhighlight %}
+	
+	</div>
+</div>
