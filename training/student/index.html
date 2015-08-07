@@ -1,0 +1,67 @@
+---
+layout: default
+permalink: /training/student/
+---
+
+<div class="container">
+	<div class="row">
+
+		<h4><b>Historique</b></h4>
+		<ul>
+			<li>2013:</li>
+			<ul>
+				<li>Master 2:</li>
+					<ul>
+						<li>Coupled modelling and simulation of electromagnets in stationary and instationary modes (axisymmetric and 3D) - J. Nadarasa.</li>
+						<li>Diﬀuse Optical Tomography for Tumour Detection - G. Dollé.</li>
+					</ul>
+				<li>Master 1:</li>
+					<ul>
+						<li>Simulation aérothermique dans une cabine d'avion - Résolution des équations de Navier-Stokes - JB. Wahl.</li>
+						<li>Simulation d'un problème d'aérothermie dans une cabine d'avion par la méthode des éléments finis - P. Gerhard.</li>
+					</ul>
+			</ul>
+		</ul>
+		<hr>
+
+		<h4><b>OneFeel</b></h4>
+		<br/>
+		<h5><b>Contexte</b></h5>
+		<p>Le projet OpenSource Feel++ (http://www.feelpp.org) est une plateforme permettant de faire de la simulation numérique en résolvant en particulier ce qu'on appelle des équations aux dérivées partielles. C'est un framework à la fois pour l'enseignement, la recherche et la R&amp;D en milieu industriel. C'est essentiellement une librairie C++ dont les composants sont assemblés pour faire des simulations. Feel++ s'insère dans un environnement classique de simulation : PreProcessing (e.g. CAO) -> Simulation (Feel++) -> PostProcessing (e.g. Visualisation 2D/3D, films, …). Les applications sont dans le domaine de l'ingénierie classique (mécanique des fluides, structure, thermique,...), du bio-médical (e.g. écoulements sanguins, détection et ablation de tumeur,...), de la physique (simulation de champ magnétique intense). </p>
+		<p>Des vidéos de simulations sont disponibles sur le site web de Feel++</p>
+		<br/>
+
+		<h5><b>Projet</b></h5>
+		<p>Feel++ est une librairie C++ ne comportant aucun composant graphique. L'objectif du projet est de créer une interface pour Feel++ via une approche Client/Serveur (OneLAB) avec une interface graphique qui est Gmsh (http://geuz.org/gmsh/). Gmsh est déjà utilisé par Feel++ pour la CAO et la génération de maillage et dans une moindre mesure pour la visualisation. Il s'agit de mettre en place</p>
+		<ul>
+			<li>une interface scriptée entre les applications de Feel++ et l'interface graphique Gmsh à travers OneLAB,</li>
+			<li>une interface native C++ (ou Python, ou les deux) pour les application de Feel++.</li>
+		</ul>
+		<p>OneLAB opère sur modèle client/serveur  disposant d'une base de données coté serveur et d'une interface graphique (optionnelle) Gmsh controlant des clients locaux ou distants communicant avec le serveur soit directement en mémoire ou via des sockets TPC/IP.<br/>
+		L'objectif est de pouvoir produire des applications Feel++ tournant soit localement soit sur des calculateurs parallèles distants avec interface graphique pour piloter ces applications et visualiser les résultats.<br/>
+		Enfin nous développons des méthodes numériques pour faire des simulations temps réel paramétrisées par des paramètres physiques et/ou géométriques. Leur particularité est la quasi instantanéité des calculs ce qui ne sera pas le cas pour la plupart des applications standards Feel++. Il s'agira donc aussi de prendre en compte ce type de simulations.</p>
+		<br/>
+		<h5><b>Encadrement</b></h5>
+		<p>Le projet sera encadré par plusieurs personnes et utilisera des moyens modernes de communication pour le mener à bien (vidéo-conférences avec Google+/Hangout, Trello). Les personnes impliquées seront</p>
+		<ul>
+			<li>Christophe Trophime (LNCMI Grenoble)</li>
+			<li>Alexandre Ancel (CEMOSIS-IRMA-UNISTRA)</li>
+			<li>Vincent Huber (CEMOSIS-IRMA-UNISTRA)</li>
+			<li>Christophe Prud'homme (CEMOSIS-IRMA-UNISTRA)</li>
+		</ul>
+		<p>D'autres personnes seront éventuellement amenées à intervenir en fonction de l'avancement du projet, en particulier ils seront fournisseurs d'applications Feel++</p>
+			<li>Vincent Chabannes (LJK Grenoble)</li>
+			<li>Stéphane Veys (LJK Grenoble)</li>
+			<li>Cécile Daversin (LNCMI Grenoble)</li>
+			<li>Guillaume Dollé (CEMOSIS-IRMA-UNISTRA)</li>
+		<p>Vous serez amenés à travailler dans un environnement Linux (Debian, Ubuntu, Scientific Linux,...), sur plusieurs machines dont des calculateurs parallèles.</p>
+		<br/>
+		<h5><b>Travail à réaliser</b></h5>
+		<ul>
+			<li>Interface scriptée OneLab pour co-simulation avec Feel++ automatisée.</li>
+			<li>Interface C++ OneLab  pour co-simulation avec Feel++ automatisée.</li>
+			<li>Support pour co-Simulation temps réel utilisant les bases réduites.</li>
+			<li>Un outil pour l'enseignement, de démonstration (e.g. recherche) et de packaging graphique pour la R&D industrielle.</li>
+		</ul>
+	</div>
+</div>

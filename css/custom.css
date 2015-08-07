@@ -18,3 +18,34 @@
 	width: 40vw;
 	height: 70vh;
 }
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+  font-size: 15px;
+  border: 1px solid #e8e8e8;
+  border-radius: 3px;
+  background-color: #eef;
+}
+
+code {
+  padding: 1px 5px;
+}
+
+pre {
+  padding: 8px 12px;
+  overflow-x: scroll; }
+  pre > code {
+    border: 0;
+    padding-right: 0;
+    padding-left: 0;
+}
+/* jump to right position */
+.anchor {
+  display: block;
+  height: 55px;
+  margin-top: -55px;
+  visibility: hidden;
+}

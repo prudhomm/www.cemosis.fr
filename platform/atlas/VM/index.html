@@ -5,10 +5,10 @@ permalink: /platform/atlas/vm/
 
 <div class="container">
 	<div class="row">
-		<h4>Machine virtuelle</h4>
+		<h4><b>Machine virtuelle</b></h4>
 		<p>Afin de tester Feel++, Cemosis vous propose une marche à suivre pour installer (ou télécharger) une machine virtuelle dont l'utilisation est décrite en fin de page.</p>
 
-		<h5>Marche à suivre pour construire sa propre machine</h5>
+		<h5><b>Marche à suivre pour construire sa propre machine</b></h5>
 
 		<p>Nous recommandons l'installation de Feel++ sur debian unstable (Nous recommandons d'utiliser le fichier netinst.iso). Vous pouvez installer Feel++ soit dans une machine physique, soit virtuelle (Virtual Box).</p>
 		<p>Une fois la machine installée, nous vous conseillons le script suivant (en root) afin de satisfaire toutes les dépendances de Feel++ :</p>
@@ -18,6 +18,26 @@ apt-get update
 apt-get upgrade
 apt-get install feel++-doc libfeel++-dbg  libfeel++-dev libfeel++1 git gmsh libgmsh-dev
 {% endhighlight %}
-	
+		<br/>
+		<p>Une fois ces paquets installés, vous avez les exemples de la documentation installés dans votre système! Si vous désirez tester directement les sources, voici la marche à suivre (utilisateur lambda) :</p>
+
+{% highlight bash %}
+cd $HOME
+git clone https://github.com/feelpp/feelpp.git
+mkdir buildFeel; cd buildFeel
+cmake ~/feelpp -DCMAKE_CXX_COMPILER=`which clang++`
+make -j4
+{% endhighlight %}
+	<br/>
+	<h5><b>Utiliser la machine virtuelle de Cemosis</b></h5>
+	<br/>
+	<p style="color:red">La machine virtuelle de Cemosis n'est actuellement pas disponible.</p>
+	<br/>
+	<p>Nous mettons à votre disposition une machine virtuelle (Debian unstable) mise à jour par quinzaine afin de vous permettre de tester Feel++ rapidement.</p>
+	<iframe src="https://docs.google.com/a/cemosis.fr/forms/d/1jDP4xUueBFTwggYo9YjmfcLQLC-WP5f3PFfePhBV9Sc/viewform?embedded=true" width="100%" height="400"></iframe>
+	<p>Veuillez indiquer ci-dessous votre adresse mail afin de recevoir les indications de téléchargement de la machine (plusieurs GB).</p>
+	<p>Nécessite Virtual Box.</p>
+	<br/>
+	<iframe src="https://docs.google.com/document/d/1Tge61cYcAuUEZOJS4SD8XQouAuJzkVNcNxuBvGd3F3A/pub?embedded=true" width="100%" height="1000"></iframe>
 	</div>
 </div>

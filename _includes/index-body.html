@@ -1,9 +1,12 @@
+
 <section id="slide-section">
   <div class="container">
   <div class="row">
-    <div class="slide slide--has-caption">
+    <h4>Cemosis en images</h4>
+    <br/>
+    <div class="slide">
       {% for img in site.data.slide.img %}
-        <img src="{{ img.path }}" data-caption="{{ img.description }}">
+        <img src="{{ img.path }}" caption="{{ img.description }}">
       {% endfor %}
     </div>
   </div>
