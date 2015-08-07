@@ -3,12 +3,13 @@
   <div class="container">
   <div class="row">
     <h4>Cemosis en images</h4>
-    <br/>
-    <div class="slide">
+      <ul id="gallery">
       {% for img in site.data.slide.img %}
-        <img src="{{ img.path }}" caption="{{ img.description }}">
+      <li>
+        <a href="#{{ img.id }}"><img src="{{ img.path }}" alt="{{ img.description }} <a href='{{ img.url }}'>En savoir +</a>"></a>
+      </li>
       {% endfor %}
-    </div>
+      </ul>
   </div>
   </div>
 </section>
@@ -30,29 +31,34 @@
     <h4>Cemosis en vidéos</h4>
     <iframe width="560" height="315" src="https://www.youtube.com/embed/d1t9AFSCPMo?list=PLigsLWCja8pyIXKZklmtj9-_XBSfM6kD2" frameborder="0" allowfullscreen></iframe>
     </center>
+    <br/>
 
     <p>Cemosis articule son action autour de 3 axes:</p>
     <li>la mise en place d'<b>équipes</b> alliant les expertises nécessaires en modélisation et simulation pour accompagner des <b>projets multi-disciplinaires</b></li>
     <li>la mise en place de formations initiales et continues en modélisation et <b>simulation</b></li>
     <li>la création de <b>liens forts</b> avec le <b>milieu industriel</b> alsacien en matière de modélisation et simulation.</li>
 
+    <hr>
   </div>
   </div>
 </section>
 
+
+
 <section class="intro-section-bis">
   <div class="container">
   <div class="row">
-    <h4>Contexte national</h4>
-
-    <h5>Modélisation et Simulation</h5>
+    <h4><b>Contexte national</b></h4>
+    <br/>
+    <h5><b>Modélisation et Simulation</b></h5>
 
       <p>Des structures avec des ambitions similaires ont été créées en France telle que</p>
+      <ul>
       <li><a href="http://www.maimosine.fr/">MaiMoSiNE</a> à Grenoble</li>
       <li><a href="http://www.maisondelasimulation.fr/">Maison de la Simulation</a> à Orsay</li>
       <li><a href="http://www.ics.upmc.fr/">Institut du Calcul et de la Simulation</a> à Paris</li>
-      
-    <h5>Mathématiques et Entreprise</h5>
+      </ul>
+    <h5><b>Mathématiques et Entreprise</b></h5>
 
       <p>Concernant l'interface Mathématique Entreprises, Cemosis se veut le relai régional d'<a href="http://www.agence-maths-entreprises.fr/">AMIES</a> (Agence des Mathématiques en Interaction avec l'Entreprise et la Société)</p>
       
