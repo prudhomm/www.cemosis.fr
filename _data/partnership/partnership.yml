@@ -5,7 +5,7 @@
 - name: Université de Haute Alsace, Mulhouse
   type: institute
   url: "http://www.uha.fr/"
-  logo:
+  logo: 
 - name: Université Joseph Fourier, Grenoble
   type: institute
   url: "http://www.ujf-grenoble.fr/"
@@ -13,7 +13,7 @@
 - name: "AMIES, Agence des Mathématiques en Interaction avec l'Entreprise et la Société"
   type: institute
   url: "http://www.agence-maths-entreprises.fr/"
-  logo:
+  logo: 
 
 - name: Laboratoire National des Champs Magnétiques Intenses, Grenoble
   type: academy
@@ -22,7 +22,7 @@
 - name: Les Hôpitaux Universitaires, Strasbourg
   type: academy
   url: "http://www.chru-strasbourg.fr/"
-  logo:
+  logo: 
 - name: Laboratoire ICube, Strasbourg
   type: academy
   url: "http://icube.unistra.fr/"
