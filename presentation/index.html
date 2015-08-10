@@ -1,0 +1,53 @@
+---
+layout: default
+permalink: /presentation/
+---
+
+<div class="container">
+	<div class="row">
+		<h4>Qui sommes-nous?</h4>
+		<br/>
+
+		<p>Cemosis est hébergé par l'Institut de Recherche Mathématique Avancée (IRMA) et a été crée en janvier 2013. Cemosis s'appuie essentiellement pour le moment sur l'équipe Modélisation et Contrôle de l'IRMA et en particulier les personnes ci-dessous. Les objectifs de Cemosis sont de:</p>
+
+		<ul>
+			<li><b>fédérer</b> les efforts en matière de modélisation et simulation dans la région de Strasbourg;</li>
+			<li><b>favoriser</b> les projets interdisciplinaires autour de la modélisation et de la simulation numérique;</li>
+			<li><b>augmenter</b> la visibilité des réalisations et des compétences autour de la modélisation;</li>
+			<li><b>favoriser</b> la dissémination et la mise en place des formations autour du calcul et de la modélisation;</li>
+			<li><b>favoriser</b> les interactions entre les acteurs de la recherche, les PME/PMI et les grandes entreprises de la région Alsace.</li>
+		</ul>
+
+		<hr>
+
+		{% for member in site.data.team.member %}
+			{% if member.photo %}
+		<div class="col-md-1">
+		<img src="{{ member.photo }}">
+		</div>
+		<div class="col-md-11">
+		<p><b>{{ member.name }}</b></p>
+		<p>{{ member.position }}</p>
+		<a href="mailto:{{ member.email }}">{{ member.email }}</a>
+		<p>{{ member.address }}</p>	
+		</div>
+		<p>{{ member.description }}</p>
+				{% if member == site.data.team.member.last %}
+				{% else %}
+				<hr>
+				{% endif %}
+			{% else %}
+		<p><b>{{ member.name }}</b></p>
+		<p>{{ member.position }}</p>
+		<a href="mailto:{{ member.email }}">{{ member.email }}</a>
+		<p>{{ member.address }}</p>
+		<br/>
+		<p>{{ member.description }}</p>
+				{% if member == site.data.team.member.last %}
+				{% else %}
+				<hr>
+				{% endif %}
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>	

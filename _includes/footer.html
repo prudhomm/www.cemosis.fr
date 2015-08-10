@@ -1,19 +1,29 @@
-<footer class="row">
-  <div class="large-12 columns"><hr>
+<footer class="footer">
+  <hr>
+  <div class="container">
     <div class="row">
-
-      <div class="large-6 columns">
+      
+      <div class="col-md-4">
           <p>© Cemosis 2015 Tous droits réservés.</p>
       </div>
 
-      <div class="large-6 small-12 columns">
-          <ul class="inline-list right">
-            <li><a href="/contact/">Contact et plans</a></li>
-            <li><a href="/presentation/legal/">Mention légales</a></li>
-          </ul>
+      <div class="col-md-4">
+        <a href="/contact/">Contact et plans</a>
       </div>
+
+      <div class="col-md-4">  
+        <a href="/presentation/legal/">Mention légales</a>
+      </div>
+
     </div>
 
-    <p class="rss-subscribe right">S'abonner à notre flux <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
-  </div>
+    <div class="row">
+
+      <div class="col-md-8"></div>
+
+      <div class="col-md-4">
+      <p class="rss-subscribe right">S'abonner à notre flux <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+      </div>
+    </div>
+  </div>    
 </footer>

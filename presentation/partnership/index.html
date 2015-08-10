@@ -1,0 +1,27 @@
+---
+layout: default
+permalink: /presentation/partnership/
+---
+
+<div class="container">
+	<div class="row">
+		<h4>Partenaires</h4>
+		<br/>
+		<h5>Partenaires Institutionels:</h5>
+			<ul>
+		{% for p in site.data.partnership.partnership %}
+			{% if p.type == 'institute' %}
+				<li>{{ p.name }} (<a href="{{ p.url }}">{{ p.url }}</a>)</li>
+			{% endif %}
+		{% endfor %}
+			</ul>
+		<h5>Partenaires Académiques:</h5>
+			<ul>
+		{% for p in site.data.partnership.partnership %}
+			{% if p.type == 'academy' %}
+				<li>{{ p.name }} (<a href="{{ p.url }}">{{ p.url }}</a>)</li>
+			{% endif %}
+		{% endfor %}
+			</ul>
+	</div>
+</div>

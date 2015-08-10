@@ -1,5 +1,6 @@
 <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-<script src="/js/foundation.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
 <script src="/js/slippry.min.js"></script>
 
@@ -14,6 +15,22 @@
 	});
 </script>
 
+
 <script>
-  $(document).foundation();
+jQuery(function($) {
+    if($(window).width()>769){
+        $('.navbar .dropdown').hover(function() {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+
+        }, function() {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+
+        });
+
+        $('.navbar .dropdown > a').click(function(){
+            location.href = this.href;
+        });
+
+    }
+});
 </script>

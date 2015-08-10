@@ -1,34 +1,38 @@
 <header>
-  <div class="fixed">
-   <nav class="top-bar" data-topbar>
-     <ul class="title-area">
-       <li class="name">
-         <h1>
-           <a href="/">
-             Cemosis
-           </a>
-         </h1>
-       </li>
-       <li class="toggle-topbar menu-icon"><a href="#"><span>menu</span></a></li>
-     </ul>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+      
+      </div>
 
-     <section class="top-bar-section">
+    <div class="collapse navbar-collapse navbar-fixed-top" id="main-navbar">
 
-       <ul class="right">
-         <li class="divider"></li>
-         <li class="has-dropdown {% if page.url contains 'index' %}active{% endif %}">
-           <a href="/">Vie de Cemosis</a>
-           <ul class="dropdown">
-             <li><a href="/news_/">Actulaités</a></li>
-             <li><a href="/event/">&Eacute;vènements</a></li>
-             <li><a href="/publication/">Publications</a></li>
-             <li><a href="/seminar/">Séminaires</a></li>
-           </ul>
-         </li>
-         <li class="divider"></li>
-         <li class="has-dropdown {% if page.url contains '/presentation/' %}active{% endif %}">
-           <a href="/presentation/">Qui sommes-nous?</a>
-           <ul class="dropdown">
+      <a class="navbar-brand" href="http://www.cemosis.fr/">
+          <img src="/img/logo.png" height="40px">
+        </a>     
+      
+      <ul class="nav navbar-nav navbar-right">
+         
+        <li class="dropdown {% if page.url contains 'index' %}active{% endif %}">
+          <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vie de Cemosis <span class="caret"></span></a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="/news_/">Actulaités</a></li>
+            <li><a href="/event/">&Eacute;vènements</a></li>
+            <li><a href="/publication/">Publications</a></li>
+            <li><a href="/seminar/">Séminaires</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown {% if page.url contains '/presentation/' %}active{% endif %}">
+           <a href="/presentation/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Qui sommes-nous? <span class="caret"></span></a>
+           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
              <li><a href="/presentation/legal/">Mentions légales</a></li>
              <li><a href="/presentation/partnership/">Partenaires</a></li>
              <li><a href="/presentation/funding/">Financements</a></li>
@@ -36,41 +40,41 @@
            </ul>
          </li>
 
-         <li class="divider"></li>
-         <li class="has-dropdown {% if page.url contains '/project/' %}active{% endif %}">
-           <a href="/project_/">Projets</a>
-           <ul class="dropdown">
-             <li><a href="/project_/entreprise/">Entreprise</a></li>
-             <li><a href="/project_/interdisciplinary/">Interdisciplinaires</a></li>
-           </ul>
-         </li>
-         <li class="divider"></li>
-         <li class="has-dropdown {% if page.url contains '/training/' %}active{% endif %}">
-           <a href="/training/">Formation</a>
-           <ul class="dropdown">
+        <li class="dropdown {% if page.url contains '/project/' %}active{% endif %}">
+          <a href="/project_/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projets <span class="caret"></span></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="/project_/entreprise/">Entreprise</a></li>
+            <li><a href="/project_/interdisciplinary/">Interdisciplinaires</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown {% if page.url contains '/training/' %}active{% endif %}">
+           <a href="/training/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formation <span class="caret"></span></a>
+           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
              <li><a href="http://csmi.math.unistra.fr/">Master Calcul Scientifique et Mathématiques de l'Information</a></li>
              <li><a href="/training/student/">Formations étudiants</a></li>
              <li><a href="/training/continuing-education/">Formations continues</a></li>
            </ul>
          </li>
-         <li class="divider"></li>
-         <li class="has-dropdown {% if page.url contains '/platform/' %}active{% endif %}"><a href="/platform/">Platform</a>
-          <ul class="dropdown">
-            <li class="has-dropdown">
+         
+        <li class="dropdown {% if page.url contains '/platform/' %}active{% endif %}"><a href="/platform/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Platforme <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu1">
+            <li>
               <a href="/platform/services">Services</a>
-              <ul class="dropdown">
-                <li class="has-dropdown"><a href="/platform/atlas/">Atlas</a>
-                  <ul class="dropdown">
-                    <li><a href="/platform/atlas/account/">Demande de Compte</a></li>
-                    <li><a href="/platform/atlas/vm/">Machine virtuelle</a></li>
-                  </ul>
-                </li>
+            </li>
+
+            <li class="dropdown-submenu">
+              <a href="/platform/atlas/">Atlas</a>
+              <ul class="dropdown-menu">
+                <li><a href="/platform/atlas/account/">Demande de Compte</a></li>
+                <li><a href="/platform/atlas/vm/">Machine virtuelle</a></li>
               </ul>
             </li>
           </ul>
-         </li>
+        </li>
        </ul>
-     </section>
-   </nav>
+
+     </div>
   </div>
+  </nav>
 </header>
