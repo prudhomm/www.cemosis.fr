@@ -8,21 +8,17 @@ permalink: /presentation/funding/
 		<h4>Financements</h4>
 		<p>Cemosis est financé d'une part par l'IDEX de Strasbourg et le LABEX IRMIA et d'autre part au travers des différents projets qui l'animent.</p>
 		<br/>
-		<div class="col-md-1"></div>
-		<div class="col-md-9">
+		
 		{% for funder in site.data.funding.funding %}
-			{% if funder.date %}
 			<p>{{ funder.name }}</p>
-			<p>{{ funder.date }}</p>
-			<p>{{ funder.detail }}</p>
-			{% else %}
-			<p>{{ funder.name }}</p>
-			{% endif %}
+			{{ funder.detail }}
+
+
 			{% if funder == site.data.funding.funding.last %}
 			{% else %}
 			<hr>
 			{% endif %}
 		{% endfor %}
-		</div>
+		
 	</div>
 </div>

@@ -2,3 +2,16 @@
 layout: default
 permalink: /presentation/activity/
 ---
+
+<div class="container">
+	<div class="row">
+		<h4>Rapports d'Activités</h4>
+		<br/>
+		<p>Les rapports d'activité  sont disponibles en ligne</p>
+		<ul>
+			{% for report in site.data.report.report %}
+			<li>{{ report.period }}: <a href="{{ report.url }}">rapport</a></li>
+			{% endfor %}
+		</ul>
+	</div>
+</div>

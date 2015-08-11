@@ -1,34 +1,45 @@
 - name: IDEX Strasbourg
-  date: 2013/01-2015/01
-  detail: Financement de 2 ans d'ingénieur de recherche et fonctionnement
+  detail: >
+          2013/01-2015/01<br/>
+          Financement de 2 ans d'ingénieur de recherche et fonctionnement
   url: 
   logo: 
+
 - name: Labex IRMIA
-  date1: 2013/09-2015/09
-  detail1: Financement de 2 ans d'ingénieur de recherche
-  date2: 2013/09-2016/09
-  detail2: Financement de thèse Cécile Daversin <i>Bases réduites certifiées pour des problèmes multi-physiques non-linéaires de grande taille. Application au design d’aimants à haut champ</i>
+  detail: >
+          2013/09-2015/09<br/>
+          Financement de 2 ans d'ingénieur de recherche<br/>
+          2013/09-2016/09<br/>
+          Financement de thèse Cécile Daversin <i>Bases réduites certifiées pour des problèmes multi-physiques non-linéaires de grande taille. Application au design d’aimants à haut champ</i>
   url: http://labex-irmia.u-strasbg.fr/
   logo: http://labex.math.cnrs.fr/wp-content/uploads/logo-irmia.jpg
+
 - name: ANR MN Vivabrain
-  date: 2013-2017
-  detail: Virtual angiography simulation from 3D and 3D+t brain vascular models
+  detail: >
+          2013-2017<br/>
+          Virtual angiography simulation from 3D and 3D+t brain vascular models
   url: http://www.vivabrain.fr/
   logo: http://www.agence-nationale-recherche.fr/fileadmin/tpl/img/logo.gif
+
 - name: ANR MN Chorus
-  date: 2013-2017
-  detail: Common Horizon for Uncertainty quantification in Simulation
+  detail: >
+          2013-2017<br/>
+          Common Horizon for Uncertainty quantification in Simulation
   url:
   logo: http://www.agence-nationale-recherche.fr/fileadmin/tpl/img/logo.gif
+
 - name: AMIES PEPS SOLODEM
-  date: 2014-2015
-  detail: Solutions logicielles pour le dimensionnement d’électroaimants
+  detail: >
+          2014-2015<br/>
+          Solutions logicielles pour le dimensionnement d’électroaimants
   url:
   logo:
+
 - name: Ministère de l'Enseignement Supérieur et de la Recherche
-  date1: 2013-2016
-  detail1: Financement de Thèse Ranine Tarabay
-  date2: 2014-2017
-  detail2: Financement de Thèse Guillaume Dollé
+  detail: >
+          2013-2016<br/>
+          Financement de Thèse Ranine Tarabay<br/>
+          2014-2017<br/>
+          Financement de Thèse Guillaume Dollé
   url: 
   logo:  
