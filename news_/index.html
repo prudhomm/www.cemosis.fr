@@ -1,0 +1,17 @@
+---
+layout: default
+permalink: /news_/
+---
+
+<div class="container">
+	<div class="row">
+		<center><h3>Actualités</h3></center>
+
+		{% for post in site.tags.cemosis %}
+			{% if post.categories != seminar %}
+				{% include news.html %}
+			{% else %}
+			{% endif %}
+		{% endfor %}
+	</div>
+</div>

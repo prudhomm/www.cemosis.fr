@@ -1,0 +1,18 @@
+<div class="letter" style="margin-top:50px;margin-bottom:50px">
+
+	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>	
+
+	<div class="ribbon ribbon-right ribbon-in">
+		<div class="ribbon-stitch">
+			<div class="ribbon-fabric">
+				<p>{% include post-date-fr.html %}</p>
+			</div>
+			<div class="ribbon-top-right"></div>
+			<div class="ribbon-bottom-right"></div>
+		</div>
+	</div>
+	
+	<p>
+		{{ post.content }}
+	</p>
+</div>
