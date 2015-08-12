@@ -3,7 +3,7 @@ title: Cemosis
 email: contact@cemosis.fr
 description: >
               Cemosis, le Centre de Modélisation et de Simulation de Strasbourg, est une structure à
-              l'interface avec les disciplines  et les entreprises nécessitant la modélisation et la
+              l'interface avec les disciplines et les entreprises nécessitant la modélisation et la
               simulation numérique.
 
 url: "http://www.cemosis.fr/" # the base hostname & protocol for your site
@@ -11,7 +11,9 @@ url: "http://www.cemosis.fr/" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
-paginate: 10
+paginate: 5
+
+paginate_path: /news_/page:num/
 
 highlighter: pygments
 
