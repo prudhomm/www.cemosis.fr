@@ -1,5 +1,5 @@
 body {
-  padding-top:66px;
+  padding-top:65px;
 }
 /* dropdown-submenu */
 .dropdown-submenu {
@@ -81,8 +81,8 @@ pre {
 /* jump to right position */
 .anchor {
   display: block;
-  height: 50px;
-  margin-top: -50px;
+  height: 65px;
+  margin-top: -65px;
   visibility: hidden;
 }
 
