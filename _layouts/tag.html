@@ -9,11 +9,7 @@ layout: default
 
 {% for post in paginator.posts %}
 
-	{% if post.categories != seminar %}
-		{% if post.categories != event %}
 		{% include news.html %}
-		{% endif %}
-	{% endif %}
 
 {% endfor %}
 
@@ -24,7 +20,7 @@ layout: default
 
 		<center>
   		{% if paginator.previous_page %}
-    		<a href="{{ paginator.previous_page_path | prepend: "/" | prepend: tag | prepend: 'tags' | replace: '//', '/' }}">&laquo; Précédente</a>
+    		<a href="/tags/{{ tag }}{{ paginator.previous_page_path | replace: 'news_', '' | replace: '//', '/' }}">&laquo; Précédente</a>
   		{% else %}
     		<span>&laquo; Précédente</span>
   		{% endif %}
@@ -40,7 +36,7 @@ layout: default
   		{% endfor %}
 
   		{% if paginator.next_page %}
-    		<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Suivante &raquo;</a>
+    		<a href="/tags/{{ tag }}{{ paginator.next_page_path | replace: 'news_', '' | replace: '//', '/' }}">Suivante &raquo;</a>
   		{% else %}
     		<span>Suivante &raquo;</span>
   		{% endif %}
