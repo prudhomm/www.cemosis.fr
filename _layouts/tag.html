@@ -1,4 +1,53 @@
+---
+layout: default
+---
+
+<div class="container">
+	<div class="row">
+		<center><h3>Actualités</h3></center>
+
+
 {% for post in paginator.posts %}
-    {{ post.title }}
-    {{ post.content }}
+
+	{% if post.categories != seminar %}
+		{% if post.categories != event %}
+		{% include news.html %}
+		{% endif %}
+	{% endif %}
+
 {% endfor %}
+
+
+<!-- Pagination links -->
+		{% if paginator.total_pages > 1 %}
+		{% assign tag = page.tag %}
+
+		<center>
+  		{% if paginator.previous_page %}
+    		<a href="{{ paginator.previous_page_path | prepend: "/" | prepend: tag | prepend: 'tags' | replace: '//', '/' }}">&laquo; Précédente</a>
+  		{% else %}
+    		<span>&laquo; Précédente</span>
+  		{% endif %}
+
+  		{% for page in (1..paginator.total_pages) %}
+    	{% if page == paginator.page %}
+      	<em>{{ page }}</em>
+    	{% elsif page == 1 %}
+      	<a href="/tags/{{ tag }}">{{ page }}</a>
+    	{% else %}
+      	<a href="/tags/{{ tag }}{{ site.paginate_path | replace: 'news_/', '' | replace: ':num', page }}">{{ page }}</a>
+    	{% endif %}
+  		{% endfor %}
+
+  		{% if paginator.next_page %}
+    		<a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Suivante &raquo;</a>
+  		{% else %}
+    		<span>Suivante &raquo;</span>
+  		{% endif %}
+		</center>
+		{% endif %}
+
+		
+
+	</div>
+</div>
