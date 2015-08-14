@@ -2,7 +2,28 @@
 
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 
+<script src="/js/jquery.fullPage.min.js"></script>
+
 <script src="/js/slippry.min.js"></script>
+
+<!-- fullpage scroll -->
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+        scrollBar: true,
+        navigation: true,
+        navigationPosition: 'right',
+        sectionsColor: ['lightgrey', 'white', 'lightgrey'],
+        responsiveWidth: 900,
+        css3: true,
+        loopBottom: false,
+        loopTop: false,
+        fitToSection: true,
+        fitToSectionDelay: 1000,
+        normalScrollElements: '#intro-section-bis'
+        });
+});
+</script>
 
 <!-- slide show -->
 <script>
