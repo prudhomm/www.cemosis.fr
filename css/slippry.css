@@ -283,7 +283,7 @@
     -webkit-border-radius: 1.2em;
     border-radius: 1.2em; }
     .sy-caption-wrap .sy-caption a:link, .sy-caption-wrap .sy-caption a:visited {
-      color: #99CCFF;
+      color: #FF9933;
       font-weight: 600;
       text-decoration: none; }
     .sy-caption-wrap .sy-caption a:hover, .sy-caption-wrap .sy-caption a:focus {
@@ -303,7 +303,7 @@
 /* pager bubbles */
 .sy-pager {
   overflow: hidden;
-  *zoom: 1;
+  zoom: 1;
   display: block;
   width: 100%;
   margin: 1em 0 0;
@@ -319,7 +319,7 @@
     -webkit-border-radius: 50%;
     border-radius: 50%; }
     .sy-pager li.sy-active a {
-      background-color: #000033; }
+      background-color: #4AA0BD; }
     .sy-pager li a {
       width: 100%;
       height: 100%;

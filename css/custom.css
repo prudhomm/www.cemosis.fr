@@ -1,3 +1,8 @@
+/* add padding to header to remove empty bottom space in scroll section */
+header {
+  padding: 20px 0 0 0;
+}
+
 body {
   padding-top: 66px;
 }
@@ -118,42 +123,6 @@ pre {
   top: 1px;
   transform: rotate(1.4deg);
 }
-
-ul .news-list{
-  display:inline-block;
-  position:absolute;
-  left:50%;
-  margin-left:-240px
-}
-ul .news-list li{
-  height:66px;
-  display:none
-}
-ul .news-list li:first-child{
-  display:block
-}
-ul .news-icon{
-  display:inline-block;
-  position:absolute;
-  left:50%;
-  margin-left:250px
-}
-ul .news-icon li{
-  display:inline-block;
-  margin:26px 5px;
-  width:14px;
-  height:14px;
-  border-radius:7px;
-  background-color:#717171;
-  cursor:pointer
-}
-ul.news-icon li.active{
-  background-color:#fff
-}
-div #news-panel a{
-  color:#fff;font-size:16px
-}
-
 
 /* media query */
 @media screen and (max-width: 768px){
