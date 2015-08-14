@@ -18,7 +18,7 @@ permalink: /presentation/
 			<li><b>favoriser</b> les interactions entre les acteurs de la recherche, les PME/PMI et les grandes entreprises de la région Alsace.</li>
 		</ul>
 
-		<hr>
+		<hr class="style">
 
 		{% for member in site.data.team.member %}
 			{% if member.photo %}
@@ -35,7 +35,7 @@ permalink: /presentation/
 		<p>{{ member.description }}</p>
 				{% if member == site.data.team.member.last %}
 				{% else %}
-				<hr>
+				<hr class="style">
 				{% endif %}
 			{% else %}
 		<span class="anchor" id="{{ member.firstName }}"></span>
@@ -47,7 +47,7 @@ permalink: /presentation/
 		<p>{{ member.description }}</p>
 				{% if member == site.data.team.member.last %}
 				{% else %}
-				<hr>
+				<hr class="style">
 				{% endif %}
 			{% endif %}
 		{% endfor %}
