@@ -1,0 +1,39 @@
+---
+layout: project_item
+name: Maxwell
+title: Non Standard Navier-Stokes formulation in Feel++
+date: 
+author: 
+fullname: 
+categories: cemosis-project, entreprise-project
+tags: cemosis
+---
+
+<img src="/_posts/img/project/po.png">
+
+<p style="color:red">Résumé</p>
+
+Plastic Omnium Automotive est une entreprise leader des pièces et modules de carrosserie en plastiques. Afin de garder sa place et de devancer les réglementations européennes concernant l'émission de CO₂, elle se doit de tester les écoulements d'air sur les voitures. Pour cela, l’entreprise utilise des modèles de turbulences sur des géométries de plusieurs millions de mailles.
+
+<img src="/_posts/img/cylMode0.png" height="40vh" width="50vw">
+
+Ce projet a pour but d’étudier une formulation des équations de Navier-Stokes impliquant les fonctions propres de l’opérateur rotationnel. Cette formulation permettrait de décomposer la solution en espace et en temps et ainsi simuler les écoulements sur de plus grands laps de temps ou sur des géométries plus précises.
+
+<p style="color:red">Objectifs</p>
+
+Dans un premier temps, on cherche à obtenir les fonctions propres de l’opérateur rotationnel de manière sûre et efficace.
+Il faudra ensuite vérifier le framework mis en place par R. Hild lors de son stage avec ces fonctions, avant d’utiliser cette méthode de résolution sur des problèmes plus complexes.
+
+<img src="/_posts/img/sphMode0.png"> 
+
+<p style="color:red">Contact</p>
+
+- Liste de diffusion du projet: po@cemosis.fr
+- Christophe Prud’homme christophe.prudhomme@cemosis.fr
+- Philippe Gilotte PlasticOmnium Automotive
+- Benjamin Surowiec PlasticOmnium Automotive
+- Romain Hild romain.hild@unistra.fr 
+
+<p style="color:red">Financements</p>
+
+- AMIES - Agence des Mathématiques en Interaction avec les Entreprises et la Société
