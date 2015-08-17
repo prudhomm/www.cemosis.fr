@@ -35,4 +35,8 @@ permalink: /project_/entreprise/
 			<li>participer aux semaines de modélisation où nous comptons envoyer deux ou trois étudiants par an, voir le retour d’experience de 2012 de 2 de nos étudiants qui ont passé 2 semaines à Dresde <a href="http://www.agence-maths-entreprises.fr/a/?q=fr/node/192">http://www.agence-maths-entreprises.fr/a/?q=fr/node/192</a>. Pour plus d’informations contacter C. Prud’homme (<a href="mailto:prudhomme@unistra.fr">prudhomme@unistra.fr</a>) et consulter le site d’ECMI <a href="http://www.ecmi-indmath.org/">http://www.ecmi-indmath.org/</a></li>
 		</ul>
 	</div>
+
+	{% for post in site.categories.cemosisProject %}
+		{% include project.html %}
+	{% endfor %}
 </div>

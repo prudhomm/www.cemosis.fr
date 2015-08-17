@@ -1,11 +1,11 @@
 ---
-layout: project_item
+layout: news_item
 name: Chorus
 title: "Méthodes de Réduction d'Ordre en Aérothermie: Application aux systèmes d'air conditionné de cabine d'avion"
-date: 
+date: 2014-05-05
 author: 
 fullname: 
-categories: cemosis-project, entreprise-project
+categories: cemosisProject
 tags: cemosis
 ---
 

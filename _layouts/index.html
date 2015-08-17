@@ -15,6 +15,41 @@
 
     {% include script.html %}
 
+<!-- fullpage scroll -->
+<script>
+$(document).ready(function() {
+    $('#fullpage').fullpage({
+        scrollBar: true,
+        navigation: true,
+        navigationPosition: 'right',
+        sectionsColor: ['', '#eeeeee', 'lightgrey', '#eeeeee', 'lightgrey'],
+        responsiveWidth: 900,
+        css3: true,
+        loopBottom: false,
+        loopTop: false,
+        fitToSection: true,
+        fitToSectionDelay: 1000,
+        normalScrollElements: '#intro-section-bis'
+        });
+});
+</script>
+
+<!-- slide show -->
+<script>
+  $(document).ready(function(){
+    jQuery('#gallery').slippry({
+      adaptiveHeight: false,
+      slideshow: true,
+      loop: true
+    });
+        jQuery('.news-list').slippry({
+            controls: false,
+            
+        });
+  });
+</script>
+
+
     </main>
 
     {% include footer.html %}
