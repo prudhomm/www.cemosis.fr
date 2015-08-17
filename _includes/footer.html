@@ -1,4 +1,4 @@
-<footer class="Site-footer" style="border-top:1px solid black;margin-top:60px">
+<footer class="Site-footer">
 
   <div class="container" style="padding-top:30px">
     <div class="row">
@@ -8,10 +8,13 @@
       </div>
 
       <div class="col-md-4">
+      </div>
+
+      <div class="col-md-2">  
         <a href="/contact/">Contact et plans</a>
       </div>
 
-      <div class="col-md-4">  
+      <div class="col-md-2">
         <a href="/presentation/legal/">Mention légales</a>
       </div>
 
@@ -19,10 +22,11 @@
 
     <div class="row">
 
-      <div class="col-md-8"></div>
+      <div class="col-md-8">
+        <p class="rss-subscribe right">S'abonner à notre flux <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
+      </div>
 
       <div class="col-md-4">
-      <p class="rss-subscribe right">S'abonner à notre flux <a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
       </div>
     </div>
   </div>    
