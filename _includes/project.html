@@ -1,26 +1,8 @@
 <div class="letter" style="margin-top:50px;margin-bottom:50px">
 
-	<h3><a href="{{ post.url }}">{{ post.title }}</a></h3>	
+	<h3><a href="{{ post.url }}">{{ post.name }}</a></h3>	
 	<hr class="style">
-	<div class="ribbon ribbon-right ribbon-in">
-		<div class="ribbon-stitch">
-			<div class="ribbon-fabric">
-				<p></p>
-			</div>
-			<div class="ribbon-top-right"></div>
-			<div class="ribbon-bottom-right"></div>
-		</div>
-	</div>
-	
-	<div class="ribbon ribbon-both ribbon-set ribbon-out-in">
-        <div class="ribbon-stitch">
-            <div class="ribbon-fabric"></div>
-            <div class="ribbon-top-right"></div>
-            <div class="ribbon-bottom-right"></div>
-            <div class="ribbon-center-left"></div>
-        </div>
-    </div>
-		
+	<h4>{{ post.title }}</h4>
 	<p>
 		{{ post.content }}
 	</p>
