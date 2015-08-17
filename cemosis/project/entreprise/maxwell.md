@@ -13,7 +13,7 @@ tags: cemosis
 
 Couplage équations de Maxwell / Méthode particulaire sur GPU
 
-<img src="/_posts/img/project/diode-axessim.png" height="40vh" width="50vw">
+<img src="/img/project/diode-axessim.png" height="40vh" width="50vw">
 
 <p style="color:red">Partenaires</p> 
 

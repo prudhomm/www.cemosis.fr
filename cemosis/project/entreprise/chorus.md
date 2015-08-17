@@ -21,7 +21,7 @@ Dans une soucis d'optimiser les phases de design (étude de sensibilité, optimi
 - une optimisation  des besoins énergétiques,
 - une amélioration de la sécurité des systèmes.
 
-<img src="/_posts/img/project/cabin.png" height="320" width="480">
+<img src="/img/project/cabin.png" height="320" width="480">
 
 
 Le groupe Airbus, qui nous a fourni le cas test sur lequel nous travaillons, envisage de plus un couplage entre un tel modèle et un système de contrôle de l'air climatisé dans le but d'améliorer les dépenses énergétiques et le confort des passagers.  Il est pour cela indispensable d'avoir une réponse en temps réel du modèle aérothermique.

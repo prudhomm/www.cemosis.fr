@@ -8,7 +8,7 @@ categories: news
 tags: cemosis
 ---
 
-<img src="/_posts/img/news/IMG_6876.JPG">
+<img src="/img/news/IMG_6876.JPG">
 
 Cemosis félicite **Ranine Tarabay** pour le prix du meilleur poster parmi 57 autres qui lui a été décerné lors de la [journée poster de l'école doctorale](http://ed-msii.unistra.fr/doctorat/suivi-du-projet-de-recherche/journee-poster/) *Mathématiques, Sciences de l'Information et de l'Ingénieur*.
 
