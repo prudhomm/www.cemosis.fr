@@ -27,9 +27,9 @@ Réalisation d’une application permettant la corrélation d’images “simple
 Tests et observations sur différents cas.
 Intégration de X-FEM dans le code.
 
-<img src="/_posts/img/project/Capture d’écran 2015-02-23 à 10.17.29.png">
+<img src="/img/project/Capture d’écran 2015-02-23 à 10.17.29.png">
 
-<img src="/_posts/img/project/Capture d’écran 2015-02-23 à 10.17.38.png">
+<img src="/img/project/Capture d’écran 2015-02-23 à 10.17.38.png">
 
 Images dont on cherche à calculer le champ de déplacement.
 ( entre f, image initiale et g, image après déformation - Valeurs : niveau de gris )

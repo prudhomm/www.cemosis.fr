@@ -9,13 +9,13 @@ categories: cemosis-project, entreprise-project
 tags: cemosis
 ---
 
-<img src="/_posts/img/project/po.png">
+<img src="/img/project/po.png">
 
 <p style="color:red">Résumé</p>
 
 Plastic Omnium Automotive est une entreprise leader des pièces et modules de carrosserie en plastiques. Afin de garder sa place et de devancer les réglementations européennes concernant l'émission de CO₂, elle se doit de tester les écoulements d'air sur les voitures. Pour cela, l’entreprise utilise des modèles de turbulences sur des géométries de plusieurs millions de mailles.
 
-<img src="/_posts/img/cylMode0.png" height="40vh" width="50vw">
+<img src="/img/project/cylMode0.png" height="40vh" width="50vw">
 
 Ce projet a pour but d’étudier une formulation des équations de Navier-Stokes impliquant les fonctions propres de l’opérateur rotationnel. Cette formulation permettrait de décomposer la solution en espace et en temps et ainsi simuler les écoulements sur de plus grands laps de temps ou sur des géométries plus précises.
 
@@ -24,7 +24,7 @@ Ce projet a pour but d’étudier une formulation des équations de Navier-Stoke
 Dans un premier temps, on cherche à obtenir les fonctions propres de l’opérateur rotationnel de manière sûre et efficace.
 Il faudra ensuite vérifier le framework mis en place par R. Hild lors de son stage avec ces fonctions, avant d’utiliser cette méthode de résolution sur des problèmes plus complexes.
 
-<img src="/_posts/img/sphMode0.png"> 
+<img src="/img/sphMode0.png"> 
 
 <p style="color:red">Contact</p>
 
