@@ -7,9 +7,47 @@ body {
   padding-top: 66px;
 }
 
+.navbar {
+  border-bottom: 1px solid black;
+}
+/* Banner background image */
 #section1 {
   background-image: url("/img/Banner.png");
   background-size: cover;
+}
+/* 2 horizontal lists */
+ul.horizontal-list1 {
+  list-style-type:none;
+}
+
+ul.horizontal-list1 li {
+  display: inline;
+  margin: 10px;
+}
+
+ul.horizontal-list1 li img {
+  margin-top: 15vh;
+  height: 12vh;
+  width: 15vw;
+}
+
+ul.horizontal-list2 {
+  list-style-type:none;
+  margin-top: 5vh;
+}
+
+ul.horizontal-list2 li {
+  display: inline;
+  margin: 10px;
+}
+
+ul.horizontal-list2 li img {
+  height: 12vh;
+  width: 15vw;
+}
+/* add margin between justified buttons */
+.btn-group-justified {
+  border-spacing: 10px;
 }
 
 /* hr with style */
