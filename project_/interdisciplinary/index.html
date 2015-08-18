@@ -9,4 +9,9 @@ permalink: /project_/interdisciplinary/
 	<h4>Interdisciplinaires</h4>
 	<p>Un des axes de développement de CeMoSiS est d'accueillir des projets multi-disciplinaires impliquant au moins deux disciplines distinctes. On compte actuellement des projets dans les domaines suivants de la physique et de la santé.</p>
 	</div>
+	{% for post in site.categories.cemosis-project reversed %}
+		{% if post.subCategories == interdisciplinary-project %}
+		{% include project.html %}
+		{% endif %}
+	{% endfor %}
 </div>

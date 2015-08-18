@@ -12,13 +12,13 @@
 
 
   <div class="row-fluid">
-    <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12" style="position: absolute;bottom: 0;height:15vh;background-color:#2f3239">
-      <div id="news-panel" style="text-align:center;padding:3vh">
+    <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12" style="position: absolute;bottom: 0;height:18vh;background-color:#2f3239">
+      <div id="news-panel" style="text-align:center;padding:4vh">
         
         <ul class="news-list">
-          {% for post in site.tags.cemosis limit:4 %}
-            {% if post.categories != event and post.categories != seminar %}
-              <li><a href="{{ post.url }}" style="color:white">{{ post.title }}</a></li>
+          {% for post in site.categories.news limit:5 %}
+            {% if post.tags != feelpp %}
+              <li><p style="color:white">Actualité: <a href="{{ post.url }}" style="color:silver">{{ post.title }}</a></p></li>
             {% endif %}
           {% endfor %}
         </ul>
