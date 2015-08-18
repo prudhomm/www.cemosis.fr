@@ -5,9 +5,8 @@ title:
 date: 2015-08-17
 author: 
 fullname: 
-categories: cemosis-project
-subCategories: interdisciplinary-project-bio
-tags: cemosis
+categories: interdisciplinary-bio-project
+tags: cemosis-project
 ---
 
 Ce projet a pour but d'étudier les méthodes de déformation de carte géographique afin d'étudier la répartition d'un phénomène sur une surface.

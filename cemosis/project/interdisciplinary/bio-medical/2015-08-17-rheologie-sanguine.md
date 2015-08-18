@@ -6,8 +6,8 @@ date: 2015-08-17
 author: 
 fullname: 
 categories: cemosis-project
-subCategories: interdisciplinary-project-bio
-tags: cemosis
+categories: interdisciplinary-bio-project
+tags: cemosis-project
 ---
 
 <img src="/img/project/bio-medical/bloodrheol2-3d963.png" style="display:inline;float:left">
