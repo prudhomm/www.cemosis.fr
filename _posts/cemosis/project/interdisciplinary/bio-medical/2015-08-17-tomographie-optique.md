@@ -6,8 +6,8 @@ date: 2015-08-17
 author: 
 fullname: 
 categories: cemosis-project
-subCategories: interdisciplinary-project-bio
-tags: cemosis
+categories: interdisciplinary-bio-project
+tags: cemosis-project
 ---
 
 La tomographie optique résolue en temps est une technique d'imagerie clinique et pré-clinique permettant de reconstruire des cartes d'absorptions et de diffusion optiques des organes explorés par l'utilisation de lumière proche infrarouge (équations de diffusion, problème inverse, régularisation, optimisation).

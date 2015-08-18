@@ -5,9 +5,8 @@ title: Modélisation multi physique d'aimants à haut champ
 date: 2015-08-17
 author: 
 fullname: 
-categories: cemosis-project
-subCategories: interdisciplinary-project-physics
-tags: cemosis
+categories: interdisciplinary-physics-project
+tags: cemosis-project
 ---
 
 <center>

@@ -5,9 +5,8 @@ title: "De l'IRM réelle à l'IRM virtuelle : modéliser les flux sanguins dans 
 date: 2015-08-17
 author: 
 fullname: 
-categories: cemosis-project
-subCategories: interdisciplinary-project-bio
-tags: cemosis
+categories: interdisciplinary-bio-project
+tags: cemosis-project
 ---
 
 <p style="color:red">Résumé</p>

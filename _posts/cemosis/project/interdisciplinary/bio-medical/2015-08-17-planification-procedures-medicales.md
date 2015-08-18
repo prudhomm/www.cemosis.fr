@@ -5,9 +5,8 @@ title:
 date: 2015-08-17
 author: 
 fullname: 
-categories: cemosis-project
-subCategories: interdisciplinary-project-bio
-tags: cemosis
+categories: interdisciplinary-bio-project
+tags: cemosis-project
 ---
 
 <img src="/img/project/bio-medical/ablationtumeur1-cbaeb" style="display:inline;float:left">
