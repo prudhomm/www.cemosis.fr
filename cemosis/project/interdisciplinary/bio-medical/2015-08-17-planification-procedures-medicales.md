@@ -9,7 +9,7 @@ categories: interdisciplinary-bio-project
 tags: cemosis-project
 ---
 
-<img src="/img/project/bio-medical/ablationtumeur1-cbaeb" style="display:inline;float:left">
+<img src="/img/project/bio-medical/ablationtumeur1-cbaeb.png" style="display:inline;float:left">
 La thermo-ablation de tumeurs est une intervention de chirurgie mini-invasive qui consiste à implanter une ou plusieurs aiguilles directement dans la tumeur pour la détruire par la chaleur ou le froid. La planification préopératoire de ce geste chirurgical est une étape décisive du processus interventionnel. Elle consiste pour le radiologue interventionnel à déterminer une ou plusieurs trajectoires d’aiguilles sûres pour le patient et efficaces. D’une bonne planification dépend le succès de l’intervention. Or cette étape reste encore souvent longue, fastidieuse et imprécise. Les radiologues interventionnels et chirurgiens sont en forte attente d’une réelle assistance pour ce genre de planification. En effet, à l’heure actuelle les logiciels commerciaux dits « de planification de trajectoires » les plus évolués ne sont en réalité que des simulateurs permettant de valider visuellement une trajectoire placée à la main par le chirurgien, lui laissant tout le travail cognitif de placement par essai/erreur en tenant compte des nombreuses contraintes de placement. Par ailleurs, pour le moment il n’existe pas de véritable outil d’apprentissage, dans un domaine où l’expérience joue un rôle important dans la réussite d’une intervention.
 
 <img src="/img/project/bio-medical/ablationtumeur2-e8767.png" style="display:inline;float:left">
