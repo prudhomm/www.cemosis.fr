@@ -10,9 +10,9 @@ tags: cemosis-project
 ---
 
 <center>
-<img src="/img/project/physics/LJK_logo-small.png" style="display:inline-block">
+<img src="/img/project/physics/LJK_logo-small.png" style="float:left;display:inline-block">
 <p>Collaboration : <a href="http://lncmi.cnrs.fr/">LNCMI</a>, <a href="http://www-ljk.imag.fr/">LJK (UJF)</a>, CeMoSiS</p>
-<img src="/img/project/physics/LNCMI-logo-small.png" style="display:inline-block">
+<img src="/img/project/physics/LNCMI-logo-small.png" style="float:right;display:inline-block">
 <div style="clear:both"></div>
 </center>
 
@@ -23,7 +23,7 @@ Dans un contexte de compétition internationale entre les laboratoires champs in
 
 <p style="color:#666666;"><i>Image : Aimant polyhélice. Les hélices sont des tubes de cuivre découpés en spires par électro-érosion. L'isolation électrique entre les spires est assurée, soit en introduisant de la colle epoxy dans les fentes (hélices dites "longitudinales"), soit grâce à des isolants disposés régulièrement entre les spires (hélices dites "radiales"). Ces aimants sont refroidis par circulation d'eau entre les hélices, et entre les spires pour les hélices radiales.</i></p>
 
-<img src="/img/project/physics/temperature_M1_I16000_ws.png" height="320" width="160" style="float:left;display:inline;margin:5px 0px 0px 10px">
+<img src="/img/project/physics/temperature_M1_I16000_ws.png" height="320" width="160" style="float:left;display:inline;margin:5px 20px 0px 0px">
 D'un point de vue ingéniérie, la conception de tels aimants nécéssite des modèles multi-physique non-linéaires réprésentatifs des phénomènes physiques mis en jeu (électromagnétisme, thermique, mécanique, hydraulique, …). 
 Ces modèles doivent être validés et certifiés pour garantir les spécifications, par exemple l’homogénéité du champ pour les applications RMN. Ils doivent s’adapter facilement à tout type de géométrie et de matériaux. Enfin, les incertitudes sur les propriétés des matériaux, les conditions de fonctionnement de l'aimant ainsi que les tolérances géométriques liées au montage des aimants doivent aussi être évaluées pour fiabiliser le design tout en gardant des temps de calcul raisonnable.
 
