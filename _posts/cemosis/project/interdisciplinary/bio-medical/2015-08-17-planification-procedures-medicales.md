@@ -5,7 +5,8 @@ title:
 date: 2015-08-17
 author: 
 fullname: 
-categories: cemosis-project, interdisciplinary-project
+categories: cemosis-project
+subCategories: interdisciplinary-project-bio
 tags: cemosis
 ---
 
