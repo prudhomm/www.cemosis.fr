@@ -22,6 +22,7 @@ L'idée de base est la suivante: chaque zone administrative dispose d'une densit
 <h5>Objectifs:</h5>
 
 La première étape du projet consiste à reproduire l'état de l'art [1] afin de disposer d'un outil permettant de déformer une carte en fonction.
+
 <center>
 <img src="/img/project/bio-medical/F3.large.jpg" height="300" width="400">
 </center>
@@ -30,13 +31,17 @@ La première étape du projet consiste à reproduire l'état de l'art [1] afin d
 
 La première étape du projet est maintenant achevée.
 Grâce aux librairies shaplib et mapnik, nous disposons d'un cartogramme parallèle permettant de générer des cartes détaillées suffisamment rapidement.
+
 <center>
 <b>Avancée du projet MAP</b>
+
 <iframe width="420" height="315" src="https://www.youtube.com/embed/UTRK0NudTs4" frameborder="0" allowfullscreen></iframe>
 <img src="/img/project/bio-medical/c_sh68.png" height="400" width="240" style="display:inline">
 <img src="/img/project/bio-medical/c_sh68_deformed_2005.png" height="400" width="240" style="display:inline">
+
 Haut-Rhin et déformation du Haut-Rhin en fonction d'une densité initiale.
 </center>
+
 La deuxième étape sera d'appliquer la bijection inverse au découpage sur la carte déformée.
 Une fois ces outils à disposition, nous serons en mesure de découper une carte géographique en fonction des données d'entrée, les suites à donner à ce projet seront alors légion.
 
@@ -44,18 +49,34 @@ Une fois ces outils à disposition, nous serons en mesure de découper une carte
 PNAS 2004 101 (20) 7499-7504; published ahead of print May 10, 2004,doi:10.1073/pnas.0400280101
 
 <i class="fa fa-picture-o"></i>[c_sh68.png](/img/project/bio-medical/c_sh68.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1988.png](/img/project/bio-medical/c_sh68_deformed_1988.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1991.png](/img/project/bio-medical/c_sh68_deformed_1991.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1992.png](/img/project/bio-medical/c_sh68_deformed_1992.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1993.png](/img/project/bio-medical/c_sh68_deformed_1993.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1994.png](/img/project/bio-medical/c_sh68_deformed_1994.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1995.png](/img/project/bio-medical/c_sh68_deformed_1995.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1996.png](/img/project/bio-medical/c_sh68_deformed_1996.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1997.png](/img/project/bio-medical/c_sh68_deformed_1997.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1998.png](/img/project/bio-medical/c_sh68_deformed_1998.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_1999.png](/img/project/bio-medical/c_sh68_deformed_1999.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_2001.png](/img/project/bio-medical/c_sh68_deformed_2001.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_2002.png](/img/project/bio-medical/c_sh68_deformed_2002.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_2003.png](/img/project/bio-medical/c_sh68_deformed_2003.png)
+
 <i class="fa fa-picture-o"></i>[c_sh68_deformed_2004.png](/img/project/bio-medical/c_sh68_deformed_2004.png)
-<i class="fa fa-picture-o"></i>[c_sh68_deformed_2005.png](/img/project/bio-medical/c_sh68_deformed_2005.png)
+
+<i class="fa fa-picture-o"></i>[c_sh68_deformed_2005.png](/img/project/bio-medical
+/c_sh68_deformed_2005.png)
