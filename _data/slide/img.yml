@@ -1,29 +1,29 @@
 - id: slide1
   path: /img/slide/cabin.png
   description: "Méthodes de Réduction d'Ordre en Aérothermie: Application aux systèmes d'air conditionné de cabine d'avion"
-  url: http://www.cemosis.fr/projets/entreprises/rb4aero
+  url: /entreprise-project/2015/08/17/chorus/
 
 - id: slide2
   path: /img/slide/diode-axessim.png
   description: Couplage équations de Maxwell / Méthode particulaire sur GPU
-  url: http://www.cemosis.fr/www/projets/entreprises/maxwell
+  url: /entreprise-project/2015/08/17/maxwell/
 
 - id: slide3
   path: /img/slide/temperature_M1_I16000_ws.png
   description: Comportement de la température dans un hélice radiale en fonctionnement (modèle electrothermique couplé non linéaire).
-  url: http://www.cemosis.fr/projets/interdisciplinaires/physique/hifimagnet
+  url: /interdisciplinary-physics-project/2015/08/17/hifimagnet/
 
 - id: slide4
   path: /img/slide/tang3.png
   description: Résolution des équations de la MHD sur architecture multicoeurs.
-  url: http://www.cemosis.fr/projets/interdisciplinaires/physique/mhd
+  url: /interdisciplinary-bio-project/2015/08/17/planification-procedures-medicales/
 
 - id: slide5
   path: /img/slide/diri_1.png
   description: "Planification de Procédures Médicales: Champ de température Géométrie fictive."
-  url: http://www.cemosis.fr/projets/interdisciplinaires/sante-bio/pmp
+  url: /interdisciplinary-bio-project/2015/08/17/planification-procedures-medicales/
 
 - id: slide6
   path: /img/slide/MesoChallengeStreamlines2.png
   description: "De l'IRM réelle à l'IRM virtuelle : modéliser les flux sanguins dans le cerveau humain."
-  url: http://www.cemosis.fr/projets/interdisciplinaires/sante-bio/bloodflow
+  url: /interdisciplinary-bio-project/2015/08/17/ecoulements-sanguins/

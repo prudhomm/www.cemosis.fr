@@ -31,14 +31,39 @@
     <div class="row">
       <center>
       <h3>Cemosis en images</h3>
-      <ul id="gallery">
-      {% for img in site.data.slide.img %}
-      <li>
-        <a href="#{{ img.id }}"><img src="{{ img.path }}" alt="{{ img.description }} <a href='{{ img.url }}'>En savoir +</a>"></a>
-      </li>
-      {% endfor %}
-      </ul>
       </center>
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+      <div id="slider_container" style="position:relative;width:1000px;height:500px;">
+
+        <div u="slides" class="slides">
+        {% for img in site.data.slide.img %}
+          <div>
+            <img u="image" src="{{ img.path }}" />
+            <div u="caption" class="caption" t="NO" t2="MCLIP|B">
+              <div class="caption-text">
+                {{ img.description }} <a href='{{ img.url }}'>En savoir +</a>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+        </div>
+        <!-- Arrow Left -->
+        <span u="arrowleft" class="jssora09l" style="left: 30px;">
+        </span>
+        <!-- Arrow Right -->
+        <span u="arrowright" class="jssora09r" style="right: 30px;">
+        </span>
+
+        <div u="navigator" class="jssorb01" style="bottom: 0px">
+            <!-- bullet navigator item prototype -->
+            <div u="prototype"></div>
+        </div>
+
+      </div>
+      </div>
+      <div class="col-md-1"></div>
+
     </div>
   </div>
 </div>

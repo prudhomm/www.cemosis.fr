@@ -109,10 +109,98 @@ hr.style {
     border-radius: 6px 0 6px 6px;
 }
 
-/*slide image resize*/
-.sy-slide {
-  max-height: 70vh;
+/* slide property */
+.slides {
+  cursor: move;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 1000px;
+  height: 500px;
 }
+
+/* image slide caption */
+.caption {
+  position: absolute;
+  top: 420px;
+  left: 50px;
+  width: 900px;
+  height: 40px;
+  background-color: Black;
+  opacity: 0.7;
+}
+
+.caption-text {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 900px;
+  height: 40px;
+  color: white;
+  line-height: 40px;
+  text-align: center;
+}
+
+.caption-text a {
+  color: #ff9933;
+  font-weight: bold;
+}
+
+/* jssor slider arrow navigator skin 09 css */
+/*
+.jssora09l                  (normal)
+.jssora09r                  (normal)
+.jssora09l:hover            (normal mouseover)
+.jssora09r:hover            (normal mouseover)
+.jssora09l.jssora09ldn      (mousedown)
+.jssora09r.jssora09rdn      (mousedown)
+*/
+.jssora09l, .jssora09r {
+    display: block;
+    position: absolute;
+    /* size of arrow element */
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    background: url(/img/a09.png) no-repeat;
+    overflow: hidden;
+    opacity: .4;
+    filter: alpha(opacity=40);
+}
+.jssora09l { background-position: -5px -35px; }
+.jssora09r { background-position: -65px -35px; }
+.jssora09l:hover { background-position: -5px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssora09r:hover { background-position: -65px -35px; opacity: .8; filter:alpha(opacity=80); }
+.jssora09l.jssora09ldn { background-position: -5px -35px; opacity: .3; filter:alpha(opacity=30); }
+.jssora09r.jssora09rdn { background-position: -65px -35px; opacity: .3; filter:alpha(opacity=30); }
+
+/* jssor slider bullet navigator skin 01 css */
+/*
+.jssorb01 div           (normal)
+.jssorb01 div:hover     (normal mouseover)
+.jssorb01 .av           (active)
+.jssorb01 .av:hover     (active mouseover)
+.jssorb01 .dn           (mousedown)
+*/
+.jssorb01 {
+    position: absolute;
+}
+.jssorb01 div, .jssorb01 div:hover, .jssorb01 .av {
+    position: absolute;
+    /* size of bullet elment */
+    width: 12px;
+    height: 12px;
+    filter: alpha(opacity=70);
+    opacity: .7;
+    overflow: hidden;
+    cursor: pointer;
+    border: #000 1px solid;
+}
+.jssorb01 div { background-color: gray; }
+.jssorb01 div:hover, .jssorb01 .av:hover { background-color: #d3d3d3; }
+.jssorb01 .av { background-color: #fff; }
+.jssorb01 .dn, .jssorb01 .dn:hover { background-color: #555555; }
+
 
 /**
  * Code formatting
