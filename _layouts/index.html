@@ -17,12 +17,12 @@
 
 <!-- fullpage scroll -->
 <script>
-$(document).ready(function() {
+$(function() {
     $('#fullpage').fullpage({
         scrollBar: true,
         navigation: true,
         navigationPosition: 'right',
-        sectionsColor: ['', '#eeeeee', '', '', ''],
+        sectionsColor: ['', '#eeeeee', '', '#eeeeee', ''],
         responsiveWidth: 900,
         css3: true,
         loopBottom: false,
@@ -36,7 +36,7 @@ $(document).ready(function() {
 
 <!-- slideshow -->
 <script>
-  jQuery(document).ready(function($) {
+  jQuery(function($) {
      var _CaptionTransitions = [];
             _CaptionTransitions["MCLIP|B"] = { $Duration: 600, $Clip: 8, $Move: true, $Easing: $JssorEasing$.$EaseOutExpo };
 
@@ -105,11 +105,6 @@ $(document).ready(function() {
 <!-- news list -->
 <script>
   $(document).ready(function(){
-    /*jQuery('#gallery').slippry({
-      adaptiveHeight: false,
-      slideshow: true,
-      loop: true
-    });*/
     jQuery('.news-list').slippry({
       controls: false,
     });

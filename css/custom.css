@@ -27,8 +27,8 @@ ul.horizontal-list1 li {
 
 ul.horizontal-list1 li img {
   margin-top: 15vh;
-  height: 12vh;
-  width: 15vw;
+  height: 10vh;
+  width: 10vw;
 }
 
 ul.horizontal-list2 {
@@ -42,8 +42,8 @@ ul.horizontal-list2 li {
 }
 
 ul.horizontal-list2 li img {
-  height: 12vh;
-  width: 15vw;
+  height: 10vh;
+  width: 12vw;
 }
 /* add margin between justified buttons */
 .btn-group-justified {
