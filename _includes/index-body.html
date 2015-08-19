@@ -93,8 +93,18 @@
 <div class="section" id="project-section">
   <div class="container">
     <div class="row">
-      <center><h4>Nos projets</h4></center>
+      
 
+      {% for post in site.categories.entreprise-project limit:3 %}
+      <div class="col-md-4">
+        <h4>{{ post.name }}</h4>
+        <h6>{{ post.title }}</h6>
+      </div>
+      {% endfor %}
+    </div>
+    <center><h4>Nos projets</h4></center>
+    <div class="row">
+      
     </div>
   </div>
 </div>
