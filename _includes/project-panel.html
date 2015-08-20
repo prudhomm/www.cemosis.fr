@@ -9,7 +9,13 @@
     </div>
     <div class="back">
       <div class="pad">
+        {% if post.categories == entreprise-project %}
+        <p style="margin:5px">{{ post.abstract }}<p>
+        <p style="margin:5px;text-align: center"><a href="/project_/entreprise/#{{ post.name }}">En savoir +</a></p>
+        {% else %}
         <p style="margin:5px">{{ post.abstract }}</p>
+        <p style="margin:5px;text-align: center"><a href="/project_/interdisciplinary/#{{ post.name }}">En savoir +</a></p>
+        {% endif %}
       </div>
     </div>
   </div>

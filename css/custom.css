@@ -270,14 +270,15 @@ pre {
 .panel {
   width: 20vw;
   height: 35vh;
-  font-size: .9em;
-
+  font-size: .8em;
+  background-color: #eeeeee;
   -webkit-perspective: 600px;
   -moz-perspective: 600px;
           perspective: 600px;
 }
 .panel p { color: #dddddd; }
 .panel b { color: #dddddd; }
+.panel a { color: white;}
 /* -- make sure to declare a default for every property that you want animated -- */
 /* -- general styles, including Y axis rotation -- */
 .panel .front {
