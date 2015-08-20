@@ -96,8 +96,10 @@
 
       {% for post in site.categories.entreprise-project limit:3 %}
       <div class="col-md-4">
+        <img src="{{ post.img }}" style="height:30vh;width:25vw">
         <h4>{{ post.name }}</h4>
         <p>{{ post.title }}</p>
+        <p>{{ post.abstrat }}</p>
       </div>
       {% endfor %}
     </div>
