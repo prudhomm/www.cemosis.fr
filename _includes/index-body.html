@@ -94,8 +94,22 @@
     <div class="row">
       {% for post in site.categories.entreprise-project limit:4 %}
       <div class="col-md-3" style="padding-top: 10vh">
-        {% include project-panel.html %}
+        <div class="hover panel">
+          <div class="front">
+            <div class="pad">
+              <img src="{{ post.img }}" style="height:25vh;width:20vw">
+              <b>{{ post.name }}</b>
+              <p>{{ post.title }}</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="pad">
+            <p style="margin:5px">{{ post.abstract }}<p>
+            <p style="margin:5px;text-align: center"><a href="/project_/entreprise/#{{ post.name }}">En savoir +</a></p>
+            </div>
+          </div>
         </div>
+      </div>
       {% endfor %}
     </div>
 
@@ -104,13 +118,41 @@
     <div class="row">
       {% for post in site.categories.interdisciplinary-physics-project limit:2 %}
       <div class="col-md-3" style="">
-        {% include project-panel.html %}
+      <div class="hover panel">
+          <div class="front">
+            <div class="pad">
+              <img src="{{ post.img }}" style="height:25vh;width:20vw">
+              <b>{{ post.name }}</b>
+              <p>{{ post.title }}</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="pad">
+              <p style="margin:5px">{{ post.abstract }}</p>
+              <p style="margin:5px;text-align: center"><a href="/project_/interdisciplinary/#{{ post.name }}">En savoir +</a></p>
+            </div>
+          </div>
+      </div>
       </div>
       {% endfor %}
 
       {% for post in site.categories.interdisciplinary-bio-project limit:2 %}
       <div class="col-md-3" style="">
-        {% include project-panel.html %}
+      <div class="hover panel">
+          <div class="front">
+            <div class="pad">
+              <img src="{{ post.img }}" style="height:25vh;width:20vw">
+              <b>{{ post.name }}</b>
+              <p>{{ post.title }}</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="pad">
+              <p style="margin:5px">{{ post.abstract }}</p>
+              <p style="margin:5px;text-align: center"><a href="/project_/interdisciplinary/#{{ post.name }}">En savoir +</a></p>
+            </div>
+          </div>
+      </div>
       </div>
       {% endfor %}
     </div>
