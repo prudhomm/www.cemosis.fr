@@ -31,9 +31,8 @@
     <div class="row">
       <center>
       <h4>Cemosis en images</h4>
-      </center>
-      <div class="col-md-1"></div>
-      <div class="col-md-10">
+
+      <div style="height:70vh;width:70vw">
       <div id="slider_container" style="position:relative;width:1000px;height:500px;">
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
@@ -71,7 +70,7 @@
 
       </div>
       </div>
-      <div class="col-md-1"></div>
+    </center>
 
     </div>
   </div>
@@ -98,7 +97,7 @@
       {% for post in site.categories.entreprise-project limit:3 %}
       <div class="col-md-4">
         <h4>{{ post.name }}</h4>
-        <h6>{{ post.title }}</h6>
+        <p>{{ post.title }}</p>
       </div>
       {% endfor %}
     </div>
