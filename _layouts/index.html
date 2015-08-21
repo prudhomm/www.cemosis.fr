@@ -9,6 +9,16 @@
 
     <main class="Site-content">
 
+    <!-- move up arrow -->
+    <a id="move-up" href="#" class="move-up" style="display: inline;">
+      <i class="fa fa-arrow-circle-o-up fa-2x"></i>
+    </a>
+
+    <!-- move down arrow -->
+    <a id="move-down" href="#" class="move-down" style="display: inline;">
+      <i class="fa fa-arrow-circle-o-down fa-2x"></i>
+    </a>
+
     {% include common.html %}
 
     {% include index-body.html %}
@@ -20,17 +30,28 @@
 $(document).ready(function() {
     $('#fullpage').fullpage({
         scrollBar: true,
-        navigation: true,
+        navigation: false,
         navigationPosition: 'right',
+        fixedElements: '.header, #back-to-top, #move-up, #move-down',
+        verticalCentered: true,
         sectionsColor: ['', '#eeeeee', '', '#eeeeee', ''],
-        responsiveWidth: 900,
+        responsiveWidth: 768,
         css3: true,
         loopBottom: false,
         loopTop: false,
         fitToSection: true,
-        fitToSectionDelay: 1000,
+        fitToSectionDelay: 500,
         normalScrollElements: '#intro-section-bis'
         });
+    $('#move-down').click(function(event){
+        event.preventDefault();
+        $.fn.fullpage.moveSectionDown();
+    });
+
+    $('#move-up').click(function(event){
+        event.preventDefault();
+        $.fn.fullpage.moveSectionUp();
+    });
 });
 </script>
 

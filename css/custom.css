@@ -10,6 +10,61 @@ body {
 .navbar {
   border-bottom: 1px solid black;
 }
+
+/* back to top arrow */
+.back-to-top {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 25vh;
+right: 0.5vw;
+width: 30px;
+height: 30px;
+z-index: 1100;
+display: none;
+text-decoration: none;
+}
+
+.back-to-top i {
+  color: black;
+}
+
+/* back to top arrow */
+.move-up {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 53vh;
+right: 1vw;
+width: 30px;
+height: 30px;
+z-index: 1100;
+display: none;
+text-decoration: none;
+}
+
+.move-up i {
+  color: black;
+}
+
+/* back to top arrow */
+.move-down {
+background: none;
+margin: 0;
+position: fixed;
+bottom: 47vh;
+right: 1vw;
+width: 30px;
+height: 30px;
+z-index: 1100;
+display: none;
+text-decoration: none;
+}
+
+.move-down i {
+  color: black;
+}
+
 /* Banner background image */
 #section1 {
   background-image: url("/img/Banner.png");
