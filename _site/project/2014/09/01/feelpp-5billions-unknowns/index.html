@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>HAMM/Mortar, about 5 billions unknowns on 40K cores using Feel++</title>
+  <meta name="description" content="We are developing a substructuring preconditioner for the\(h\)-\(p\) mortar method. In order to corroborate themathematical properties of this preconditioner...">
+  <link rel="icon" type="type/png" href="/img/favicon.png">
+  <!-- boostrap with Readable theme -->
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <!-- font awesome -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
+  <!-- slide -->
+  <link rel="stylesheet" type="text/css" href="/css/slippry.css"> 
+  <!-- syntax highlighting -->
+  <link rel="stylesheet" type="text/css" href="/css/syntax.css">
+  <!-- paper effect -->
+  <link rel="stylesheet" type="text/css" href="/css/beemuse.css">
+  <!-- fullpage scroll -->
+  <link rel="stylesheet" type="text/css" href="/css/fullpage/jquery.fullPage.css">
+  <!-- hover.css css animations -->
+  <link rel="stylesheet" type="text/css" href="/css/hover-min.css">
+
+  <link rel="stylesheet" type="text/css" href="/css/custom.css">
+
+  <link rel="canonical" href="http://www.cemosis.fr//project/2014/09/01/feelpp-5billions-unknowns/">
+  <link rel="alternate" type="application/rss+xml" title="Cemosis" href="http://www.cemosis.fr//feed.xml" />
+</head>
+
+
+  <body class="Site">
+
+    <header class="Site-header">
+  <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        </button>
+        <a class="mobile-brand navbar-brand" href="http://www.cemosis.fr/">
+          <img src="/img/logo.png" height="40px">
+        </a>      
+      </div>
+
+    <div class="collapse navbar-collapse" id="main-navbar" style="position:relative">
+
+        <a class="desktop-brand navbar-brand" href="http://www.cemosis.fr/">
+          <img src="/img/logo.png" height="40px">
+        </a>
+      
+      <ul class="nav navbar-nav navbar-right">
+         
+        <li class="dropdown ">
+          <a href="/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Vie de Cemosis <span class="caret"></span></a>
+
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="/tags/cemosis/">Actulaités</a></li>
+            <li><a href="/event/">&Eacute;vènements</a></li>
+            <li><a href="/publication/">Publications</a></li>
+            <li><a href="/seminar/">Séminaires</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown ">
+           <a href="/presentation/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Qui sommes-nous? <span class="caret"></span></a>
+           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+             <li><a href="/presentation/activity/">Rapport d'Activités</a></li>
+             <li><a href="/presentation/partnership/">Partenaires</a></li>
+             <li><a href="/presentation/funding/">Financements</a></li>
+           </ul>
+         </li>
+
+        <li class="dropdown active">
+          <a href="/project_/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Projets <span class="caret"></span></a>
+          <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+            <li><a href="/project_/entreprise/">Entreprises</a></li>
+            <li><a href="/project_/interdisciplinary/">Interdisciplinaires</a></li>
+          </ul>
+        </li>
+
+        <li class="dropdown ">
+           <a href="/training/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formation <span class="caret"></span></a>
+           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+             <li><a href="http://csmi.math.unistra.fr/">Master Calcul Scientifique et Mathématiques de l'Information</a></li>
+             <li><a href="/training/student/">Formations étudiantes</a></li>
+             <li><a href="/training/continuing-education/">Formations continues</a></li>
+           </ul>
+         </li>
+         
+        <li class="dropdown "><a href="/platform/" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Platforme <span class="caret"></span></a>
+          <ul class="dropdown-menu multi-level" role="menu" aria-labelledby="dropdownMenu1">
+            <li>
+              <a href="/platform/services">Services</a>
+            </li>
+
+            <li class="dropdown-submenu">
+              <a href="/platform/atlas/">Atlas</a>
+              <ul class="dropdown-menu">
+                <li><a href="/platform/atlas/account/">Demande de Compte</a></li>
+                <li><a href="/platform/atlas/vm/">Machine virtuelle</a></li>
+              </ul>
+            </li>
+          </ul>
+        </li>
+       </ul>
+
+     </div>
+  </div>
+  </nav>
+</header>
+
+
+    <main class="Site-content">
+
+    <!-- back top arrow -->
+<a id="back-to-top" href="#" class="back-to-top" style="display: inline;">
+  <i class="fa fa-long-arrow-up fa-2x"></i>
+</a>
+
+        <div class="container">
+<div class="row">
+	<div class="letter" style="margin-top:80px;margin-bottom:80px">
+    <h2>HAMM/Mortar, about 5 billions unknowns on 40K cores using Feel++</h2>
+    <hr class="style">
+	<div class="ribbon ribbon-right ribbon-in">
+		<div class="ribbon-stitch">
+			<div class="ribbon-fabric">
+				<p>01 
+septembre
+   2014</p>
+			</div>
+			<div class="ribbon-top-right"></div>
+			<div class="ribbon-bottom-right"></div>
+		</div>
+	</div>
+
+
+    <p>We are developing a substructuring preconditioner for the
+\(h\)-\(p\) mortar method. In order to corroborate the
+mathematical properties of this preconditioner we ran various test to
+check the dependency with respect to \(H\) (the number of
+subdomaines), \(h\) the grid size within the subdomains and \(p\)
+the polynomial degree used by the finite element approximation.</p>
+
+<p>We have the following result</p>
+
+<center>\\(\mathrm{cond}(P^{-1} A) \leq p^{3/2} (1+\mathrm{log}(\frac{H p^2}{h}))^2\\\)</center>
+
+<p>where \(P\) is our preconditioner and \(A\) is the Schur
+complement associated to the \(h-p\) mortar discretisation of an
+elliptic problem.</p>
+
+<p>We plot below the ratio for  \(p=1,…,5\) and \(H/h = 80\)</p>
+
+<center>\\(\lambda^p = \dfrac{\mathrm{cond}(P^{-1} A)}{(1+\mathrm{log}(\frac{H p^2}{h}))^2} \\)</center>
+
+<p>as well as the number of iterations needed to decrease the relative residual by 1e-6</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>Cores</th>
+      <th>\(\lambda^1\)(iterations)</th>
+      <th>\(\lambda^2\)(iterations)</th>
+      <th>\(\lambda^3\)(iterations)</th>
+      <th>\(\lambda^4\)(iterations)</th>
+      <th>\(\lambda^5\)(iterations)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>16</td>
+      <td>1.65(31)</td>
+      <td>1.14(32)</td>
+      <td>1.06(33)</td>
+      <td>1.03(38)</td>
+      <td>1.02(39)</td>
+    </tr>
+    <tr>
+      <td>64</td>
+      <td>1.74(31)</td>
+      <td>1.21(33)</td>
+      <td>1.11(35)</td>
+      <td>1.07(40)</td>
+      <td>1.07(42)</td>
+    </tr>
+    <tr>
+      <td>256</td>
+      <td>1.76(28)</td>
+      <td>1.23(32)</td>
+      <td>1.12(34)</td>
+      <td>1.08(36)</td>
+      <td>1.06(40)</td>
+    </tr>
+    <tr>
+      <td>1024</td>
+      <td>1.78(27)</td>
+      <td>1.23(29)</td>
+      <td>1.12(31)</td>
+      <td>1.08(32)</td>
+      <td>1.06(34)</td>
+    </tr>
+    <tr>
+      <td>4096</td>
+      <td>1.79(25)</td>
+      <td>1.23(28)</td>
+      <td>1.12(29)</td>
+      <td>1.08(31)</td>
+      <td>1.06(31)</td>
+    </tr>
+    <tr>
+      <td>16384</td>
+      <td>1.52(20)</td>
+      <td>0.88(22)</td>
+      <td>0.91(26)</td>
+      <td>0.94(27)</td>
+      <td>0.96(28)</td>
+    </tr>
+    <tr>
+      <td>22500</td>
+      <td>1.52(19)</td>
+      <td>0.88(20)</td>
+      <td>0.69(22)</td>
+      <td>0.95(26)</td>
+      <td>0.99(27)</td>
+    </tr>
+    <tr>
+      <td>40000</td>
+      <td>1.52(17)</td>
+      <td>0.88(20)</td>
+      <td>0.69(22)</td>
+      <td>0.68(23)</td>
+      <td>(N/A)(N/A)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>As you can see the number of iterations increase very little as
+\(p\) increases and stays constant or decreases as the number of
+subdomains increases which is of course a very nice feature.</p>
+
+<p>Here is the table with the number of degrees of freedom corresponding
+to these calculations at 40000 cores, we reach about 5 billions of
+unknowns.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align: center">Order</th>
+      <th style="text-align: center">Unknowns</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align: center">1</td>
+      <td style="text-align: center">295’725’687</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">2</td>
+      <td style="text-align: center">1’182’838’857</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">3</td>
+      <td style="text-align: center">2’661’337’501</td>
+    </tr>
+    <tr>
+      <td style="text-align: center">4</td>
+      <td style="text-align: center">4’731’229’377</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>The last computation at \(p=4\) takes about <strong>150s</strong>.</p>
+
+<p>These computations have been done at the mesocentre of Strasbourg from 16 to 256 cores then on Curie at the TGCC in France up to 40000 cores !</p>
+
+<p>This work is the result of the collaboration between Abdoulaye Samake and Christophe Prud’homme from <a href="http://www.cemosis.fr">Cemosis</a> and Silvia Bertoluzza and Micol Pennacchio from <a href="http://www.imati.cnr.it">IMATI</a>.</p>
+
+<p>The submitted paper is available on <a href="https://hal.archives-ouvertes.fr/hal-01066606v1">HAL</a>.</p>
+
+
+   	</div>
+
+</div>
+</div>
+
+
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script src="/js/jquery.fullPage.min.js"></script>
+<!-- jssor.js for different sized images slideshow -->
+<script src="/js/jssor.slider.mini.js"></script>
+
+<script src="/js/slippry.min.js"></script>
+
+<script>
+jQuery(function($) {
+    if($(window).width()>769){
+        $('.navbar .dropdown').hover(function() {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(250).slideDown();
+
+        }, function() {
+            $(this).find('.dropdown-menu').first().stop(true, true).delay(100).slideUp();
+
+        });
+
+        $('.navbar .dropdown > a').click(function(){
+            location.href = this.href;
+        });
+    }
+});
+</script>
+
+<!-- back to top action -->
+<script>
+jQuery(document).ready(function() {
+    var offset = 250;
+    var duration = 800;
+    jQuery(window).scroll(function() {
+        if (jQuery(this).scrollTop() > offset) {
+            jQuery('.back-to-top').fadeIn(duration);
+        } else {
+            jQuery('.back-to-top').fadeOut(duration);
+        }
+    });
+
+    jQuery('.back-to-top').click(function(event) {
+        event.preventDefault();
+        jQuery('html, body').animate({scrollTop: 0}, duration);
+        return false;
+    })
+});
+</script>
+    
+    </main>
+    
+    <footer class="Site-footer">
+
+  <div class="container" style="padding-top:30px">
+    <div class="row">
+      
+      <div class="col-md-4">
+          <p>© Cemosis 2015 Tous droits réservés.</p>
+      </div>
+
+      <div class="col-md-4">
+      </div>
+
+      <div class="col-md-2">  
+        <a href="/contact/">Contact et plans</a>
+      </div>
+
+      <div class="col-md-2">
+        <a href="/presentation/legal/">Mention légales</a>
+      </div>
+
+    </div>
+
+    <div class="row">
+
+      <div class="col-md-8">
+        <p class="rss-subscribe right">S'abonner à notre flux <a href="/feed.xml">RSS</a></p>
+      </div>
+
+      <div class="col-md-4">
+      </div>
+    </div>
+  </div>    
+</footer>
+
+    
+  </body>
+
+</html>

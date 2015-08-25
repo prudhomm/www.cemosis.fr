@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cemosis</title>
+    <description>Cemosis, le Centre de Modélisation et de Simulation de Strasbourg, est une structure à l&#39;interface avec les disciplines et les entreprises nécessitant la modélisation et la simulation numérique.
+</description>
+    <link>http://www.cemosis.fr//</link>
+    <atom:link href="http://www.cemosis.fr//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Tue, 25 Aug 2015 15:49:49 +0200</pubDate>
+    <lastBuildDate>Tue, 25 Aug 2015 15:49:49 +0200</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>Attribution d&#39;heures de calcul</title>
+        <description>&lt;p&gt;Cemosis a été crédité de 300 000 heures de calcul au mésocentre de Strasbourg pour les projets suivants :&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.cemosis.fr/projets/interdisciplinaires/physique/fusion&quot;&gt;Selalib&lt;/a&gt;  - 76 000 h&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.cemosis.fr/projets/entreprises/ns2pp&quot;&gt;NS2++&lt;/a&gt; - 64 000 h&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;FSI - 96 000 h&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;http://www.cemosis.fr/projets/entreprises/chorus&quot;&gt;Aérothermie&lt;/a&gt; - 64 000 h&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 11 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://www.cemosis.fr//news/2015/06/11/attribution-heures-calcul/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2015/06/11/attribution-heures-calcul/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Présentation aux JDEVs 2015 sur la Visualisation In-Situ</title>
+        <description>&lt;p&gt;Du 30 Juin au 3 Juillet 2015, Cemosis sera présent à la 3ème édition des &lt;a href=&quot;http://devlog.cnrs.fr/jdev2015&quot;&gt;Journées nationales du DEVeloppement logiciel de l’Enseignement Supérieur et Recherche (JDEVs)&lt;/a&gt; à Bordeaux.&lt;/p&gt;
+
+&lt;p&gt;Alexandre Ancel fera une présentation sur le couplage visualisation / simulation avec &lt;a href=&quot;http://www.paraview.org/&quot;&gt;ParaView&lt;/a&gt; dans le cadre de la thématique T8: “Logiciels scientifiques et simulation : nouveaux modèles et enjeux”.&lt;/p&gt;
+
+&lt;p&gt;Cette présentation évoquera l’intégration récente de la visualisation in-situ dans la librairie &lt;a href=&quot;http://www.feelpp.org/&quot;&gt;Feel++&lt;/a&gt; avec l’API &lt;a href=&quot;http://www.paraview.org/in-situ/&quot;&gt;Catalyst&lt;/a&gt; de &lt;a href=&quot;http://www.paraview.org/&quot;&gt;ParaView&lt;/a&gt;. Cette technique permet le co-processing et la co-visualisation, i.e. traiter et visualiser les données en même temps qu’elles sont générées par un code (simulation numérique, etc.) s’exécutant typiquement sur un supercalculateur.&lt;/p&gt;
+
+&lt;p&gt;L’objectif de cette présentation sera de donner aux auditeurs les outils qui leur permettront d’intégrer au sein de leurs applications le code nécessaire pour utiliser la visualisation in-situ (co-processing et co-visualisation) en interaction avec &lt;a href=&quot;http://www.paraview.org/&quot;&gt;ParaView&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Mise à jour du 02/07/2015:&lt;/p&gt;
+
+&lt;p&gt;La page de la thématique T8 dans laquelle a été faite cette présentation est disponible &lt;a href=&quot;http://devlog.cnrs.fr/jdev2015/t8&quot;&gt;ici&lt;/a&gt; sur le site des &lt;a href=&quot;http://devlog.cnrs.fr/jdev2015&quot;&gt;JDEV 2015&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;La présentation est disponible au format &lt;a href=&quot;http://devlog.cnrs.fr/_media/jdev2015/jdev2015_t8_alexandreancel_couplagevisualisationsimulationavecparaview_20150702.pdf?id=jdev2015%3At8&amp;amp;cache=cache&quot;&gt;pdf&lt;/a&gt; et &lt;a href=&quot;https://webcast.in2p3.fr/videos-paraview&quot;&gt;video&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://www.cemosis.fr//news/2015/06/08/jdevs-2015-visualisation-in-situ/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2015/06/08/jdevs-2015-visualisation-in-situ/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>19e Rencontre Math Industrie autour du HPC, à Saclay</title>
+        <description>&lt;p&gt;Sur le thème du HPC dans les entreprises et l’industrie: des outils mathématiques pour tirer profit des nouvelles capacités de calcul scientifique, la 19ème rencontre math industrie organisée par la SMAI et AMIES aura lieu à la Maison de la Simulation à Saclay le 22 juin 2015 en marge du forum TERATEC qui commence le 23 juin.&lt;/p&gt;
+
+&lt;p&gt;Les moyens de calcul intensifs sont désormais accessibles à un nombre croissants d’entreprises et d’acteurs de l’industrie. Il est à présent possible d’intégrer des calculs scientifiques conséquents dans une stratégie de conception ou de production.&lt;/p&gt;
+
+&lt;p&gt;Les spécificités de ces outils de calcul nécessitent souvent de remettre en question les anciennes méthodes de calcul. Par exemple, il peut-être nécessaire de repenser les algorithmes de calcul afin de les adapter à ces calculateurs ou d’enrichir les modèles utilisés. Une autre question concerne la manière dont les résultats de ces calculs massifs peuvent être interprétés et analysés lorsque les calculs deviennent de plus en plus complexes.&lt;/p&gt;
+
+&lt;p&gt;Nous essaierons lors de cette demi-journée de voir comment des membres de la communauté des Mathématiques Appliquées et des acteurs de l’industrie peuvent travailler ensemble pour s’attaquer à ces problèmes.&lt;/p&gt;
+
+&lt;p&gt;Cette rencontre est une initiative conjointe de la SMAI et d’AMIES et du CNRS avec le soutien de la Maison de la simulation.&lt;/p&gt;
+
+&lt;p&gt;Date: lundi 22 juin 2015 (après-midi)&lt;/p&gt;
+
+&lt;p&gt;Lieu: &lt;a href=&quot;http://www.maisondelasimulation.fr/&quot;&gt;Maison de la simulation&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Le programme de cette demi-journée est en cours d’élaboration.&lt;/p&gt;
+
+&lt;p&gt;Inscription gratuite, mais obligatoire: &lt;a href=&quot;https://docs.google.com/forms/d/1DzQ8Rs0TcUVedPlgYTPhINqV5S0fpez_8RgXpDvH_pM/viewform?usp=send_form&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Contacts: &lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#115;&amp;#097;&amp;#109;&amp;#117;&amp;#101;&amp;#108;&amp;#046;&amp;#107;&amp;#111;&amp;#107;&amp;#104;&amp;#064;&amp;#099;&amp;#101;&amp;#097;&amp;#046;&amp;#102;&amp;#114;&quot;&gt;&amp;#115;&amp;#097;&amp;#109;&amp;#117;&amp;#101;&amp;#108;&amp;#046;&amp;#107;&amp;#111;&amp;#107;&amp;#104;&amp;#064;&amp;#099;&amp;#101;&amp;#097;&amp;#046;&amp;#102;&amp;#114;&lt;/a&gt;,&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;&lt;a href=&quot;&amp;#109;&amp;#097;&amp;#105;&amp;#108;&amp;#116;&amp;#111;:&amp;#099;&amp;#104;&amp;#114;&amp;#105;&amp;#115;&amp;#116;&amp;#111;&amp;#112;&amp;#104;&amp;#101;&amp;#046;&amp;#112;&amp;#114;&amp;#117;&amp;#100;&amp;#104;&amp;#111;&amp;#109;&amp;#109;&amp;#101;&amp;#064;&amp;#097;&amp;#103;&amp;#101;&amp;#110;&amp;#099;&amp;#101;&amp;#045;&amp;#109;&amp;#097;&amp;#116;&amp;#104;&amp;#115;&amp;#045;&amp;#101;&amp;#110;&amp;#116;&amp;#114;&amp;#101;&amp;#112;&amp;#114;&amp;#105;&amp;#115;&amp;#101;&amp;#115;&amp;#046;&amp;#102;&amp;#114;&quot;&gt;&amp;#099;&amp;#104;&amp;#114;&amp;#105;&amp;#115;&amp;#116;&amp;#111;&amp;#112;&amp;#104;&amp;#101;&amp;#046;&amp;#112;&amp;#114;&amp;#117;&amp;#100;&amp;#104;&amp;#111;&amp;#109;&amp;#109;&amp;#101;&amp;#064;&amp;#097;&amp;#103;&amp;#101;&amp;#110;&amp;#099;&amp;#101;&amp;#045;&amp;#109;&amp;#097;&amp;#116;&amp;#104;&amp;#115;&amp;#045;&amp;#101;&amp;#110;&amp;#116;&amp;#114;&amp;#101;&amp;#112;&amp;#114;&amp;#105;&amp;#115;&amp;#101;&amp;#115;&amp;#046;&amp;#102;&amp;#114;&lt;/a&gt;&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://www.cemosis.fr//news/2015/06/08/19e-recontre-math-industrie-HPC-saclay/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2015/06/08/19e-recontre-math-industrie-HPC-saclay/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Etude sur l’impact socio-économique des mathématiques</title>
+        <description>&lt;p&gt;Une &lt;a href=&quot;http://www.agence-maths-entreprises.fr/a/?q=fr/node/508&quot;&gt;étude&lt;/a&gt; réalisée pour l’ensemble des acteurs de l’écosystème mathématique fait un point sur l’impact socio-économique de la discipline. Selon les calculs, la valeur ajoutée par les mathématiques en France représente 285 milliards d’euros, soit 15% du PIB. Une proportion qui pourrait être plus élevée.&lt;/p&gt;
+
+&lt;p&gt;Cette étude cite Cemosis comme “Structure à forte visibilité […] (visant) à renforcer les liens recherche-industrie […]”.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 +0200</pubDate>
+        <link>http://www.cemosis.fr//news/2015/06/03/etude-socio-economique/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2015/06/03/etude-socio-economique/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Le 10eme appel Prace décerne 6 Millions d&#39;heures coeurs pour le projet HP-Feel++</title>
+        <description>&lt;p&gt;Le résumé en anglais:&lt;/p&gt;
+
+&lt;p&gt;The HP-Feel++ project aims are twofold: (i) developing scalable solution strategies and (ii) enabling them in research applications. Two applications domains have been selected : high field magnets (HiFiMagnet) and diffuse optical tomography (DOT). &lt;/p&gt;
+
+&lt;p&gt;HP-FEEL++ and the associated applications require the use of a wide range of numerical methods for partial differential equation (PDE). These numerical methods are implemented in Feel++ (http://www.feelpp.org) and parallelized using MPI. &lt;/p&gt;
+
+&lt;p&gt;The size of our simulations range from several million of degrees of freedom to billions of degrees of freedom and therefore, they require access of TIER-0 computing resources. Moreover, the numerical methods used in both applications require to solve a linear system, and get an optimal scalability in this part is an active research topic. &lt;/p&gt;
+
+&lt;p&gt;In order to obtain a large scale scalability, we have developed theoretically and numerically non-conforming numerical methods in the context of domain decomposition methods, i.e. the mortar method (MM). Recent advances have been made to also equip Feel++ with powerful conforming numerical methods, such as the Finite Element Tearing and Interconnecting method (FETI) and Balanced Neumann-Neumann.The design of efficient preconditioners for these systems is a fundamental task, in particular in three dimensions, where the number of unknowns increases very rapidly. The objective is to verify the theoretical results obtained for both methodologies on standard large scale architectures ( from hundreds to tens of thousands of core) and to apply our novel scalable solution strategies on real applications such as the design of high field magnets and optical tomographs. &lt;/p&gt;
+
+&lt;p&gt;For high field magnets, the obtained results will be readily used to finalize the design of the Hybrid magnet. Regarding diffuse optical tomography our objective within the next three years is to develop a complete numerical model associated to the tomograph allowing for fast diagnostics (within minutes) of the presence of tumors.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 04 Apr 2015 00:00:00 +0200</pubDate>
+        <link>http://www.cemosis.fr//news/2015/04/04/10eme-appel-6million-hours-hp-feelpp/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2015/04/04/10eme-appel-6million-hours-hp-feelpp/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>4ème Journées des Utilisateurs de Feel++ (Feel++ Users&#39; Days)</title>
+        <description>&lt;p&gt;Cemosis, ainsi que l’équipe de développement de Feel++, organisent la 4ème édition des Journées des Utilisateurs de Feel++ (Feel++ Users’ Days).Ces FUD se tiendront à Strasbourg dans la salle de séminaire de l’IRMA (campus esplanade) entre les 23 et 25 mars 2015.&lt;/p&gt;
+
+&lt;p&gt;L’ensemble du programme, ainsi que des informations pratiques, se trouvent à l’adresse suivante: &lt;a href=&quot;http://www.feelpp.org/news/2015/03/05/FUD_4.0/#.VQhWP3YR7LU&quot;&gt;FUD4 (anglais)&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Tue, 17 Mar 2015 00:00:00 +0100</pubDate>
+        <link>http://www.cemosis.fr//news/2015/03/17/4eme-journees-utilisateurs-feelpp/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2015/03/17/4eme-journees-utilisateurs-feelpp/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Nouveau numéro de la newsletter ECMI</title>
+        <description>&lt;p&gt;Un nouveau numéro de la newsletter ECMI est disponible à &lt;a href=&quot;http://www.mafy.lut.fi/EcmiNL/issues.php?action=downiss&amp;amp;ID=56&quot;&gt;cette adresse&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Les précédents numéros sont disponibles à cette adresse:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.mafy.lut.fi/EcmiNL/issues.php&quot;&gt;http://www.mafy.lut.fi/EcmiNL/issues.php&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Pour rappel, Cemosis et le Master CSMI font partie de l’&lt;a href=&quot;http://www.ecmi-indmath.org/&quot;&gt;ECMI&lt;/a&gt; (pour European Consortium for Mathematics in Industry), un réseau qui promeut l’utilisation des mathématiques appliquées dans l’industrie au niveau européen.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 17 Dec 2014 00:00:00 +0100</pubDate>
+        <link>http://www.cemosis.fr//news/2014/12/17/nouveau-numero-newsletter-ECMI/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2014/12/17/nouveau-numero-newsletter-ECMI/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Forum Math Emploi</title>
+        <description>&lt;p&gt;Cemosis était représenté au &lt;a href=&quot;http://www.forum-emploi-maths.org/&quot;&gt;Forum Math Emploi&lt;/a&gt; pour présenter nos offres de formation, comme le Master de Sciences, spécialité &lt;a href=&quot;http://csmi.math.unistra.fr/&quot;&gt;Calcul Scientifique et Mathématiques de l’information&lt;/a&gt;.&lt;/p&gt;
+
+&lt;center&gt;
+&lt;img src=&quot;/img/news/20141202_162425.jpg&quot; width=&quot;240&quot; height=&quot;320&quot; /&gt;
+&lt;/center&gt;
+</description>
+        <pubDate>Wed, 03 Dec 2014 00:00:00 +0100</pubDate>
+        <link>http://www.cemosis.fr//news/2014/12/03/forum-math-emploi/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2014/12/03/forum-math-emploi/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Plastic Omnium</title>
+        <description>&lt;p&gt;​​Cemosis a obtenu auprès ​d’AMIES un soutien au projet de collaboration avec Plastic Omnium​ - NS​²++ - autour de la résolution des équations de Navier-Stokes de manière non standard pour des problèmes de turbulence.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
+        <link>http://www.cemosis.fr//news/2014/10/13/plastic-omnium/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2014/10/13/plastic-omnium/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+      <item>
+        <title>Bienvenue à Giovanna Guidoboni</title>
+        <description>&lt;p&gt;Dans le cadre d’une collaboration sur le projet de modélisation mathématiques de l’oeil, Cemosis accueille pour 2 ans &lt;a href=&quot;http://www.math.iupui.edu/~gguidobo/&quot;&gt;Giovanna Guidoboni&lt;/a&gt;, professeur associé au département des sciences mathématiques à Indiana University and Purdue University.&lt;/p&gt;
+</description>
+        <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
+        <link>http://www.cemosis.fr//news/2014/10/13/giovanna-guiboboni/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//news/2014/10/13/giovanna-guiboboni/</guid>
+        
+        <category>cemosis</category>
+        
+        
+        <category>news</category>
+        
+      </item>
+    
+  </channel>
+</rss>
