@@ -323,9 +323,9 @@ pre {
 
 /* flip panel animation */
 .panel {
-  width: 20vw;
+  width: 90%;
   height: 35vh;
-  font-size: .8em;
+  font-size: 1em;
   background-color: #eeeeee;
   -webkit-perspective: 600px;
   -moz-perspective: 600px;
@@ -334,6 +334,10 @@ pre {
 .panel p { color: #dddddd; }
 .panel b { color: #dddddd; }
 .panel a { color: white;}
+.panel-img {
+  height: 25vh;
+  width: 100%;
+}
 /* -- make sure to declare a default for every property that you want animated -- */
 /* -- general styles, including Y axis rotation -- */
 .panel .front {
@@ -483,6 +487,18 @@ footer a:hover{
 @media screen and (max-width: 768px){
   .desktop-brand {
     display: none;
+  }
+  .panel {
+    font-size: 0.8em;
+  }
+  ul.horizontal-list1 li img {
+  margin-top: 10vh;
+  height: 7vh;
+  width: 14vw;
+  }
+  ul.horizontal-list2 li img {
+  height: 7vh;
+  width: 14vw;
   }
 }
 
