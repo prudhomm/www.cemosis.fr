@@ -6,9 +6,123 @@
 </description>
     <link>http://www.cemosis.fr//</link>
     <atom:link href="http://www.cemosis.fr//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 26 Aug 2015 15:39:23 +0200</pubDate>
-    <lastBuildDate>Wed, 26 Aug 2015 15:39:23 +0200</lastBuildDate>
-    <generator>Jekyll v2.4.0</generator>
+    <pubDate>Thu, 27 Aug 2015 04:21:29 -0400</pubDate>
+    <lastBuildDate>Thu, 27 Aug 2015 04:21:29 -0400</lastBuildDate>
+    <generator>Jekyll v2.5.3</generator>
+    
+      <item>
+        <title>Soutenances de stages des M2/CSMI</title>
+        <description>&lt;p&gt;Les soutenances de stages des M2 CSMI 2014-2015 auront lieu en salle 309 à l’UFR Math Info de l’Université de Strasbourg le jeudi 27 août à partir de 10:00.&lt;/p&gt;
+
+&lt;p&gt;L’ordre de passage est &lt;a href=&quot;https://docs.google.com/spreadsheets/d/1N4iS0fy-o6aC3af-UpW0g30QHM3DfoUNn3FQmgNi4AQ/edit?usp=sharing&quot;&gt;ici&lt;/a&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Étudiant&lt;/th&gt;
+      &lt;th&gt;Entreprise/Structure&lt;/th&gt;
+      &lt;th&gt;Titre&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Alexandre Corizzi&lt;/td&gt;
+      &lt;td&gt;U. Rouen&lt;/td&gt;
+      &lt;td&gt;Problème de diffusion en géophysique basé sur une méthode des volumes finis 3D&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Djebril Mokkadem&lt;/td&gt;
+      &lt;td&gt;Dassault Systèmes&lt;/td&gt;
+      &lt;td&gt;Prototyping of 3D Tracking-Based Components for Augmented Reality&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Pierre Gerhard&lt;/td&gt;
+      &lt;td&gt;Cerema&lt;/td&gt;
+      &lt;td&gt;Caractérisation et modéelisation du champ sonore en acoustique du bâtiment : développement de modèles simplifiées spéecifiques aux locaux de formes complexes&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Marion Spreng&lt;/td&gt;
+      &lt;td&gt;Hager Controls&lt;/td&gt;
+      &lt;td&gt;M4SE@Home&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Thomas Lantz&lt;/td&gt;
+      &lt;td&gt;Holo3&lt;/td&gt;
+      &lt;td&gt;Digital Image Correlation&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Benjamin Vanthong&lt;/td&gt;
+      &lt;td&gt;Holo3&lt;/td&gt;
+      &lt;td&gt;Reconstruction de surfaces&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mamadou Camara&lt;/td&gt;
+      &lt;td&gt;ICube&lt;/td&gt;
+      &lt;td&gt;Turbulences et transport de particules dans les fosses nasales&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;p&gt;Les stages a Holo3 ont été effectués en collaboration avec &lt;a href=&quot;http://www.cemosis.fr&quot;&gt;Cemosis&lt;/a&gt;.&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 27 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://www.cemosis.fr//internship/2015/08/27/soutenances-stages-m2/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//internship/2015/08/27/soutenances-stages-m2/</guid>
+        
+        <category>csmi,</category>
+        
+        <category>cemosis</category>
+        
+        
+        <category>internship</category>
+        
+      </item>
+    
+      <item>
+        <title>Soutenances de stages des M1/CSMI</title>
+        <description>&lt;p&gt;Les soutenances de stages des M1 CSMI 2014-2015 auront lieu en salle 309 à l’UFR Math Info de l’Université de Strasbourg le mercredi 26 août à partir de 10:40.&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;Étudiant&lt;/th&gt;
+      &lt;th&gt;Entreprise/Structure&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Roxana Dia&lt;/td&gt;
+      &lt;td&gt;Mésocentre (U. Strasbourg)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Mamadou Cissé&lt;/td&gt;
+      &lt;td&gt;ICube (U. Strasbourg)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Ahmed Diedhou&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.cemosis.fr&quot;&gt;Cemosis&lt;/a&gt; (U. Strasbourg)&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+      &lt;td&gt;Wynstone Kyoshe&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.cemosis.fr&quot;&gt;Cemosis&lt;/a&gt; (U. Strasbourg)&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+</description>
+        <pubDate>Wed, 26 Aug 2015 00:00:00 -0400</pubDate>
+        <link>http://www.cemosis.fr//internship/2015/08/26/soutenances-stages-m1/</link>
+        <guid isPermaLink="true">http://www.cemosis.fr//internship/2015/08/26/soutenances-stages-m1/</guid>
+        
+        <category>csmi,</category>
+        
+        <category>cemosis</category>
+        
+        
+        <category>internship</category>
+        
+      </item>
     
       <item>
         <title>Attribution d&#39;heures de calcul</title>
@@ -29,7 +143,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Thu, 11 Jun 2015 00:00:00 +0200</pubDate>
+        <pubDate>Thu, 11 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://www.cemosis.fr//news/2015/06/11/attribution-heures-calcul/</link>
         <guid isPermaLink="true">http://www.cemosis.fr//news/2015/06/11/attribution-heures-calcul/</guid>
         
@@ -56,7 +170,7 @@
 
 &lt;p&gt;La présentation est disponible au format &lt;a href=&quot;http://devlog.cnrs.fr/_media/jdev2015/jdev2015_t8_alexandreancel_couplagevisualisationsimulationavecparaview_20150702.pdf?id=jdev2015%3At8&amp;amp;cache=cache&quot;&gt;pdf&lt;/a&gt; et &lt;a href=&quot;https://webcast.in2p3.fr/videos-paraview&quot;&gt;video&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Mon, 08 Jun 2015 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 08 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://www.cemosis.fr//news/2015/06/08/jdevs-2015-visualisation-in-situ/</link>
         <guid isPermaLink="true">http://www.cemosis.fr//news/2015/06/08/jdevs-2015-visualisation-in-situ/</guid>
         
@@ -87,7 +201,7 @@
 
 &lt;p&gt;Inscription gratuite, mais obligatoire: &lt;a href=&quot;https://docs.google.com/forms/d/1DzQ8Rs0TcUVedPlgYTPhINqV5S0fpez_8RgXpDvH_pM/viewform?usp=send_form&quot;&gt;ici&lt;/a&gt;.&lt;/p&gt;
 
-&lt;p&gt;Contacts: &lt;/p&gt;
+&lt;p&gt;Contacts:&lt;/p&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
@@ -98,7 +212,7 @@
   &lt;/li&gt;
 &lt;/ul&gt;
 </description>
-        <pubDate>Mon, 08 Jun 2015 00:00:00 +0200</pubDate>
+        <pubDate>Mon, 08 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://www.cemosis.fr//news/2015/06/08/19e-recontre-math-industrie-HPC-saclay/</link>
         <guid isPermaLink="true">http://www.cemosis.fr//news/2015/06/08/19e-recontre-math-industrie-HPC-saclay/</guid>
         
@@ -115,7 +229,7 @@
 
 &lt;p&gt;Cette étude cite Cemosis comme “Structure à forte visibilité […] (visant) à renforcer les liens recherche-industrie […]”.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 03 Jun 2015 00:00:00 +0200</pubDate>
+        <pubDate>Wed, 03 Jun 2015 00:00:00 -0400</pubDate>
         <link>http://www.cemosis.fr//news/2015/06/03/etude-socio-economique/</link>
         <guid isPermaLink="true">http://www.cemosis.fr//news/2015/06/03/etude-socio-economique/</guid>
         
@@ -130,17 +244,17 @@
         <title>Le 10eme appel Prace décerne 6 Millions d&#39;heures coeurs pour le projet HP-Feel++</title>
         <description>&lt;p&gt;Le résumé en anglais:&lt;/p&gt;
 
-&lt;p&gt;The HP-Feel++ project aims are twofold: (i) developing scalable solution strategies and (ii) enabling them in research applications. Two applications domains have been selected : high field magnets (HiFiMagnet) and diffuse optical tomography (DOT). &lt;/p&gt;
+&lt;p&gt;The HP-Feel++ project aims are twofold: (i) developing scalable solution strategies and (ii) enabling them in research applications. Two applications domains have been selected : high field magnets (HiFiMagnet) and diffuse optical tomography (DOT).&lt;/p&gt;
 
-&lt;p&gt;HP-FEEL++ and the associated applications require the use of a wide range of numerical methods for partial differential equation (PDE). These numerical methods are implemented in Feel++ (http://www.feelpp.org) and parallelized using MPI. &lt;/p&gt;
+&lt;p&gt;HP-FEEL++ and the associated applications require the use of a wide range of numerical methods for partial differential equation (PDE). These numerical methods are implemented in Feel++ (http://www.feelpp.org) and parallelized using MPI.&lt;/p&gt;
 
-&lt;p&gt;The size of our simulations range from several million of degrees of freedom to billions of degrees of freedom and therefore, they require access of TIER-0 computing resources. Moreover, the numerical methods used in both applications require to solve a linear system, and get an optimal scalability in this part is an active research topic. &lt;/p&gt;
+&lt;p&gt;The size of our simulations range from several million of degrees of freedom to billions of degrees of freedom and therefore, they require access of TIER-0 computing resources. Moreover, the numerical methods used in both applications require to solve a linear system, and get an optimal scalability in this part is an active research topic.&lt;/p&gt;
 
-&lt;p&gt;In order to obtain a large scale scalability, we have developed theoretically and numerically non-conforming numerical methods in the context of domain decomposition methods, i.e. the mortar method (MM). Recent advances have been made to also equip Feel++ with powerful conforming numerical methods, such as the Finite Element Tearing and Interconnecting method (FETI) and Balanced Neumann-Neumann.The design of efficient preconditioners for these systems is a fundamental task, in particular in three dimensions, where the number of unknowns increases very rapidly. The objective is to verify the theoretical results obtained for both methodologies on standard large scale architectures ( from hundreds to tens of thousands of core) and to apply our novel scalable solution strategies on real applications such as the design of high field magnets and optical tomographs. &lt;/p&gt;
+&lt;p&gt;In order to obtain a large scale scalability, we have developed theoretically and numerically non-conforming numerical methods in the context of domain decomposition methods, i.e. the mortar method (MM). Recent advances have been made to also equip Feel++ with powerful conforming numerical methods, such as the Finite Element Tearing and Interconnecting method (FETI) and Balanced Neumann-Neumann.The design of efficient preconditioners for these systems is a fundamental task, in particular in three dimensions, where the number of unknowns increases very rapidly. The objective is to verify the theoretical results obtained for both methodologies on standard large scale architectures ( from hundreds to tens of thousands of core) and to apply our novel scalable solution strategies on real applications such as the design of high field magnets and optical tomographs.&lt;/p&gt;
 
 &lt;p&gt;For high field magnets, the obtained results will be readily used to finalize the design of the Hybrid magnet. Regarding diffuse optical tomography our objective within the next three years is to develop a complete numerical model associated to the tomograph allowing for fast diagnostics (within minutes) of the presence of tumors.&lt;/p&gt;
 </description>
-        <pubDate>Sat, 04 Apr 2015 00:00:00 +0200</pubDate>
+        <pubDate>Sat, 04 Apr 2015 00:00:00 -0400</pubDate>
         <link>http://www.cemosis.fr//news/2015/04/04/10eme-appel-6million-hours-hp-feelpp/</link>
         <guid isPermaLink="true">http://www.cemosis.fr//news/2015/04/04/10eme-appel-6million-hours-hp-feelpp/</guid>
         
@@ -157,7 +271,7 @@
 
 &lt;p&gt;L’ensemble du programme, ainsi que des informations pratiques, se trouvent à l’adresse suivante: &lt;a href=&quot;http://www.feelpp.org/news/2015/03/05/FUD_4.0/#.VQhWP3YR7LU&quot;&gt;FUD4 (anglais)&lt;/a&gt;.&lt;/p&gt;
 </description>
-        <pubDate>Tue, 17 Mar 2015 00:00:00 +0100</pubDate>
+        <pubDate>Tue, 17 Mar 2015 00:00:00 -0400</pubDate>
         <link>http://www.cemosis.fr//news/2015/03/17/4eme-journees-utilisateurs-feelpp/</link>
         <guid isPermaLink="true">http://www.cemosis.fr//news/2015/03/17/4eme-journees-utilisateurs-feelpp/</guid>
         
@@ -178,7 +292,7 @@
 
 &lt;p&gt;Pour rappel, Cemosis et le Master CSMI font partie de l’&lt;a href=&quot;http://www.ecmi-indmath.org/&quot;&gt;ECMI&lt;/a&gt; (pour European Consortium for Mathematics in Industry), un réseau qui promeut l’utilisation des mathématiques appliquées dans l’industrie au niveau européen.&lt;/p&gt;
 </description>
-        <pubDate>Wed, 17 Dec 2014 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 17 Dec 2014 00:00:00 -0500</pubDate>
         <link>http://www.cemosis.fr//news/2014/12/17/nouveau-numero-newsletter-ECMI/</link>
         <guid isPermaLink="true">http://www.cemosis.fr//news/2014/12/17/nouveau-numero-newsletter-ECMI/</guid>
         
@@ -197,39 +311,9 @@
 &lt;img src=&quot;/img/news/20141202_162425.jpg&quot; width=&quot;240&quot; height=&quot;320&quot; /&gt;
 &lt;/center&gt;
 </description>
-        <pubDate>Wed, 03 Dec 2014 00:00:00 +0100</pubDate>
+        <pubDate>Wed, 03 Dec 2014 00:00:00 -0500</pubDate>
         <link>http://www.cemosis.fr//news/2014/12/03/forum-math-emploi/</link>
         <guid isPermaLink="true">http://www.cemosis.fr//news/2014/12/03/forum-math-emploi/</guid>
-        
-        <category>cemosis</category>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Plastic Omnium</title>
-        <description>&lt;p&gt;​​Cemosis a obtenu auprès ​d’AMIES un soutien au projet de collaboration avec Plastic Omnium​ - NS​²++ - autour de la résolution des équations de Navier-Stokes de manière non standard pour des problèmes de turbulence.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
-        <link>http://www.cemosis.fr//news/2014/10/13/plastic-omnium/</link>
-        <guid isPermaLink="true">http://www.cemosis.fr//news/2014/10/13/plastic-omnium/</guid>
-        
-        <category>cemosis</category>
-        
-        
-        <category>news</category>
-        
-      </item>
-    
-      <item>
-        <title>Bienvenue à Giovanna Guidoboni</title>
-        <description>&lt;p&gt;Dans le cadre d’une collaboration sur le projet de modélisation mathématiques de l’oeil, Cemosis accueille pour 2 ans &lt;a href=&quot;http://www.math.iupui.edu/~gguidobo/&quot;&gt;Giovanna Guidoboni&lt;/a&gt;, professeur associé au département des sciences mathématiques à Indiana University and Purdue University.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 13 Oct 2014 00:00:00 +0200</pubDate>
-        <link>http://www.cemosis.fr//news/2014/10/13/giovanna-guiboboni/</link>
-        <guid isPermaLink="true">http://www.cemosis.fr//news/2014/10/13/giovanna-guiboboni/</guid>
         
         <category>cemosis</category>
         
