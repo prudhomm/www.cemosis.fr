@@ -1,8 +1,16 @@
-<span class="anchor" id="{{ post.name }}"></span>
-<div class="letter" style="margin-top:50px;margin-bottom:50px">
-
-	<h3><a href="{{ post.url }}">{{ post.name }}</a></h3>	
-	<hr class="style">
-	<h4>{{ post.title }}</h4>
-		{{ post.content }}
-</div>
+        <div class="hover p-panel">
+          <div class="p-front">
+            <div class="p-pad">
+              <img src="{{ post.img }}" class="p-panel-img">
+              <b>{{ post.name }}</b>
+              <p>{{ post.title }}</p>
+            </div>
+          </div>
+          <div class="p-back">
+            <div class="p-pad">
+            <p style="margin:5px">{{ post.abstract }}<p>
+            <p style="margin:5px;text-align: center"><a href="{{ post.url }}">En savoir +</a></p>
+            <o style="margin:5px;">{{ post.collaborator }}</p>
+            </div>
+          </div>
+        </div>
