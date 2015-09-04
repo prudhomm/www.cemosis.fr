@@ -1,0 +1,32 @@
+      <div class="col-xs-12 col-sm-6 col-md-6">
+      <div class="hover panel">
+          <div class="front">
+            <div class="pad">
+              <img src="{{ post.img }}" class="panel-img">
+              <b>{{ post.name }}</b>
+              <p>{{ post.title }}</p>
+            </div>
+          </div>
+          <div class="back">
+            <div class="pad">
+              <p style="margin:5px">{{ post.abstract }}</p>
+              <p style="margin:5px;">Partenaire(s): {{ post.collaborator }}</p>
+              {% assign number = | number | plus:1 %}
+              <p style="margin:5px;text-align: center"><a class="inline" href="#inline_{{ number }}">En savoir +</a></p>
+            </div>
+          </div>
+      </div>
+      </div>
+
+      <!-- This contains the hidden project contents -->
+      <div style='display:none'>
+        <div id='inline_{{ number }}' style='padding:10px; background:#fff;'>
+            <div class="letter">
+              <h3>{{ post.name }}</h3>
+              <hr class="style">
+
+              <h4>{{ post.title }}</h4>
+              {{ post.content }}
+            </div>
+        </div>
+      </div>

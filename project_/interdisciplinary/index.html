@@ -12,10 +12,15 @@ permalink: /project_/interdisciplinary/
 	<hr class="style">
 	<h4>Projets Physique:</h4>
 	{% for post in site.categories.interdisciplinary-physics-project reversed %}
+	<div class="col-xs-12 col-sm-6 col-md-4">
 			{% include project.html %}
+	</div>
 	{% endfor %}
+	<div style="clear:both;">
 	<h4>Projets Santé/Bio-Médical</h4>
 	{% for post in site.categories.interdisciplinary-bio-project reversed %}
+	<div class="col-xs-12 col-sm-6 col-md-4">
 			{% include project.html %}
+	</div>
 	{% endfor %}
 </div>

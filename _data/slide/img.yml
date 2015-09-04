@@ -1,29 +1,29 @@
 - id: slide1
   path: /img/slide/cabin.png
   description: "Méthodes de Réduction d'Ordre en Aérothermie: Application aux systèmes d'air conditionné de cabine d'avion"
-  url: "/project_/entreprise/#Chorus"
+  url: "/entreprise-project/2015/08/17/chorus/"
 
 - id: slide2
   path: /img/slide/diode-axessim.png
   description: Couplage équations de Maxwell / Méthode particulaire sur GPU
-  url: "/project_/entreprise/#Maxwell"
+  url: "/entreprise-project/2015/08/17/maxwell/"
 
 - id: slide3
   path: /img/slide/temperature_M1_I16000_ws.png
   description: Comportement de la température dans un hélice radiale en fonctionnement (modèle electrothermique couplé non linéaire).
-  url: "/project_/interdisciplinary/#HiFiMagnet"
+  url: "/interdisciplinary-physics-project/2015/08/17/hifimagnet/"
 
 - id: slide4
   path: /img/slide/tang3.png
   description: Résolution des équations de la MHD sur architecture multicoeurs.
-  url: "/project_/interdisciplinary/#MHD"
+  url: "/interdisciplinary-physics-project/2015/08/17/mhd/"
 
 - id: slide5
   path: /img/slide/diri_1.png
   description: "Planification de Procédures Médicales: Champ de température Géométrie fictive."
-  url: "/project_/interdisciplinary/#Planification de Procédures Médicales"
+  url: "/interdisciplinary-bio-project/2015/08/17/planification-procedures-medicales/"
 
 - id: slide6
   path: /img/slide/MesoChallengeStreamlines2.png
   description: "De l'IRM réelle à l'IRM virtuelle : modéliser les flux sanguins dans le cerveau humain."
-  url: "/project_/interdisciplinary/#Écoulements Sanguins"
+  url: "/interdisciplinary-bio-project/2015/08/17/ecoulements-sanguins/"
