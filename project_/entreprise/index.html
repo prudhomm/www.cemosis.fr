@@ -37,6 +37,8 @@ permalink: /project_/entreprise/
 	</div>
 
 	{% for post in site.categories.entreprise-project reversed %}
+		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
 		{% include project.html %}
+		</div>
 	{% endfor %}
 </div>

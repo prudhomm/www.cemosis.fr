@@ -171,13 +171,13 @@ hr.style {
   left: 0px;
   top: 0px;
   width: 1000px;
-  height: 1500px;
+  height: 500px;
 }
 
 /* image slide caption */
 .caption {
   position: absolute;
-  top: 720px;
+  top: 400px;
   left: 50px;
   width: 900px;
   height: 40px;
@@ -323,6 +323,7 @@ pre {
 
 /* flip panel animation for index don't use it on project page */
 .panel {
+  margin: 20px 20px 20px 0;
   width: 90%;
   height: 35vh;
   font-size: 1em;
@@ -423,8 +424,9 @@ pre {
 
 /* flip panel animation for projects*/
 .p-panel {
-  width: 500px;
-  height: 500px;
+  margin: 20px 20px 20px 0;
+  width: 100%;
+  height: 360px;
   font-size: 1em;
   background-color: white;
   -webkit-perspective: 600px;
@@ -435,7 +437,7 @@ pre {
 .p-panel b { color: #dddddd; }
 .p-panel a { color: white;}
 .p-panel-img {
-  height: 60%;
+  height: 240px;
   width: 100%;
 }
 /* -- make sure to declare a default for every property that you want animated -- */
@@ -584,7 +586,16 @@ footer a:hover{
 }
 
 /* media query */
-@media screen and (max-width: 768px){
+@media screen and (max-width: 480px){
+  .desktop-brand {
+    display: none;
+  }
+  .panel {
+    font-size: 0.7em;
+  }
+}
+
+@media (min-width: 480px) and (max-width: 768px){
   .desktop-brand {
     display: none;
   }
@@ -602,7 +613,16 @@ footer a:hover{
   }
 }
 
-@media screen and (min-width: 768px){
+@media (min-width: 768px) and (max-width: 992px) {
+  .mobile-brand {
+    display: none;
+  }
+  .panel {
+    font-size: 0.9em;
+  }
+}
+
+@media screen and (min-width: 992px){
   .mobile-brand {
     display: none;
   }
