@@ -10,9 +10,23 @@
           <div class="back">
             <div class="pad">
               <p style="margin:5px">{{ post.abstract }}</p>
-              <p style="margin:5px;text-align: center"><a href="{{ post.url }}">En savoir +</a></p>
-              <p style="margin:5px;">{{ post.collaborator }}</p>
+              <p style="margin:5px;">Partenaire(s): {{ post.collaborator }}</p>
+              {% assign number = | number | plus:1 %}
+              <p style="margin:5px;text-align: center"><a class="inline" href="#inline_{{ number }}">En savoir +</a></p>
             </div>
           </div>
       </div>
+      </div>
+
+      <!-- This contains the hidden project contents -->
+      <div style='display:none'>
+        <div id='inline_{{ number }}' style='padding:10px; background:#fff;'>
+            <div class="letter">
+              <h3>{{ post.name }}</h3>
+              <hr class="style">
+
+              <h4>{{ post.title }}</h4>
+              {{ post.content }}
+            </div>
+        </div>
       </div>
