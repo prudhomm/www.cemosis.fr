@@ -3,12 +3,11 @@ layout: news_item
 title: Soutenances de stages des M2/CSMI
 date: 2015-08-27
 author: Christophe Prud'homme
-categories: internship
-tags: csmi, cemosis
+categories: [internship]
+tags: [csmi, cemosis]
 ---
 
-Les soutenances de stages des M2 CSMI 2014-2015 auront lieu en salle 309 à l'UFR Math Info de l'Université de Strasbourg
-le jeudi 27 août à partir de 10:00.
+Les soutenances de stages des M2 CSMI 2014-2015 auront lieu en salle 309 à l'UFR Math Info de l'Université de Strasbourg le jeudi 27 août à partir de 10:00.
 
 L'ordre de passage est [ici](https://docs.google.com/spreadsheets/d/1N4iS0fy-o6aC3af-UpW0g30QHM3DfoUNn3FQmgNi4AQ/edit?usp=sharing)
 
