@@ -12,7 +12,7 @@
               <p style="margin:5px">{{ post.abstract }}</p>
               <p style="margin:5px;">Partenaire(s): {{ post.collaborator }}</p>
               {% assign number = | number | plus:1 %}
-              <p style="margin:5px;text-align: center"><a class="inline" href="#inline_{{ number }}">En savoir +</a></p>
+              <p style="margin:5px;text-align: center"><a class="inline" href="{{ post.url }}">En savoir +</a></p>
             </div>
           </div>
       </div>
