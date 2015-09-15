@@ -3,7 +3,7 @@
 <div class="section" id="section1">
   <div class="container">
     <div class="row-fluid">
-    <div class="">
+    <div class="col-md-12">
     <h1><font color="#92c4ba">Ce</font><font color="#e0b036">mo</font><font color="#c23351">si</font><font color="#92c4ba">s</font></h1> 
     <h4>Le <font color="#92c4ba">Centre</font> de <font color="#e0b036">Modélisation</font> et de <font color="#c23351">Simulation</font> de <font color="#92c4ba">Strasbourg</font>, est une structure à l'interface avec les disciplines et les entreprises nécessitant la modélisation et la simulation numérique.</h4>
     </div>
@@ -12,8 +12,8 @@
 
 
   <div class="row-fluid">
-    <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12" style="position: absolute;bottom: 0;height:18vh;background-color:#2f3239">
-      <div id="news-panel" style="text-align:center;padding:4vh">
+    <div class="col-sm-12 col-md-12 col-xs-12 col-lg-12" style="position: absolute;bottom: 0;height:20vh;background-color:#2f3239">
+      <div id="news-panel" style="text-align:center;padding:5vh">
         
         <ul class="news-list">
           {% for post in site.tags.cemosis limit:5 %}
@@ -29,11 +29,11 @@
 <div class="section" id="slide-section">
   <div class="container">
     <div class="row">
+    <div class="col-md-12">
       <center>
       <h4>Cemosis en images</h4>
-
-      <div style="height:70vh;width:70vw">
-      <div id="slider_container" style="position:relative;width:1000px;height:500px;">
+      <div style="height:60vh;width:60vw">
+      <div id="slider_container" style="position: relative;width:1000px;height:500px;">
         <!-- Loading Screen -->
         <div u="loading" style="position: absolute; top: 0px; left: 0px;">
             <div style="filter: alpha(opacity=70); opacity:0.7; position: absolute; display: block;top: 0px; left: 0px;width: 100%;height:100%;">
@@ -67,11 +67,10 @@
             <!-- bullet navigator item prototype -->
             <div u="prototype"></div>
         </div>
-
       </div>
       </div>
     </center>
-
+    </div>
     </div>
   </div>
 </div>
@@ -79,81 +78,33 @@
 <div class="section" id="intro-section">
   <div class="container">
     <div class="row">
-      <center>
-      <h4>Cemosis en vidéos</h4>
-        <div style="width:70vw;height:70vh">
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/d1t9AFSCPMo?list=PLigsLWCja8pyIXKZklmtj9-_XBSfM6kD2" frameborder="0" allowfullscreen></iframe>
+        <div class="col-md-12" style="text-align:center">
+        <h4>Cemosis en vidéos</h4>
+        <iframe style="width:60vw;height:60vh" src="https://www.youtube.com/embed/d1t9AFSCPMo?list=PLigsLWCja8pyIXKZklmtj9-_XBSfM6kD2" frameborder="0" allowfullscreen></iframe>
         </div>
-      </center>
     </div>
   </div>
 </div>
 
 <div class="section" id="project-section">
   <div class="container">
+    <div class="col-md-11" style="text-align:center">
+      <h4>Nos projets</h4>
+    </div>
+    {% assign number = 0 %}
     <div class="row">
-      {% for post in site.categories.entreprise-project limit:4 %}
-      <div class="col-md-3" style="padding-top: 10vh">
-        <div class="hover panel">
-          <div class="front">
-            <div class="pad">
-              <img src="{{ post.img }}" style="height:25vh;width:20vw">
-              <b>{{ post.name }}</b>
-              <p>{{ post.title }}</p>
-            </div>
-          </div>
-          <div class="back">
-            <div class="pad">
-            <p style="margin:5px">{{ post.abstract }}<p>
-            <p style="margin:5px;text-align: center"><a href="/project_/entreprise/#{{ post.name }}">En savoir +</a></p>
-            </div>
-          </div>
-        </div>
-      </div>
+      {% for post in site.categories.entreprise-project limit:2 %}
+        {% include index-project.html %}
       {% endfor %}
     </div>
 
-    <center><h4>Nos projets</h4></center>
-    
     <div class="row">
-      {% for post in site.categories.interdisciplinary-physics-project limit:2 %}
-      <div class="col-md-3" style="">
-      <div class="hover panel">
-          <div class="front">
-            <div class="pad">
-              <img src="{{ post.img }}" style="height:25vh;width:20vw">
-              <b>{{ post.name }}</b>
-              <p>{{ post.title }}</p>
-            </div>
-          </div>
-          <div class="back">
-            <div class="pad">
-              <p style="margin:5px">{{ post.abstract }}</p>
-              <p style="margin:5px;text-align: center"><a href="/project_/interdisciplinary/#{{ post.name }}">En savoir +</a></p>
-            </div>
-          </div>
-      </div>
-      </div>
+      {% for post in site.categories.interdisciplinary-physics-project limit:1 %}
+        {% include index-project.html %}
       {% endfor %}
 
-      {% for post in site.categories.interdisciplinary-bio-project limit:2 %}
-      <div class="col-md-3" style="">
-      <div class="hover panel">
-          <div class="front">
-            <div class="pad">
-              <img src="{{ post.img }}" style="height:25vh;width:20vw">
-              <b>{{ post.name }}</b>
-              <p>{{ post.title }}</p>
-            </div>
-          </div>
-          <div class="back">
-            <div class="pad">
-              <p style="margin:5px">{{ post.abstract }}</p>
-              <p style="margin:5px;text-align: center"><a href="/project_/interdisciplinary/#{{ post.name }}">En savoir +</a></p>
-            </div>
-          </div>
-      </div>
-      </div>
+      {% for post in site.categories.interdisciplinary-bio-project limit:1 %}
+        {% include index-project.html %}
       {% endfor %}
     </div>
   </div>
