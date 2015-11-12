@@ -1,5 +1,6 @@
 - name: Pr. Christophe Prud'homme
   firstName: Christophe
+  lastName: Prudhomme
   position: Directeur du Centre de Modélisation et Simulation de Strasbourg.
   email: christophe.prudhomme@cemosis.fr
   address: 7 rue René Descartes 67084 Strasbourg
@@ -8,6 +9,7 @@
 
 - name: Pr. Philippe Helluy
   firstName: Philippe
+  lastName: Helluy
   position: Directeur adjoint du Centre de Modélisation et Simulation de Strasbourg.
   email: philippe.helluy@cemosis.fr
   address: 7 rue René Descartes 67084 Strasbourg
@@ -16,6 +18,7 @@
 
 - name: Dr. Vincent Huber
   firstName: Vincent
+  lastName: Huber
   position: Ingénieur de Recherche du Centre de Modélisation et Simulation de Strasbourg.
   email: vincent.huber@cemosis.fr
   address: 7 rue René Descartes 67084 Strasbourg
@@ -24,6 +27,7 @@
 
 - name: Dr. Alexandre Ancel
   firstName: Alexandre
+  lastName: Ancel
   position: Ingénieur de Recherche du Centre de Modélisation et Simulation de Strasbourg.
   email: alexandre.ancel@cemosis.fr
   address: 7 rue René Descartes 67084 Strasbourg
@@ -32,6 +36,7 @@
 
 - name: Dr. Marcela Szopos
   firstName: Marcela
+  lastName: Szopos
   position: Chargée de mission interdisciplinaire
   email: contact@cemosis.fr
   address: 7 rue René Descartes 67084 Strasbourg
