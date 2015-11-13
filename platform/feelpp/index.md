@@ -9,6 +9,10 @@ permalink: /platform/feelpp/
 #### Feel++   
 Feel++ est une librarie C++ pour la résolution d'équations à dérivées partielles en utilisant les méthodes de Galerkine.
 
+#### Brochure
+
+<div style="width: 960px; height: 720px; margin: 10px; position: relative;"><iframe allowfullscreen frameborder="0" style="width:960px; height:720px" src="//d2pjrbs8oo6puz.cloudfront.net/7dda1788-5ebd-473a-a346-58beb7125818/embedControls.html" id="CvMsP0dxUoBc"></iframe></div>
+
 #### Liens
 
 * Site officiel : [http://www.feelpp.org](http://www.feelpp.org)
