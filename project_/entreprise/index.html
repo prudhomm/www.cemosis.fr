@@ -4,9 +4,16 @@ permalink: /project_/entreprise/
 ---
 
 <div class="container">
-	<div class="row">
-		<h3>Entreprises</h3>
-		<br/>
+
+  {% for post in site.categories.entreprise-project reversed %}
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    {% include project.html %}
+  </div>
+  {% endfor %}
+
+  <div class="row">
+    <h3>Entreprises</h3>
+    <br/>
 		<p>Un des axes importants de Cemosis est l'interface Mathématiques-Entreprises. Cemosis est le représentant local d’<a href="http://www.agence-maths-entreprises.fr/a/?q=fr">AMIES</a> à Strasbourg et en Alsace.</p>
 		<br/>
 		<h4>Quels outils pour l’interface Mathématiques-Entreprises ?</h4>
@@ -36,9 +43,4 @@ permalink: /project_/entreprise/
 		</ul>
 	</div>
 
-	{% for post in site.categories.entreprise-project reversed %}
-		<div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-		{% include project.html %}
-		</div>
-	{% endfor %}
 </div>
