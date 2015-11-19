@@ -5,12 +5,15 @@ permalink: /project_/entreprise/
 
 <div class="container">
 
+  <div class="row">
   {% for post in site.categories.entreprise-project reversed %}
   <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
     {% include project.html %}
   </div>
   {% endfor %}
+  </div>
 
+  
   <div class="row">
     <h3>Entreprises</h3>
     <br/>
