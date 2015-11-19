@@ -24,15 +24,6 @@ permalink: /platform/
 	{% for post in sorted_platform_projects %}
     <span class="anchor" id="{{post.name}}"></span>
     <div id="panel-project" class="container-fluid" style="padding-top:30px">
-<!--
-        <center style="padding-top:50px"><h2>{{ post.title }}</h2></center>
-        <img src="{{ post.img }}" class="p-panel-img">
-        <b>{{ post.name }}</b>
-        <p>{{ post.title }}</p>
-        <p style="margin:5px">{{ post.abstract }}<p>
-        <p style="margin:5px;">Partenaires: {{ post.collaborator }}</p>
-        <p style="margin:5px;text-align: center"><a href="{{ post.url }}">En savoir +</a></p>
--->
         <p>{{ post.content }}</p>
     </div>
 	{% endfor %}
