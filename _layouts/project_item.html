@@ -8,9 +8,22 @@ layout: default
     <hr class="style">
 
     <h4>{{ page.title }}</h4>
+
+
+    {% if site.tags[page.project]  %}
+    <h2>Actualités {{ page.name }} </h2>
+    <div class="list-group">
+      {% for post in site.tags[page.project]  %}
+      <a class="list-group-item" href="{{ post.url }}">[{% include post-date-fr.html %}]  {{ post.title }}</a>
+      {% endfor %}
+    </div>
+    {% endif %}
+
     {{ content }}
 
+    
    	</div>
 
 </div>
+
 </div>

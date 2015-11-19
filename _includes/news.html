@@ -19,9 +19,27 @@
             <div class="ribbon-bottom-right"></div>
             <div class="ribbon-center-left"></div>
         </div>
-    </div>
-		
+        </div>
+
+        
+<!--        {% for p in site.tags.cemosis-project %}
+        {% if p.project == blank or post.project == blank %}
+        {% else %}  
+        {{ p.project }}
+        {% if p.project == post.project %}
+        <div class="ribbon ribbon-both ribbon-set ribbon-out-in">
+          <div class="ribbon-stitch">
+            <div class="ribbon-fabric"><a href="{{ p.url }}">{{ p.name }}</a></div>
+            <div class="ribbon-top-right"></div>
+            <div class="ribbon-bottom-right"></div>
+            <div class="ribbon-center-left"></div>
+          </div>
+        </div>
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+-->
 	<p>
-		{{ post.content }}
+	  {{ post.content }}
 	</p>
 </div>

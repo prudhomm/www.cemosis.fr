@@ -26,7 +26,7 @@ permalink: /presentation/
 		<img src="{{ member.photo }}">
 		</div>
 		<div class="col-md-11">
-		<span class="anchor" id="{{ member.firstName }}"></span>
+		<span class="anchor" id="{{ member.lastName }}"></span>
 		<p><b>{{ member.name }}</b></p>
 		<p>{{ member.position }}</p>
 		<a href="mailto:{{ member.email }}">{{ member.email }}</a>
@@ -38,7 +38,7 @@ permalink: /presentation/
 				<hr class="style">
 				{% endif %}
 			{% else %}
-		<span class="anchor" id="{{ member.firstName }}"></span>
+		<span class="anchor" id="{{ member.lastName }}"></span>
 		<p><b>{{ member.name }}</b></p>
 		<p>{{ member.position }}</p>
 		<a href="mailto:{{ member.email }}">{{ member.email }}</a>
