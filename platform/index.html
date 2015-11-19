@@ -5,20 +5,25 @@ permalink: /platform/
 
 <div class="container">
 
+<div id="panel-sections" class="container-fluid">
+    <div id="sections" class="centered">
+    <div class="row-fluid">
     {% assign sorted_platform_projects = (site.categories.platform-project | sort: 'pid') %}
 	{% for post in sorted_platform_projects %}
-        <div class="row-fluid">
-            <div class="col-md-4" style="padding-top:30px">
-                <a class="hvr-bounce-in" href="#{{ post.name }}"><img src="/images/icons/message.png"></a>
+            <div class="col-md-4" style="padding-top:30px;text-align:center;">
+                <a class="hvr-bounce-in" href="#{{ post.name }}">
+                <img style="max-width:33%" src="{{ post.logo }}">
+                </a>
                 <h3>{{ post.title }}</h3>
             </div>
-        </div>
 	{% endfor %}
+    </div>
+</div>
 
     {% assign sorted_platform_projects = (site.categories.platform-project | sort: 'pid') %}
 	{% for post in sorted_platform_projects %}
     <span class="anchor" id="{{post.name}}"></span>
-    <div id="panel-diploma" class="container-fluid">
+    <div id="panel-project" class="container-fluid" style="padding-top:30px">
 <!--
         <center style="padding-top:50px"><h2>{{ post.title }}</h2></center>
         <img src="{{ post.img }}" class="p-panel-img">
