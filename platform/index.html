@@ -3,14 +3,28 @@ layout: default
 permalink: /platform/
 ---
 
-<div class="container" style="">
-	<div class="row">
-		<h4>Plateforme</h4>
-		<p>Au travers des projets Cemosis, des logiciels et librairies sont développées. 3 Librairies ont un développement soutenu:</p>
-		<li>SELALIB</li>
-		<li>CLAC</li>
-		<li><a href="http://www.feelpp.org/">FEEL++</a></li>
-		<p>Les collaborations que nous mettons en place suivent le modèle de développement illustré par la figure ci-dessous.</p>
-		<img src="/img/softwarechain.png" width="800">
-	</div>
+<div class="container">
+
+<div id="panel-sections" class="container-fluid">
+    <div id="sections" class="centered">
+    <div class="row-fluid">
+    {% assign sorted_platform_projects = (site.categories.platform-project | sort: 'pid') %}
+	{% for post in sorted_platform_projects %}
+            <div class="col-md-4" style="padding-top:30px;text-align:center;">
+                <a class="hvr-bounce-in" href="#{{ post.name }}">
+                <img style="max-width:33%" src="{{ post.logo }}">
+                </a>
+                <h3>{{ post.title }}</h3>
+            </div>
+	{% endfor %}
+    </div>
+</div>
+
+    {% assign sorted_platform_projects = (site.categories.platform-project | sort: 'pid') %}
+	{% for post in sorted_platform_projects %}
+    <span class="anchor" id="{{post.name}}"></span>
+    <div id="panel-project" class="container-fluid" style="padding-top:30px">
+        <p>{{ post.content }}</p>
+    </div>
+	{% endfor %}
 </div>
