@@ -322,7 +322,7 @@ pre {
 }
 
 /* flip panel animation for index don't use it on project page */
-.panel {
+.flip-panel {
   margin: 20px 20px 20px 0;
   width: 90%;
   height: 35vh;
@@ -332,17 +332,17 @@ pre {
   -moz-perspective: 600px;
           perspective: 600px;
 }
-.panel p { color: #dddddd; }
-.panel b { color: #dddddd; }
-.panel a { color: white;}
-.panel-img {
+.flip-panel p { color: #dddddd; }
+.flip-panel b { color: #dddddd; }
+.flip-panel a { color: white;}
+.flip-panel-img {
   height: 25vh;
   width: 100%;
 }
 
 /* -- make sure to declare a default for every property that you want animated -- */
 /* -- general styles, including Y axis rotation -- */
-.panel .front {
+.flip-panel .front {
   float: none;
   position: absolute;
   top: 0;
@@ -371,7 +371,7 @@ pre {
   -webkit-transition: all .4s ease-in-out;
           transition: all .4s ease-in-out;
 }
-.panel.flip .front {
+.flip-panel.flip .front {
   z-index: 900;
   border-color: #eee;
   background: #333;
@@ -382,7 +382,7 @@ pre {
           transform: rotateY(180deg);
 }
 
-.panel .back {
+.flip-panel .back {
   float: none;
   position: absolute;
   top: 0;
@@ -411,7 +411,7 @@ pre {
           transition: all .4s ease-in-out;
 }
 
-.panel.flip .back {
+.flip-panel.flip .back {
   z-index: 1000;
   background: #80868d;
 
@@ -423,7 +423,7 @@ pre {
 }
 
 /* flip panel animation for projects*/
-.p-panel {
+.p-flip-panel {
   margin: 20px 20px 20px 0;
   width: 100%;
   height: 360px;
@@ -433,16 +433,16 @@ pre {
   -moz-perspective: 600px;
           perspective: 600px;
 }
-.p-panel p { color: #dddddd; }
-.p-panel b { color: #dddddd; }
-.p-panel a { color: white;}
-.p-panel-img {
+.p-flip-panel p { color: #dddddd; }
+.p-flip-panel b { color: #dddddd; }
+.p-flip-panel a { color: white;}
+.p-flip-panel-img {
   height: 240px;
   width: 100%;
 }
 /* -- make sure to declare a default for every property that you want animated -- */
 /* -- general styles, including Y axis rotation -- */
-.p-panel .p-front {
+.p-flip-panel .p-front {
   float: none;
   position: absolute;
   top: 0;
@@ -471,7 +471,7 @@ pre {
   -webkit-transition: all .4s ease-in-out;
           transition: all .4s ease-in-out;
 }
-.p-panel.flip .p-front {
+.p-flip-panel.flip .p-front {
   z-index: 900;
   border-color: #eee;
   background: #333;
@@ -482,7 +482,7 @@ pre {
           transform: rotateY(180deg);
 }
 
-.p-panel .p-back {
+.p-flip-panel .p-back {
   float: none;
   position: absolute;
   top: 0;
@@ -511,7 +511,7 @@ pre {
           transition: all .4s ease-in-out;
 }
 
-.p-panel.flip .p-back {
+.p-flip-panel.flip .p-back {
   z-index: 1000;
   background: #80868d;
 
@@ -635,3 +635,5 @@ footer a:hover{
 #panel-platform-2 {
     background-color: #eeeeee;
 }
+
+
