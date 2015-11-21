@@ -28,4 +28,12 @@
 
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" />
+
+  <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+    extensions: ["tex2jax.js", "TeX/AMSmath.js", "TeX/AMSsymbols.js", "TeX/autobold.js", "TeX/feelppmacros.js"],
+    jax: ["input/TeX","output/HTML-CSS"],
+    });
+  </script><script src="http://vivabrain.u-strasbg.fr/mathjax/latest/MathJax.js"></script>
+
 </head>
