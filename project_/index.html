@@ -3,7 +3,233 @@ layout: default
 permalink: /project_/
 ---
 
-<div class="container" style="padding-top:50px">
+<div class="container">
+
+  
+<div id="panel-sections" class="container-fluid">
+    <div id="sections" class="centered">
+      <div class="row-fluid">
+        <div class="col-md-6" style="padding-top:30px;text-align:center;">
+          <a class="hvr-bounce-in" href="#entreprises">
+            <img src="/img/logos/factory6.png">
+          </a>
+          <h3>Projets Mathématique-Entreprises</h3>
+        </div>
+        <div class="col-md-6" style="padding-top:30px;text-align:center;">
+          <a class="hvr-bounce-in" href="#academic">
+            <img src="/img/logos/academic.png">
+          </a>
+          <h3>Projets Interdisciplinaires</h3>
+        </div>
+      </div>
+    </div>
+</div>
+</div>
+
+<div id="panel-platform-0" class="container-fluid">
+  <div class "row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <h3>Les projets à Cemosis</h3>
+      <p>Cemosis propose différents niveaux de projets, qu'ils soient
+          tournés vers le monde industriel ou académique</p>
+        
+        
+        <div class="media">
+          <div class="media-left media-middle">
+            <a href="#">
+              <img class="media-object" src="/img/logos/battery-level-1.png" alt="...">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Niveau 1</h4>
+
+            Au niveau 1 les modèles et outils de simulations dont nous
+            disposons sont directement applicables. Une formation à
+            l'utilisation des outils et aux méthodologies peut
+            cependant être proposée. Ce sont des projets de courte
+            durée par exemple autour d'un stage de Master ou doctorat
+            conseil. Ce niveau de projet est typiquement un tremplin
+            vers des projets de recherche et colloboration plus
+            avancés.
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="media-left media-middle">
+            <a href="#">
+              <img class="media-object" src="/img/logos/battery-level-2.png" alt="...">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Niveau 2</h4>
+
+            Au second niveau les modèles sont à disposition mais les
+            outils logiciels ne sont pas directement disponibles et
+            nécessitent d'être développés et adaptés.
+            
+          </div>
+        </div>
+
+        <div class="media">
+          <div class="media-left media-middle">
+            <a href="#">
+              <img class="media-object" src="/img/logos/battery-level-3.png" alt="...">
+            </a>
+          </div>
+          <div class="media-body">
+            <h4 class="media-heading">Niveau 3</h4>
+
+            Au troisième niveau les modèles, méthodes et logiciels ne
+            sont pas directement disponibles. Ce niveau de projet fait
+            souvent l'objet d'un doctorat et s'inscrit donc dans la durée.
+            Nous citerons par exemple
+            <ul>
+              <li><a href="{% post_url project/interdisciplinary/physics/2015-08-17-hifimagnet %}">Hifimagnet</a></li>
+            </ul>
+          </div>
+        </div>
+        
+    </div>
+    <div class="col-md-1"></div>
+        
+  </div>
+</div>
+
+<span class="anchor" id="entreprises"></span>
+<div id="panel-platform-1" class="container-fluid">
+
+  <div class="row">
+    
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <h2>Projets mathématique entreprises</h2>
+  {% for post in site.categories.entreprise-project reversed %}
+  <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+    {% include project.html %}
+  </div>
+  {% endfor %}
+  </div>
+  <div class="col-md-1"></div>
+  </div>
+  
+</div>
+
+
+<span class="anchor" id="academic"></span>
+<div id="panel-platform-2" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <h2>Projets académiques inter-disciplinaires</h2>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+  <div class="row-fluid">
+    <div class="col-md-4" style="padding-top:30px;text-align:center;">
+      <a class="hvr-bounce-in" href="#physics">
+        <img src="/img/logos/electromagnet.png">
+      </a>
+      <h3>Physique</h3>
+    </div>
+    <div class="col-md-4" style="padding-top:30px;text-align:center;">
+      <a class="hvr-bounce-in" href="#life">
+        <img src="/img/logos/health.png">
+      </a>
+      <h3>Vie, Santé</h3>
+    </div>
+    <div class="col-md-4" style="padding-top:30px;text-align:center;">
+      <a class="hvr-bounce-in" href="#env">
+        <img src="/img/logos/environment.png">
+      </a>
+      <h3>Environnement</h3>
+    </div>
+  </div>
+</div>
+<div id="panel-platform-1" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <span class="anchor" id="physics"></span>
+      <h1>Projets Physique</h1>
+      {% for post in site.categories.interdisciplinary-physics-project reversed %}
+	<div class="col-xs-12 col-sm-6 col-md-4">
+	  {% include project.html %}
+	</div>
+	{% endfor %}
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+<div id="panel-platform-2" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <span class="anchor" id="life"></span>
+      <h1>Projets Santé/Bio-Médical</h1>
+      {% for post in site.categories.interdisciplinary-bio-project reversed %}
+      <div class="col-xs-12 col-sm-6 col-md-4">
+	{% include project.html %}
+      </div>
+      {% endfor %}
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+<div id="panel-platform-0" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <span class="anchor" id="env"></span>
+      <h1>Projets Environnement</h1>
+      {% for post in site.categories.interdisciplinary-env-project reversed %}
+	<div class="col-xs-12 col-sm-6 col-md-4">
+	  {% include project.html %}
+	</div>
+	{% endfor %}
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+</div>
+
+
+<!--  <div class="row">
+    <h3>Entreprises</h3>
+    <br/>
+		<p>Un des axes importants de Cemosis est l'interface Mathématiques-Entreprises. Cemosis est le représentant local d’<a href="http://www.agence-maths-entreprises.fr/a/?q=fr">AMIES</a> à Strasbourg et en Alsace.</p>
+		<br/>
+		<h4>Quels outils pour l’interface Mathématiques-Entreprises ?</h4>
+		<br/>
+		<h5>Stimulation de la recherche</h5>
+
+		<p>Afin de stimuler la recherche collaborative, nous proposons de financer des PEPS (projets exploratoires premiers soutiens) qui accompagnerait financièrement un mathématicien dans un projet avec une entreprise et en particulier dans le cadre de la collaboration de financer :</p>
+		<ul>
+		<li>les missions et déplacements</li>
+		<li>de l’équipement</li>
+		<li>un ou plusieurs stages de master</li>
+		</ul>
+
+		<h5>HPC-PME</h5>
+
+		<p>L'initiative <a href="http://www.initiative-hpc-pme.org/">HPC-PME</a> coordonné par GENCI, OSEO et INRIA est une opportunité pour les entreprises de considérer le calcul comme un atout stratégique. Dans un contexte de régionalisation de ce programme, le Mésocentre de Strasbourg et Cemosis sont naturellement les 2 acteurs régionaux pour répondre aux demandes des industriels.</p>
+
+		<h5>Formation</h5>
+		<ul>
+		<li>SEME Une semaine d’étude mathématique-entreprise (SEME) est prévue à Strasbourg en juin 2014 voir <a href="http://www.maths-entreprises.fr/">http://www.maths-entreprises.fr/</a></li>
+
+		<li>ECMI Strasbourg est à présent membre du European Consortium for Mathematics in Industry (ECMI) et est representé au comité éducatif par C. Prud’homme. Cela nous permet de</li>
+			<ul>
+			<li>participer activement aux discussions sur les formations mathematiques entreprises</li>
+			<li>d’échanger des étudiants pendant des semestres (erasmus) avec d’autres centres ECMI</li>
+			<li>participer aux semaines de modélisation où nous comptons envoyer deux ou trois étudiants par an, voir le retour d’experience de 2012 de 2 de nos étudiants qui ont passé 2 semaines à Dresde <a href="http://www.agence-maths-entreprises.fr/a/?q=fr/node/192">http://www.agence-maths-entreprises.fr/a/?q=fr/node/192</a>. Pour plus d’informations contacter C. Prud’homme (<a href="mailto:prudhomme@unistra.fr">prudhomme@unistra.fr</a>) et consulter le site d’ECMI <a href="http://www.ecmi-indmath.org/">http://www.ecmi-indmath.org/</a></li>
+		</ul>
+	</div>
+
+</div>
+-->
+
+
+<!--<div class="container" style="padding-top:50px">
 	<div class="row">
 	<p>Cemosis propose différents niveaux de projets, qu'ils soient tournés vers le monde industriel ou académique, sommairement décrit ci-dessous:</p>
 	<ol type="1">
@@ -23,3 +249,4 @@ permalink: /project_/
 	<div class="col-md-3"></div>
 	</div>
 </div>
+-->
