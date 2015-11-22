@@ -636,4 +636,10 @@ footer a:hover{
     background-color: #eeeeee;
 }
 
+.post-date,
+.post-author,
+.post-project {
+  margin-left: 10px;
+}
+
 
