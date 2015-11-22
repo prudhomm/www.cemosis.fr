@@ -1,9 +1,11 @@
 ---
 layout: news_item
 title: Une nouvelle technique d'imagerie au service de la détection de tumeurs
-date: 2013-04-06
+date: 2013-04-06 14:00:00
+location: UFR Math-Info Room 309
 author: prudhomm
 fullname: Christophe Prud'homme
+speaker: "Muriel Torregrossa (ICUBE/IMIS) & Zakaria Belhachmi (UHA/LMIA)"
 categories: [seminar]
 tags: [cemosis]
 ---

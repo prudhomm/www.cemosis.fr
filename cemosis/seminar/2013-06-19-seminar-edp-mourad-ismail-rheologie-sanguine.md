@@ -1,9 +1,11 @@
 ---
 layout: news_item
-title: Jeudi 20 juin 11h Seminaire EDP &#58; Mourad Ismail (Liphy/Grenoble) sur la Rhéologie Sanguine
-date: 2013-06-19
+title: Méthodes numériques pour la rhéologie sanguine
+date: 2013-06-20 11:00:00
+location: UFR Math-Info Room 309
 author: prudhomm
 fullname: Christophe Prud'homme
+speaker: Mourad Ismail (Liphy/UGA)
 categories: [seminar]
 tags: [cemosis]
 ---
