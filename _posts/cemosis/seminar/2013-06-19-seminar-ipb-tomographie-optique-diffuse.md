@@ -1,7 +1,9 @@
 ---
 layout: news_item
-title: Jeudi 20 juin 14h30 Séminaire IPB &#58; Tomographie optique diffuse (Lionel Hervé-CEA)
-date: 2013-06-19
+title: Tomographie optique diffuse
+speaker: Lionel Hervé (CEA)
+location: IPB salle de réunion
+date: 2013-06-20 14:30:00
 author: prudhomm
 fullname: Christophe Prud'homme
 categories: [seminar]
