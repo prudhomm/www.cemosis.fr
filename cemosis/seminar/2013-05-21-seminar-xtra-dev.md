@@ -1,6 +1,6 @@
 ---
-layout: news_item
-title: Rencontre Xtra-dev&#58; Présentation de CeMoSiS le 23 mai à 14h à l'UFR Math-Info
+layout: seminar_item
+title: "Rencontre Xtra-dev&#58; Présentation de CeMoSiS le 23 mai à 14h à l'UFR Math-Info"
 date: 2013-05-21
 location: UFR Math-Info Room 301
 author: prudhomm

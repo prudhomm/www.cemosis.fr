@@ -1,7 +1,6 @@
 ---
-layout: news_item
-title: Tomographie optique dans les milieux diffusants à partir de données résolues temporelles et spectrales
-Tomographie optique diffuse
+layout: seminar_item
+title: "Tomographie optique dans les milieux diffusants à partir de données résolues temporelles et spectrales"
 speaker: Lionel Hervé (CEA)
 location: "Salle de réunion de l'Institut de Physique Biologique, anciens hôpitaux civils"
 date: 2013-06-20 14:30:00
