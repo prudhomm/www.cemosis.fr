@@ -1,0 +1,53 @@
+---
+layout: default
+---
+<div class="container">
+<div class="row">
+	<div class="letter" style="margin-top:80px;margin-bottom:80px">
+    <h2>{{ page.title }}</h2>
+    <hr class="style">
+	<div class="ribbon ribbon-right ribbon-in">
+		<div class="ribbon-stitch">
+		  <div class="ribbon-fabric">
+                    <p>{{ page.date_time_html }}</p>
+		  </div>
+		  <div class="ribbon-top-right"></div>
+		  <div class="ribbon-bottom-right"></div>
+		</div>
+	</div>
+
+        <div class="ribbon ribbon-both ribbon-set ribbon-out-in">
+          <div class="ribbon-stitch">
+            <div class="ribbon-fabric"><a href="/presentation/#{{ page.author }}">{{ page.fullname }}</a></div>
+            <div class="ribbon-top-right"></div>
+            <div class="ribbon-bottom-right"></div>
+            <div class="ribbon-center-left"></div>
+          </div>
+        </div>
+
+<!--        {% if page.project  %}
+        {{ site.tags.project }}
+        <div class="ribbon ribbon-both ribbon-set ribbon-out-in">
+          <div class="ribbon-stitch">
+            <div class="ribbon-fabric"><a href="{{ page.url }}">{{ page.project }}</a></div>
+            <div class="ribbon-top-right"></div>
+            <div class="ribbon-bottom-right"></div>
+            <div class="ribbon-center-left"></div>
+          </div>
+        </div>
+        {% endif %}
+-->
+        
+<h3>Intervenant(s)/e(s)</h3>
+  {{ page.speaker }}
+  <h3>Lieu</h3>
+  {{ page.location }}
+
+  <h3>Résumé</h3>
+  <p>
+    {{ content }}
+  </p>
+   	</div>
+
+</div>
+</div>

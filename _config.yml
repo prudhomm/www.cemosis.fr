@@ -22,3 +22,6 @@ paginate_path: /news_/page:num/
 highlighter: pygments
 
 permalink: pretty
+
+gems:
+  - octopress-date-format

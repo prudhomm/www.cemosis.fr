@@ -1,0 +1,74 @@
+---
+layout: default
+permalink: /events/
+---
+
+<div class="container-fluid">
+
+  <div class="row-fluid">
+    <div class="col-md-6" style="padding-top:30px;text-align:center;">
+      <a class="hvr-bounce-in" href="#seminars">
+        <img src="/img/logos/seminar.png">
+      </a>
+      <h3>Séminaires</h3>
+    </div>
+    <div class="col-md-6" style="padding-top:30px;text-align:center;">
+      <a class="hvr-bounce-in" href="#workshops">
+        <img src="/img/logos/conference.png">
+      </a>
+      <h3>Workshops</h3>
+    </div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10" style="padding-top:30px;text-align:center;">
+            <!--{% include seminar.html %}-->
+        <ul class="list-group">
+      {% for post in site.categories.seminar limit:5 %}
+
+        <!-- List group -->
+        
+      <li class="list-group-item">
+        <p class="text-left">
+          <!--{{ post.date | date: '%Y-%m-%d %H'}} - {{ post.location }}-->
+          {{ post.date_time_html }} - {{ post.location }}
+          <br>
+          {{ post.speaker }}<br>
+          <a href="{{ post.url }}">
+            <i>{{ post.title }}</i>
+          </a>
+        </p>
+      </li>
+      {% endfor %}
+        </ul>
+
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+
+  <div class="row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10" style="padding-top:30px;text-align:center;">
+    <ul>
+      {% for post in site.categories.event %}
+      {% if post.date > site.time %}
+      <li>{{ post.title }} - {{ post.period }} - <a href="{{ post.url }}">lien</a></li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+    
+    <hr class="style">
+    <h3>Évènements passés</h3>
+    <ul>
+      {% for post in site.categories.event %}
+      {% if post.date < site.time %}
+           <li>{{ post.title }} - {{ post.period }} - <a href="{{ post.url }}">lien</a></li>
+      {% endif %}
+	   {% endfor %}
+      <li>Semaine d'Etudes Mathématiques Entreprise - 23-27/06/14 - <a href="http://seme.cemosis.fr/">lien</a>
+    </ul>
+    </div>
+</div>
+
+</div>
