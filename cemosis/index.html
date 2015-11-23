@@ -1,0 +1,155 @@
+---
+layout: default
+permalink: /cemosis/
+---
+
+
+<div class="container-fluid">
+
+  <div class="row-fluid">
+    <div class="col-md-3" style="padding-top:30px;text-align:center;">
+      <a class="hvr-bounce-in" href="#news">
+        <img src="/img/logos/news.png">
+      </a>
+      <h3>Actualités</h3>
+    </div>
+    <div class="col-md-3" style="padding-top:30px;text-align:center;">
+      <a class="hvr-bounce-in" href="#seminars">
+        <img src="/img/logos/seminar.png">
+      </a>
+      <h3>Séminaires</h3>
+    </div>
+    <div class="col-md-3" style="padding-top:30px;text-align:center;">
+      <a class="hvr-bounce-in" href="#workshops">
+        <img src="/img/logos/conference.png">
+      </a>
+      <h3>Workshops</h3>
+    </div>
+    <div class="col-md-3" style="padding-top:30px;text-align:center;">
+      <a class="hvr-bounce-in" href="#publications">
+        <img src="/img/logos/publications.png">
+      </a>
+      <h3>Publications</h3>
+    </div>
+  </div>
+</div>
+
+<span class="anchor" id="news"></span>
+<div id="panel-platform-0" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-10 col-md-offset-1" style="padding-top:30px;text-align:center;">
+      <h1>Actualités</h1>
+        <ul class="list-group">
+      {% for post in site.categories.news limit:5 %}
+
+        <!-- List group -->
+        
+      <li class="list-group-item">
+        <h4 class="text-left">{{ post.title }}</h4>
+        <h5><p class="text-left"><span class="post-date">{{ post.date | date: '%Y-%m-%d' }}</span> 
+            <small><a href="https://github.com/{{ post.author }}" class="post-author">
+            <img src="https://github.com/{{ post.author }}.png" class="avatar" alt="{{ post.author }}" width="24" height="24">
+            {% if post.fullname %}
+            {{ post.fullname }}
+            {% else %}
+            {{ post.author }}
+            {% endif %}
+          </a></small>
+        </p></h5>
+        <div class="text-left">
+          <div class="read-more">
+            {{ post.content }}
+          </div>
+        </div>
+      </li>
+      {% endfor %}
+        </ul>
+
+    </div>
+  </div>
+</div>
+
+<span class="anchor" id="seminars"></span>
+<div  id="panel-platform-1" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-10 col-md-offset-1" style="padding-top:30px;text-align:center;">
+      <h1>Séminaires</h1>
+      <ul class="list-group">
+        {% for post in site.categories.seminar limit:5 %}
+        <li class="list-group-item">
+          <h4 class="text-left">{{ post.title }}</h4>
+          <h5><p class="text-left"><span class="post-date">{{ post.date | date: '%Y-%m-%d %H:%M' }}</span> 
+              <small>{{ post.speaker }}</small>
+          </p></h5>
+          <div class="text-left">
+            <div class="read-more">
+              {{ post.content }}
+            </div>
+          </div>
+        </li>
+        {% endfor %}
+      </ul>
+
+    </div>
+  </div>
+</div>
+
+<span class="anchor" id="workshops"></span>
+<div  id="panel-platform-0" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-10 col-md-offset-1" style="padding-top:30px;text-align:center;">
+      <h1>Workshops</h1>
+      <ul class="list-group">
+      {% for post in site.categories.event limit:5 %}
+      <li class="list-group-item">
+        <p class="text-left">
+          {{ post.period }} <br>
+          <a href="{{ post.url }}">
+            <i>{{ post.title }}</i>
+          </a>
+        </p>
+      </li>
+      {% endfor %}
+        </ul>
+
+  <!--    <hr class="style">
+    <h3>Évènements passés</h3>
+    <ul>
+      {% for post in site.categories.event %}
+      {% if post.date < site.time %}
+           <li>{{ post.title }} - {{ post.period }} - <a href="{{ post.url }}">lien</a></li>
+      {% endif %}
+	   {% endfor %}
+      <li>Semaine d'Etudes Mathématiques Entreprise - 23-27/06/14 - <a href="http://seme.cemosis.fr/">lien</a>
+    </ul>-->
+    </div>
+  </div>
+</div>
+<span class="anchor" id="publications"></span>
+<div  id="panel-platform-1" class="container-fluid">
+  <div class="row-fluid">
+    <div class="col-md-10 col-md-offset-1" style="padding-top:30px;text-align:center;">
+      <h1>Publications</h1>
+      <h3>Articles</h3>
+      <div class="text-left">
+        {% bibliography --max 5 --query @article[year>=2014] %}
+    </div>
+    <h3>Thèses</h3>
+      <div class="text-left">
+        {% bibliography --max 5 --query @phdthesis[year>=2014] %}
+      </div>
+      <h3>Proceedings</h3>
+      <div class="text-left">
+        {% bibliography --max 5 --query @inproceedings[year>=2014] %}
+      </div>
+      <h3>Posters</h3>
+      <div class="text-left">
+        {% bibliography --max 5 --query @misc[note=Poster] %}
+      </div>
+      <h3>Pre-Prints</h3>
+      <div class="text-left">
+        {% bibliography --max 5 --query @unpublished[year>=2014] %}
+      </div>
+    </div>
+  </div>
+</div>

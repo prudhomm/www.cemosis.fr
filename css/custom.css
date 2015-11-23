@@ -175,6 +175,7 @@ hr.style {
 }
 
 /* image slide caption */
+/*
 .caption {
   position: absolute;
   top: 400px;
@@ -200,7 +201,7 @@ hr.style {
   color: #ff9933;
   font-weight: bold;
 }
-
+*/
 /* jssor slider arrow navigator skin 09 css */
 /*
 .jssora09l                  (normal)
@@ -634,6 +635,12 @@ footer a:hover{
 
 #panel-platform-2 {
     background-color: #eeeeee;
+}
+
+.post-date,
+.post-author,
+.post-project {
+  margin-left: 10px;
 }
 
 

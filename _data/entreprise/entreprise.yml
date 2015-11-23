@@ -1,0 +1,54 @@
+- name: Plastic Omnium Auto Extérieur Services
+  id: 1
+  logo: /img/logos/logo-po.jpg
+  website: http://www.plasticomnium.com/fr/equipementier-automobile/division-auto-exterior.html
+  description: Premier fournisseur mondial de pièces et modules de carrosserie en plastique et composites
+  testimony-1: Certains projets en recherche et innovation à Plastic Omnium peuvent demander des outils de développement numérique pour tester partiellement de nouvelles idées de modélisation. Nous avons donc cherché un logiciel libre parallélisé à installer sur notre cluster, permettant de résoudre des systèmes d’équations aux dérivées partielles. Avec sa librairie d’opérateurs et de solveurs disponibles, le logiciel Feel++ dévelopé au sein de <a href="http://www.cemosis.fr">Cemosis</a> correspondait à cette attente. Un premier sujet portant sur le calcul de modes propres, confié à un stagiaire en master 2 nous a permis de nous familiariser avec le logiciel et de démarrer une collaboration sur un travail de recherche en mécanique des fluides, associant les compétences industrielles et universitaires. Le souhait est maintenant de consolider l’utilisation de Feel++ dans l’équipe avec le support de l’université. Le master 2 en  math/calcul scientifique/HPC est donc une formation bien adaptée à cet objectif.
+  testimony-1-author: Philippe Gilotte
+  testimony-1-job: Chef de Projet Recherche
+  testimony-1-date: 27/08/2015
+
+- name: Hager Controls
+  id: 2
+  logo: /img/logos/logo-hager.jpg
+  website: http://www.hagergroup.com
+  description: Fournisseur leader de solutions et de services pour les installations électriques dans les bâtiments résidentiels, tertiaires et industriels
+  testimony-1: Durant la phase de formalisation d’un de nos projets de développement, nous avons été confrontés à un problème de régulation temps réel. Après une première approche très focalisée dans notre domaine de compétences il nous a paru important pouvoir s’ouvrir à des disciplines annexes. L’intégration d’algorithmes mathématiques était rendue nécessaire par la complexité des contraintes à prendre en compte pour la gestion de notre système. Le travail en étroite collaboration avec les étudiants et les chercheurs a été très enrichissant de part et d’autre. Pour les étudiants qui ont pu découvrir les problématiques de gestion d’énergie et pour nous qui avons pu sortir des sentiers battus et innover dans notre domaine de compétence.  La consolidation de cette étude dans nos produits nous apportera une véritable différenciation vis-à-vis de nos concurrents.
+  testimony-1-author: Bertrand Legrand & Alain Gartiser
+  testimony-1-job: Chefs de Projet
+  testimony-1-date: 01/09/2015
+
+- name: Holo3
+  id: 3
+  logo: /img/logos/logo-holo3.jpg
+  website: http://www.holo3.com
+  description: Centre de transfert de technologie spécialisé dans les techniques optiques et d'imagerie
+
+- name: Sigmaphi
+  id: 4
+  logo: /img/logos/logo-sigmaphi.png
+  website: http://www.sigmaphi.fr
+  description: Sigmaphi design, fabrique et mesure les systèmes magnétiques et faisceau de transport pour accélérateurs de particules
+
+
+- name: Airbus Group
+  id: 5
+  logo: /img/logos/logo-airbus.jpg
+  website: http://www.airbusgroup.com/
+  description: Groupe industriel européen présent dans le secteur aéronautique et spatial civil et militaire.
+
+- name: AxesSim
+  id: 6
+  logo: /img/logos/logo-axessim.png
+  website: http://www.axessim.eu/
+  description: Conception et au développement de logiciels destinés aux entreprises et laboratoires de recherche
+  testimony-1: Chez AxesSim, nous développons des logiciels de simulation dans le domaine de la Compatibilité ElectroMagnétique (CEM). Parmi nos clients privés ou public on trouve THALES,  Dassault Aviation, SAFRAN, la Délégation Générale de l’Armement (DGA), l’Agence Spatiale Européenne (ESA), ... Pour développer ces logiciels et se différencier de la concurrence, il est important d'être à la pointe de l'innovation dans l'algorithmie de résolution des équations de la physique ainsi que des environnements d'exploitation qui doivent être performants et ergonomiques. Plusieurs de nos collaborateurs ont été formés dans le master CSMI. Ils nous ont permis d'optimiser des codes de calcul pour les architectures d'ordinateur hybride (CPU+GPU). Les étudiants du master CSMI ont une base solide en mathématiques et en analyse numérique. Ils ont aussi d'excellentes compétences techniques en informatiques. Ce double profil permet aux anciens élèves du master CSMI de s'intégrer efficacement aux objectifs de notre société.
+  testimony-1-author: Christophe Girard
+  testimony-1-job: Directeur et Créateur
+  testimony-1-date: 01/10/2015
+
+- name: See-d
+  id: 7
+  logo: /img/logos/logo-seed.png
+  website: http://www.see-d.fr
+  description: See-d met la recherche académique à disposition des entreprises dans le cadre d’une structure privée et d’une relation commerciale. 

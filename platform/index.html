@@ -22,16 +22,20 @@ permalink: /platform/
     </div>
 </div>
 </div>
-    <br>
-    {% assign sorted_platform_projects = (site.categories.platform-project | sort: 'pid') %}
-	{% for post in sorted_platform_projects %}
-    <span class="anchor" id="{{post.name}}"></span>
-    <div id="panel-platform-{{ post.pid }}" class="container-fluid">
-    <div class="row-fluid">
-    <div id="panel-project" class="container-fluid" style="padding-top:30px">
-        <p>{{ post.content }}</p>
+<br>
+{% assign sorted_platform_projects = (site.categories.platform-project | sort: 'pid') %}
+{% for post in sorted_platform_projects %}
+<span class="anchor" id="{{post.name}}"></span>
+<div id="panel-platform-{{ post.pid }}" class="container-fluid">
+  <!--<div id="panel-project" class="container-fluid" style="padding-bottom:20px">-->
+  <div class="row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <p>{{ post.content }}</p>
     </div>
-    </div>
-    </div>
-	{% endfor %}
+    <div class="col-md-1"></div>
+  </div>
+<!--</div>-->
+</div>
+{% endfor %}
 </div>

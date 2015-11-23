@@ -18,7 +18,24 @@
     </main>
     
     {% include footer.html %}
-    
+
+        <!-- read more option's code, using Readmore.js -->
+    <script type="text/javascript">
+    <!--$(document).ready(function() {-->
+        $('.read-more').readmore({
+            collapsedHeight: 60,
+            lessLink: '<a href="#">[Lire moins]</a>',
+            moreLink: '<a href="#">[Lire plus]</a>'
+        });
+    <!--});-->
+    </script>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+        
+      });
+    </script>
+
   </body>
 
 </html>

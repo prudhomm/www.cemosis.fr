@@ -1,0 +1,19 @@
+        <div class="hover p-flip-panel">
+          <div class="p-front">
+            <div class="p-pad">
+              {% if member.photo %}
+              <img src="{{ member.photo }}"  width="100%">
+              {% else %}
+              <img src="/img/logos/person.png" width="100%">
+              {% endif %}
+              <b>{{ member.name }}</b>
+              <p>{{ member.position }}</p>
+            </div>
+          </div>
+          <div class="p-back">
+            <div class="p-pad">
+              <!--<p style="margin:5px">{{ member.address }}</p>-->
+              <p style="margin:5px">{{ member.description }}</p>
+            </div>
+          </div>
+        </div>

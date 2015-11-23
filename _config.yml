@@ -22,3 +22,31 @@ paginate_path: /news_/page:num/
 highlighter: pygments
 
 permalink: pretty
+
+timezone: Europe/Paris
+future: true
+lsi: false
+
+gems: [jekyll-paginate]
+#gems:
+#  - octopress-date-format
+
+scholar:
+  style: apa
+  locale: en
+  
+  sort_by: none
+  order: descending
+  
+  source: ./_bibliography
+  bibliography: cemosis.bib
+  bibliography_template: "{{reference}}"
+  
+  replace_strings: true
+  join_strings:    true
+  
+  details_dir:    bibliography
+  details_layout: bibtex.html
+  details_link:   Details
+
+  query: "@*"
