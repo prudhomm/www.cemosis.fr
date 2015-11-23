@@ -6,35 +6,35 @@ permalink: /presentation/
 <div class="container-fluid">
 
   <div class="row-fluid">
-    <div class="col-md-2"></div>
-    <div class="col-md-2" style="padding-top:30px;text-align:center;">
+
+    <div class="col-md-3" style="padding-top:30px;text-align:center;">
       <a class="hvr-bounce-in" href="#team">
         <img src="/img/logos/team.png">
       </a>
-      <h3>Qui sommes-nous?</h3>
+        <h3>Qui sommes - nous?</h3>
     </div>
     
-    <div class="col-md-2" style="padding-top:30px;text-align:center;">
+    <div class="col-md-3" style="padding-top:30px;text-align:center;">
       <a class="hvr-bounce-in" href="#funding">
         <img src="/img/logos/financement.png">
       </a>
       <h3>Ils nous ont financés</h3>
     </div>
 
-    <div class="col-md-2" style="padding-top:30px;text-align:center;">
+    <div class="col-md-3" style="padding-top:30px;text-align:center;">
       <a class="hvr-bounce-in" href="#trust">
         <img src="/img/logos/confiance.png">
       </a>
       <h3>Ils nous ont fait confiance</h3>
     </div>
     
-    <div class="col-md-2" style="padding-top:30px;text-align:center;">
+    <div class="col-md-3" style="padding-top:30px;text-align:center;">
       <a class="hvr-bounce-in" href="#reports">
         <img src="/img/logos/report.png">
       </a>
       <h3>Nos rapports d'activités</h3>
     </div>
-    <div class="col-md-2"></div>
+    
   </div>
 </div>
 
@@ -109,45 +109,26 @@ permalink: /presentation/
    <div class="row-fluid">
      <div class="col-md-10 col-md-offset-1">
        <h1>Ils nous ont financés</h1>
-
-
-       <div class="media">
-         <div class="media-left">
-           <a href="#">
-             <img class="media-object" src="/img/logo_LabexIrmia_4.png">
-           </a>
-         </div>
-         <div class="media-body">
-           <h4 class="media-heading">Labex IRMIA</h4>
-           
-         </div>
+     </div>
+     {% for fund in site.data.funding.funding %}
+     <div class="col-md-10 col-md-offset-1">
+       <div class="col-md-2">
+         <p style="text-align:right;vertical-align:middle">
+              <a href="{{ fund.url }}">{% if fund.logo %}<img src="{{ fund.logo }}" style="height:64px;vertical-align:middle"> {% endif %}</a>
+           </p>
        </div>
-
-         <div class="media">
-         <div class="media-left">
-           <a href="#">
-             <img class="media-object" src="/img/logo-amies.png">
-           </a>
-         </div>
-         <div class="media-body">
-           <h4 class="media-heading">AMIES</h4>
-           
-         </div>
-         </div>
-
-         <div class="media">
-         <div class="media-left">
-           <a href="#">
-             <img class="media-object" src="/img/ANR07.jpg">
-           </a>
-         </div>
-         <div class="media-body">
-           <h4 class="media-heading">Agence National pour la Recherche</h4>
-           
-         </div>
-         </div>
-         
+       <div class="col-md-9" style="vertical-align:middle">
+         <h4>{{ fund.name }} <small>{{ fund.acronym }}</small></h4>
+         <p>Projets: 
+         {% for p in fund.projects %}
+         {{ p }}, 
+           {% endfor %}
+           </p>
        </div>
+       </div>
+       
+       {% endfor %}
+       
    </div>
 </div>
 

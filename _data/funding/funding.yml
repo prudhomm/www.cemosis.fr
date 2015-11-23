@@ -1,45 +1,30 @@
 - name: IDEX Strasbourg
-  detail: >
-          2013/01-2015/01<br/>
-          Financement de 2 ans d'ingénieur de recherche et fonctionnement
+  acronym: IDEX
   url: 
-  logo: 
-
+  logo: /img/logos/logo-investissement-davenir.jpg
+  projects: [Cemosis(Ingénieur de Recherche)]
+  
 - name: Labex IRMIA
-  detail: >
-          2013/09-2015/09<br/>
-          Financement de 2 ans d'ingénieur de recherche<br/>
-          2013/09-2016/09<br/>
-          Financement de thèse Cécile Daversin <i>Bases réduites certifiées pour des problèmes multi-physiques non-linéaires de grande taille. Application au design d’aimants à haut champ</i>
+  acronym: IRMIA
   url: http://labex-irmia.u-strasbg.fr/
-  logo: http://labex.math.cnrs.fr/wp-content/uploads/logo-irmia.jpg
+  logo: /img/logos/logo-irmia.png
+  projects: [Cemosis(Ingénieurs de Recherche), Doctorat C. Daversin, Doctorat R. Hild]    
 
-- name: ANR MN Vivabrain
-  detail: >
-          2013-2017<br/>
-          Virtual angiography simulation from 3D and 3D+t brain vascular models
-  url: http://www.vivabrain.fr/
-  logo: http://www.agence-nationale-recherche.fr/fileadmin/tpl/img/logo.gif
+- name: Agence pour les Mathématiques en Interaction avec les Entreprises et la Société
+  acronym: AMIES  
+  url: http://agence-maths-entreprises.fr
+  logo: /img/logos/logo-amies.png
+  projects: [M4SE@Home, Solodem, Ns2++, Sivibir++]  
 
-- name: ANR MN Chorus
-  detail: >
-          2013-2017<br/>
-          Common Horizon for Uncertainty quantification in Simulation
-  url:
-  logo: http://www.agence-nationale-recherche.fr/fileadmin/tpl/img/logo.gif
+- name: Agence Nationale pour la Recherche
+  acronym: ANR 
+  url: http://www.agence-nationale-recherche.fr/
+  logo: /img/logos/logo-anr.jpg
+  projects: [ANR Vivabrain, ANR Chorus(Doctorat J.B. Wahl, Ingénieur de Recherche)]  
 
-- name: AMIES PEPS SOLODEM
-  detail: >
-          2014-2015<br/>
-          Solutions logicielles pour le dimensionnement d’électroaimants
-  url:
-  logo:
-
+  
 - name: Ministère de l'Enseignement Supérieur et de la Recherche
-  detail: >
-          2013-2016<br/>
-          Financement de Thèse Ranine Tarabay<br/>
-          2014-2017<br/>
-          Financement de Thèse Guillaume Dollé
+  acronym: MESR
   url: 
-  logo:  
+  logo:  /img/logos/logo-mesr.png
+  projects: [Doctorat R. Tarabay, Doctorat G. Dollé]
