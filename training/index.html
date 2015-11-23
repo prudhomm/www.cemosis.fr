@@ -3,6 +3,44 @@ layout: default
 permalink: /training/
 ---
 
+<div class="container">
+
+<div id="panel-sections" class="container-fluid">
+    <div id="sections" class="centered">
+    <div class="row-fluid">
+    {% assign sorted_formations = (site.categories.formation | sort: 'pid') %}
+    {% for post in sorted_formations %}
+            <div class="col-md-4" style="padding-top:30px;text-align:center;">
+                <a class="hvr-bounce-in" href="#{{ post.name }}">
+                <img style="max-width:33%" src="{{ post.logo }}">
+                </a>
+                <h3>{{ post.title }}</h3>
+            </div>
+    {% endfor %}
+    </div>
+    </div>
+</div>
+</div>
+
+<br/>
+{% assign sorted_formations = (site.categories.formation | sort: 'pid') %}
+{% for post in sorted_formations %}
+<span class="anchor" id="{{post.name}}"></span>
+<div id="panel-formation-{{ post.pid }}" class="container-fluid" style="padding-bottom:20px;{% cycle 'background-color:#eeeeee;', '' %}" >
+  <!--<div id="panel-project" class="container-fluid" style="padding-bottom:20px">-->
+  <div class="row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <p>{{ post.content }}</p>
+    </div>
+    <div class="col-md-1"></div>
+  </div>
+<!--</div>-->
+</div>
+{% endfor %}
+</div>
+
+<!--
 <div class="container" style="padding-top:50px">
 	<div class="row">
 		<p>Cemosis se veut un support à la recherche, l'enseignement et l'industrie. C'est donc tout naturellement qu'une part de son activité concerne la formation, que ce soit des étudiants, des chercheurs ou encore du monde industriel.</p>
@@ -26,3 +64,4 @@ permalink: /training/
 
 	</div>
 </div>
+-->
