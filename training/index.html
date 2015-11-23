@@ -5,30 +5,39 @@ permalink: /training/
 
 <div class="container">
 
-<!--
 <div id="panel-sections" class="container-fluid">
     <div id="sections" class="centered">
     <div class="row-fluid">
-    {% assign sorted_platform_projects = (site.categories.formation | sort: 'pid') %}
-	{% for post in sorted_platform_projects %}
-            <div class="col-md-4" style="padding-top:30px;text-align:center;">
+    {% assign sorted_formations = (site.categories.formation | sort: 'pid') %}
+    {% for post in sorted_formations %}
+            <div class="col-md-3" style="padding-top:30px;text-align:center;">
                 <a class="hvr-bounce-in" href="#{{ post.name }}">
                 <img style="max-width:33%" src="{{ post.logo }}">
                 </a>
                 <h3>{{ post.title }}</h3>
             </div>
-	{% endfor %}
+    {% endfor %}
+    </div>
     </div>
 </div>
--->
+</div>
 
-    {% assign sorted_platform_projects = (site.categories.formation | sort: 'pid') %}
-	{% for post in sorted_platform_projects %}
-    <span class="anchor" id="{{post.name}}"></span>
-    <div id="panel-project" class="container-fluid" style="padding-top:30px">
-        <p>{{ post.content }}</p>
+<br/>
+{% assign sorted_formations = (site.categories.formation | sort: 'pid') %}
+{% for post in sorted_formations %}
+<span class="anchor" id="{{post.name}}"></span>
+<div id="panel-formation-{{ post.pid }}" class="container-fluid" {% cycle 'style="background-color:#eeeeee;"', '' %} >
+  <!--<div id="panel-project" class="container-fluid" style="padding-bottom:20px">-->
+  <div class="row-fluid">
+    <div class="col-md-1"></div>
+    <div class="col-md-10">
+      <p>{{ post.content }}</p>
     </div>
-	{% endfor %}
+    <div class="col-md-1"></div>
+  </div>
+<!--</div>-->
+</div>
+{% endfor %}
 </div>
 
 <!--
