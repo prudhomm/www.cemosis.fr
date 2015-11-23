@@ -22,12 +22,11 @@ permalink: /platform/
     </div>
 </div>
 </div>
-<br>
+<br/>
 {% assign sorted_platform_projects = (site.categories.platform-project | sort: 'pid') %}
 {% for post in sorted_platform_projects %}
 <span class="anchor" id="{{post.name}}"></span>
-<div id="panel-platform-{{ post.pid }}" class="container-fluid">
-  <!--<div id="panel-project" class="container-fluid" style="padding-bottom:20px">-->
+<div class="container-fluid" style="padding-bottom:20px;{% cycle 'background-color:#eeeeee;', '' %}">
   <div class="row-fluid">
     <div class="col-md-1"></div>
     <div class="col-md-10">
@@ -35,7 +34,6 @@ permalink: /platform/
     </div>
     <div class="col-md-1"></div>
   </div>
-<!--</div>-->
 </div>
 {% endfor %}
 </div>
