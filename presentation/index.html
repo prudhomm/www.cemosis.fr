@@ -13,7 +13,7 @@ permalink: /presentation/
       </a>
         <h3>Qui sommes - nous?</h3>
     </div>
-    
+
     <div class="col-md-3" style="padding-top:30px;text-align:center;">
       <a class="hvr-bounce-in" href="#funding">
         <img src="/img/logos/financement.png">
@@ -27,14 +27,14 @@ permalink: /presentation/
       </a>
       <h3>Ils nous ont fait confiance</h3>
     </div>
-    
+
     <div class="col-md-3" style="padding-top:30px;text-align:center;">
       <a class="hvr-bounce-in" href="#reports">
         <img src="/img/logos/report.png">
       </a>
       <h3>Nos rapports d'activités</h3>
     </div>
-    
+
   </div>
 </div>
 
@@ -79,7 +79,7 @@ permalink: /presentation/
 		<p><b>{{ member.name }}</b></p>
 		<p>{{ member.position }}</p>
 		<a href="mailto:{{ member.email }}">{{ member.email }}</a>
-		<p>{{ member.address }}</p>	
+		<p>{{ member.address }}</p>
 		</div>
 		<p>{{ member.description }}</p>
 				{% if member == site.data.team.member.last %}
@@ -102,7 +102,7 @@ permalink: /presentation/
     {% endfor %}
        </div>
 </div>
-</div>	
+</div>
 
  <span class="anchor" id="funding"></span>
  <div id="panel-platform-0" class="container-fluid">
@@ -119,16 +119,16 @@ permalink: /presentation/
        </div>
        <div class="col-md-9" style="vertical-align:middle">
          <h4>{{ fund.name }} <small>{{ fund.acronym }}</small></h4>
-         <p>Projets: 
+         <p>Projets:
          {% for p in fund.projects %}
-         {{ p }}, 
+         {{ p }},
            {% endfor %}
            </p>
        </div>
        </div>
-       
+
        {% endfor %}
-       
+
    </div>
 </div>
 
@@ -151,7 +151,7 @@ permalink: /presentation/
        </div>
    </div>
  </div>
- 
+
  <span class="anchor" id="reports"></span>
  <div id="panel-platform-0" class="container-fluid">
    <div class="row-fluid">
@@ -162,7 +162,7 @@ permalink: /presentation/
        <a href="/pdfs/rapport-201301-201402.pdf">
          <div class="thumbnail" >
            <img src="/img/report-1.png" style="min-height:256px;height:256px">
-      
+
            <div class="caption">
              <h4>Rapport</h4>
              <p>2013/01-2014/02</p>
@@ -181,7 +181,21 @@ permalink: /presentation/
          </div>
          </div>
          </a>
+     </div>
+
+     <div class="col-md-4">
+              <a href="/pdfs/rapport-201301-201512.pdf">
+
+         <div class="thumbnail">
+           <img src="/img/report-2.png"  style="min-height:256px;height:256px">
+         <div class="caption">
+             <h4>Rapport</h4>
+             <p>2013/01-2015/12</p>
          </div>
+         </div>
+         </a>
+         </div>
+
      </div>
    </div>
 </div>

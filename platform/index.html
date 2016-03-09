@@ -5,7 +5,7 @@ permalink: /platform/
 
 <div class="container">
 
-  
+
 <div id="panel-sections" class="container-fluid">
     <div id="sections" class="centered">
     <div class="row-fluid">
@@ -13,7 +13,7 @@ permalink: /platform/
 	{% for post in sorted_platform_projects %}
             <div class="col-md-3" style="padding-top:30px;text-align:center;">
                 <a class="hvr-bounce-in" href="#{{ post.name }}">
-                <img style="max-width:33%" src="{{ post.logo }}">
+                  <img style="max-width:33%" src="{{ post.logo }}" style="display: block; margin-left: auto;  margin-right: auto">
                 </a>
                 <h3>{{ post.title }}</h3>
             </div>
@@ -36,4 +36,3 @@ permalink: /platform/
   </div>
 </div>
 {% endfor %}
-

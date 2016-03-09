@@ -642,3 +642,53 @@ footer a:hover{
 #panel-platform-2 {
     background-color: #eeeeee;
 }
+
+/* vh: relative number to viewport height */
+.slide1, .slide2, .slide3, .slide4, .slide5 {
+    height: 65vh;
+    background-size: cover;
+    background-position: center center;
+}
+.slide1 {
+   background-image: url(/img/slide/gallery.png);
+}
+.slide2 {
+    background-image: url(/img/slide/lncmi-1.png);
+}
+.slide3 {
+    background-image: url(/img/slide/vivabrain-stream-2.png);
+}
+.slide4 {
+    background-image: url(/img/slide/tgcc_curie.jpeg);
+}
+.slide5 {
+    background-image: url(/img/slide/elm-pressure-movie_1400x1070_0170.png);
+}
+
+/* Carousel Fade Effect */
+.carousel.carousel-fade .item {
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    transition: opacity 1s linear;
+    opacity: 0;
+}
+.carousel.carousel-fade .active.item {
+    opacity: .2;
+}
+.carousel.carousel-fade .active.left,
+.carousel.carousel-fade .active.right {
+    left: 0;
+    z-index: 0;
+    opacity: 0.5;
+    filter: alpha(opacity=0.5);
+}
+.carousel-overlay {
+    position: absolute;
+    z-index: 1;
+    top: 10%;
+    right: 0;
+    left: 0;
+    background: rbga(0.,0.,0.,0.5);
+}
