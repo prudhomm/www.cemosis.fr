@@ -111,13 +111,19 @@
     <!-- .carousel-inner -->
     <div id="title-overlay" class="container carousel-overlay text-center">
         <div class="col-md-8">
-            <h1>Cemosis</h1>
-            <h1 style="text-align:center">Centre de Modélisation et de Simulation de Strasbourg</h1>
-            <blockquote class="testimonial">
-                <h2>L'innovation par la Modélisation, la Simulation et l'Optimisation</h2></blockquote>
-            <a class="btn btn-lg btn-primary fp-buttons" href="mailto:contact-csmi@cemosis.fr">
-                <span class="fa fa-question"></span> Contact
-            </a>
+          <h1>Cemosis</h1>
+          {% if page.title %}
+          <h2> {{page.title }} </h2>
+          {% else %}
+          <h2 style="text-align:center">Centre de Modélisation et de Simulation de Strasbourg</h2>
+
+          <blockquote class="testimonial">
+            <h3>L'innovation par la Modélisation, la Simulation et l'Optimisation</h3>
+          </blockquote>
+          <a class="btn btn-lg btn-primary fp-buttons" href="mailto:contact-csmi@cemosis.fr">
+            <span class="fa fa-question"></span> Contact
+          </a>
+          {% endif %}
         </div>
         <div class="col-md-4">
             <ul class="list-group" style="text-align:left;padding-top:20px;width: 100%;opacity: .8">
